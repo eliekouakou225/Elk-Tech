@@ -1,0 +1,56 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    background: url(https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    -webkit-background-size: cover ;
+    background-position: center center;
+    height: 450px;
+    width: 450px;
+    box-shadow: 0 20px 5px 5px rgba(0,0,0, 0.2);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out; 
+}
+@keyframes animate {
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+.about__text{
+    h2{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 900;
+        font-size: 3rem;
+        color : #21417F;
+    }
+    .about__horizontal-line{
+        width: 20%;
+        height: 3px;
+        background-color: #21417F;
+        margin: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.text-1{
+
+        font-size: 8vw;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 900;
+        color: #21417F;
+      
+}

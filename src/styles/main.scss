@@ -1,0 +1,24 @@
+// Import partials and dependencies
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,500;0,900;0,1000;1,200&family=Teko:wght@300;500;700&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap');
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+@import 'components/topbar';
+@import 'components/secondnavbar';
+@import 'components/cursor';
+@import 'components/blob';
+@import 'components/formation';
+@import 'components/_sectiontitle.scss';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/navbar';
+@import 'layout/grid';
+@import 'layout/about';
+@import 'layout/navigation';
+@import 'layout/forms';
+@import 'layout/header';
+@import 'pages/home'; 
+@import 'pages/_services'; 
+@import 'pages/about';
+@import 'pages/contact';
