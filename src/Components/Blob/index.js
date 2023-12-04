@@ -41,7 +41,7 @@ const Blob = () => {
         fragmentShader={fragmentShader}
         uniforms={uniforms}
       />
-    </mesh>
+    </mesh> 
   );
 };
 

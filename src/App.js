@@ -6,6 +6,8 @@ import { CustomCursor } from './Components/Cursor/index.jsx';
 import About from './Components/About/About.jsx';
 import Formation from './Components/Formation/Formation.jsx';
 import Services from './Components/Services/Services.jsx';
+import Parallax from './Components/Parallax/Parallax.jsx'
+import Projet from './Components/Projet/Projet.jsx';
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,8 @@ function App() {
       <About/>
       <Formation/>
       <Services/>
+      <Parallax/>
+      <Projet/>
     </div>
   );
 }
