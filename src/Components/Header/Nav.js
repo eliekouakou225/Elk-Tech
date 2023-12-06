@@ -21,7 +21,7 @@ const Nav = () => {
                 <div className="logo">
                   <img src={logo} alt="" />
                 </div>
-                <div>
+                <div> 
                   <button class="btn__nav"> Demander un devis</button>
                 </div>
                 <div className="menu-toggle" onClick={() => setNavOpen(!navOpen) }>

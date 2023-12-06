@@ -13,12 +13,10 @@ import * as LottiePlayer from "@lottiefiles/lottie-player";
 const Formation = () => {
   return (
 
-    <div className='formation mt-5'>
-
+    <div className='formation p0 mt-5'>
       <div className="container">
         <div className="row">
         <div className='Section__title m-5'>
- 
             <h3> Formation</h3>
         </div>
           <div className="col col-md-6">
@@ -76,8 +74,8 @@ const Formation = () => {
           </div>
         </div>
     </div>
-    <div className="container">
-      <div className="col-6"> <p>Il n'est jamais trop trad pour commancé a apprendre.</p> </div>
+    <div className="container-fluid">
+      <div className="formation__motivation"> <p>Il n'est jamais trop trad pour commancé a apprendre.</p> </div>
     </div>
     </div>
   )
