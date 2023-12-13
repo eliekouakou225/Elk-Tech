@@ -1,25 +1,40 @@
 // Import partials and dependencies
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,500;0,900;0,1000;1,200&family=Teko:wght@300;500;700&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap');
+
+// @import 'components/font';
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300&display=swap');
+
+
 @import 'variables';
 @import 'mixins';
 @import 'reset';
+
+@import 'components/navbar';
+// @import 'components/hero';
+
 @import 'components/topbar';
 @import 'components/secondnavbar';
 @import 'components/cursor';
 @import 'components/blob';
-@import 'components/card';
-@import 'components/Projet';
-@import 'components/formation';
+@import 'components/blob';
+@import 'components/Projet'; 
 @import 'components/_sectiontitle.scss';
-@import 'components/header';
 @import 'components/footer';
 @import 'components/buttons';
-@import 'components/navbar';
+
 @import 'layout/grid';
+@import 'layout/hero';
 @import 'layout/about';
+@import 'layout/client';
+@import 'layout/formation';
+@import 'layout/services';
+@import 'layout/shop';
+@import 'layout/footer';
+@import 'layout/idea';
+
 @import 'layout/navigation';
 @import 'layout/forms';
-@import 'layout/header';
+
+
 @import 'pages/home'; 
 @import 'pages/_services'; 
 @import 'pages/about';

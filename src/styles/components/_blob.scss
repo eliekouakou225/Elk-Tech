@@ -1,12 +1,4 @@
-.header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    padding: 2vw;
+
     h1{
         // text-transform: uppercase;
         font-weight: 900;
@@ -14,8 +6,7 @@
         color: #21417F;
         font-size: 3rem ;
     }
-  }
-  
+
   canvas {
     position: absolute;
     top: 0;

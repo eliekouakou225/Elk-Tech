@@ -1,0 +1,12 @@
+
+.client .img-client {
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+
+    &.img-client:hover {
+       filter: none;
+       opacity: 1;
+   }
+  } 
+  

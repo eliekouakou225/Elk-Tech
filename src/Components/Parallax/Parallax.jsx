@@ -1,5 +1,6 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
+import Client from "../Client/Client";
 
 const Example = () => {
   return (
@@ -7,17 +8,13 @@ const Example = () => {
       {/* <div className="flex h-48 items-center justify-center">
         <span className="font-semibold uppercase text-neutral-500">
           Scroll down
-        </span>
+        </span> 
       </div> */}
       <HorizontalScrollCarousel />
 
-      <div className="container d-flex justify-content-center">
-      <a className="btn__main" href="{#}">
-                            <span className="top-key"></span>
-                            <span className="text">EN SAVOIR PLUS</span>
-                            <span className="bottom-key-1"></span>
-                            <span className="bottom-key-2"></span>
-                        </a>
+      <div className="container">
+        <h2>Ils nous font confiance</h2>
+        <Client/>
       </div>
       {/* <div className="flex h-48 items-center justify-center">
         <span className="font-semibold uppercase text-neutral-500">

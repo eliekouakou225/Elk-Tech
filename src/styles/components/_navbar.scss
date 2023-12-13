@@ -1,98 +1,107 @@
 /* App.css */
-
-.nav-container{
-  width: 100vw;
-} 
-.nav{
-  position: fixed;
+.nav-main{
+  position: absolute; 
   z-index : 99;
+  left: 0; 
 
-}
-.navbar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: rgba(#21417F, 1);
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: #fff;
+  .nav-container{ 
+    width: 100vw;
+  } 
 
-}
-.logo img{
-  width: 100px;
-  height: 75px;
-}
-.menu-toggle{
-  cursor: pointer;
-}
-.nav-overlay{
-  position: fixed;
-  background:  #21417F;
-  z-index: -2;
-  top: -100%;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  padding: 4em;
-  transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.hamBox{
-  position: relative;
-  width: 44px;
-  height: 44px;
-  cursor: pointer;
-  border-radius: 50%;
-  transition: 0.3s ease;
-  padding: 2.4em;
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba($color-blue--primary, 1);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
 
-}
-.hamBox:hover{
-  background: #21417F; 
-}
-.hamBoxOpen{
-  background: #2a2a2f;
-}
-.lineTop, .lineBottom{
-  margin: 0 auto;
-  position: absolute;
-  display: block;
-  width: 30px;
-  height: 3px;
-  border-radius: 10px;
-  background: rgba(255,255,255,0.5);
-  left: 0;
-  right: 0;
-  transform: rotate(0deg);
-  transform: all 1s;
-}
-.lineTop{
-  top: 2.2em;
-  background: #fff;
-}
-.lineBottom{
-  bottom: 2em;
-  background: #fff;
-}
-.lineTop.spin{
-  top: 2.35em;
-  transform: rotate(135deg);
-  background: #ffffff;
-}
-.lineBottom.spin{
-  top: 2.35em;
-  transform: rotate(225deg);
-  background: #ffffff;
+    .logo img{
+      width: 100px;
+      height: 75px;
+    }
+    .menu-toggle{
+      cursor: pointer;
+    } 
+    .nav-overlay{
+      position: fixed;
+      background: $color-blue--primary;
+      z-index: -2;
+      top: -100%; 
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      padding: 4em;
+      transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+      
+      @media (max-width: $breakpoint--tablet){ 
+        transition: all 4s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+    }
+    .hamBox{
+      position: relative;
+      width: 44px;
+      height: 44px;
+      cursor: pointer;
+      border-radius: 50%;
+      transition: 0.3s ease;
+      padding: 2.4em;
+    
+    }
+    .hamBox:hover{
+      background: $color-blue--primary; 
+    }
+    .hamBoxOpen{
+      background: #2a2a2f;
+    }
+    .lineTop, .lineBottom{
+      margin: 0 auto;
+      position: absolute;
+      display: block;
+      width: 30px;
+      height: 3px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.5);
+      left: 0;
+      right: 0;
+      transform: rotate(0deg);
+      transition: 1s all ;
+      
+    }
+    .lineTop{
+      top: 2.2em;
+      background: #fff;
+    }
+    .lineBottom{
+      bottom: 2em;
+      background: #fff;
+    }
+    .lineTop.spin{
+      top: 2.35em;
+      transform: rotate(135deg);
+      transition: 1s all ;
+      background: #ffffff;
+    }
+    .lineBottom.spin{
+      top: 2.35em;
+      transition: 1s all ;
+      transform: rotate(225deg);
+      background: #ffffff;
+    }
+  }
 }
 
 
 
 /*-----------------------------------------------------*/
-.content-menu{
-  overflow: hidden;
-}
+// .content-lines{
+//   overflow: hidden;
+// }
 
 .lines {
   position: absolute;
@@ -102,6 +111,7 @@
   height: 100%;
   margin: auto;
   width: 90vw;
+  overflow: hidden;
 }
 
 .line {
@@ -168,15 +178,17 @@
 }
 .menu__item-link{
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'komikazeregular', sans-serif;
   cursor: pointer;
   position: relative;
-  -webkit-text-stroke : 1.5px #fff;
+  letter-spacing: 5px;
+  -webkit-text-stroke : 0.5px #fff;
   -webkit-text-fill-color: transparent;
   color: transparent;
   transition: opacity 0.4s ;
   text-decoration: none;
   text-transform: uppercase;
+
 }
 .menu__item-link::before{
   all: initial ;
@@ -212,6 +224,7 @@
   --move-initial : calc(-25% + var(--offset));
   --move-final : calc(-50% + var(--offset));
   font-size: 1vw;
+
 }
 .marquee{
   position: absolute;
@@ -248,7 +261,8 @@
   font-style: italic;
   color: #fff;
   text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
+  // font-family: Arial, Helvetica, sans-serif;
+  font-family: 'veztroregular';
   margin-right: 10px;
 }
 @keyframes marquee{
