@@ -10,7 +10,7 @@ const Idea = () => {
                     </div>
                 <div className="col-6 col-md-6" >
                 <h2>// une idée, une question ? </h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, odit? Assumenda sint eius perferendis placeat inventore error eligendi quae, et a suscipit dolores reiciendis nihil rem commodi dolore libero est.</p>
+                    <p>N'hésitez surtout pas à nous contacter</p>
                 
                 </div>
             </div>

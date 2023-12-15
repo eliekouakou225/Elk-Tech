@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../../Assets/img/mainlogo.png'
 import { Link } from 'react-router-dom';
-// import '../../styles/components/_navbar.scss';
 import {useState} from "react";
-// import { Menu } from './Menu';
+
+//import image Assest
 import un from '../../Assets/img/1.jpg'
 import deux from '../../Assets/img/2.jpg'
 import trois from '../../Assets/img/3.jpg'
@@ -13,10 +13,6 @@ import cinq from '../../Assets/img/5.jpg'
 const Nav = () => {
 
   const [navOpen, setNavOpen] = useState(false);
-    
-//  function goToHome(){
-
-//  }
 
   return ( 
  
@@ -25,7 +21,7 @@ const Nav = () => {
             <div className="nav-container">
                 <div className="navbar">
                     <div className="container">               
-                        <div className="logo" onClick={'tog'} >
+                        <div className="logo"  >
                             <img src={logo} alt="" /> 
                         </div>
                         <div> 

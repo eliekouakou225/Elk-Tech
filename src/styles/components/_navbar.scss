@@ -2,7 +2,7 @@
 .nav-main{
   position: absolute; 
   z-index : 99;
-  left: 0; 
+  left: 0;  
 
   .nav-container{ 
     width: 100vw;
@@ -99,9 +99,7 @@
 
 
 /*-----------------------------------------------------*/
-// .content-lines{
-//   overflow: hidden;
-// }
+
 
 .lines {
   position: absolute;
@@ -178,11 +176,11 @@
 }
 .menu__item-link{
   display: inline-block;
-  font-family: 'komikazeregular', sans-serif;
+  // font-family: 'komikazeregular', sans-serif;
   cursor: pointer;
   position: relative;
-  letter-spacing: 5px;
-  -webkit-text-stroke : 0.5px #fff;
+  letter-spacing: 10px;
+  -webkit-text-stroke : 0.3px #fff;
   -webkit-text-fill-color: transparent;
   color: transparent;
   transition: opacity 0.4s ;
@@ -262,7 +260,8 @@
   color: #fff;
   text-transform: uppercase;
   // font-family: Arial, Helvetica, sans-serif;
-  font-family: 'veztroregular';
+  // font-family: 'veztroregular';
+  font-weight: 900;
   margin-right: 10px;
 }
 @keyframes marquee{

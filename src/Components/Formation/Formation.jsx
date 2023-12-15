@@ -72,22 +72,23 @@ const Formation = () => {
     // </div>
     // <!-- ======= Call To Action Section ======= -->
     <>
-    <section id="cta" className="cta mt-5">
+    <section id="cta" className="formation ">
       <div className="section-header">
           <span>// Nos formations</span>
           <h2>// Nos formations</h2>
         </div>
       <div className="container" data-aos="zoom-out">
+
         <div className="row g-5">
 
           <div className="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>Alias sunt quas <em>Cupiditate</em> oluptas hic minima</h3>
+            <h3>Des  <em>formations</em> sur mesure qui s'adapte à vos besoins dans le monde professionnel.  </h3>
             <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <div>
 
-            <a className="main-btn--blue" href="{#}">
+            <a className="main-btn--white" href="{#}">
                                   <span className="top-key"></span>
-                                  <span className="text">EN SAVOIR PLUS</span>
+                                  <span className="text">Reserver sa place</span>
                                   <span className="bottom-key-1"></span>
                                   <span className="bottom-key-2"></span>
                               </a>

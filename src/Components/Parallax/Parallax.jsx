@@ -5,22 +5,14 @@ import Client from "../Client/Client";
 const Example = () => {
   return (
     <div  style={{ background : '#F7F7F7' }} className="pb-5">
-      {/* <div className="flex h-48 items-center justify-center">
-        <span className="font-semibold uppercase text-neutral-500">
-          Scroll down
-        </span> 
-      </div> */}
+
       <HorizontalScrollCarousel />
 
       <div className="container">
-        <h2>Ils nous font confiance</h2>
+        <h2 className="client--title">Ils nous font confiance</h2>
         <Client/>
       </div>
-      {/* <div className="flex h-48 items-center justify-center">
-        <span className="font-semibold uppercase text-neutral-500">
-          Scroll up
-        </span>
-      </div> */}
+
     </div>
   );
 };
