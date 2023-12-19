@@ -1,12 +1,13 @@
+// --------------------------------- 
+// About Section 
+// ---------------------------------
 import React from 'react'
 import aboutImg from '../../Assets/img/about.jpg'
-// import aboutBgImg from '../../Assets/img/about-bg.png'
 
 const About = () => {
   return (
 
       <>
-        {/* <!-- ======= About Section ======= --> */}
     <section id="about" className="about mt-5">
       <div className="container" data-aos="fade-up">
 
@@ -59,7 +60,6 @@ const About = () => {
 
       </div>
     </section>
-    {/* <!-- End About Section --> */}
 
 
       </>

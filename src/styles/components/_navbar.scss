@@ -6,7 +6,7 @@
 
   .nav-container{ 
     width: 100vw;
-  } 
+  }  
 
   .navbar{
     position: fixed;
@@ -173,19 +173,28 @@
 .menu__item{
   position : relative;
   padding: 0 6vw;
+  @media (max-width : $breakpoint--tablet) {
+    padding: 2vh 6vw;
+  }
+  @media (max-width : $breakpoint--phone) {
+    padding: 2vh 6vw;
+  }
 }
 .menu__item-link{
   display: inline-block;
-  // font-family: 'komikazeregular', sans-serif;
+  font-family:  sans-serif;
   cursor: pointer;
   position: relative;
   letter-spacing: 10px;
-  -webkit-text-stroke : 0.3px #fff;
+  -webkit-text-stroke : 0.9px #fff;
   -webkit-text-fill-color: transparent;
   color: transparent;
   transition: opacity 0.4s ;
   text-decoration: none;
   text-transform: uppercase;
+  @media (max-width : $breakpoint--tablet) {
+    -webkit-text-stroke : 1.2px #fff;
+  }
 
 }
 .menu__item-link::before{
@@ -222,6 +231,14 @@
   --move-initial : calc(-25% + var(--offset));
   --move-final : calc(-50% + var(--offset));
   font-size: 1vw;
+  @media ( max-width: $breakpoint--tablet) {
+    // padding: 10vh 0 25vh; 
+    padding: 50% 5%;
+  }
+  @media ( max-width: $breakpoint--phone) {
+    // padding: 10vh 0 25vh; 
+    padding: 50% 5%;
+  }
 
 }
 .marquee{
@@ -253,6 +270,10 @@
   padding: 0 1w;
   font-weight: 900;
   line-height: 1.20;
+
+    @media (max-width : $breakpoint--tablet){
+      font-size: 8vw;
+    }
   
 }
 .marquee span{
@@ -261,6 +282,7 @@
   text-transform: uppercase;
   // font-family: Arial, Helvetica, sans-serif;
   // font-family: 'veztroregular';
+  padding: 0 1w;
   font-weight: 900;
   margin-right: 10px;
 }

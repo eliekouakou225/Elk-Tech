@@ -1,6 +1,5 @@
 import React from 'react'
 import featureImg from '../../Assets/img/features.png'
-// import Stackedcard from '../Card/Stackedcard'
 
 const Services = () => { 
    
@@ -10,7 +9,7 @@ const Services = () => {
 <div className="services">
 
 
-      {/* <!-- Feature Icons --> */}
+
       <div className="section-header">
           <span>// Nos Services</span>
           <h2>// Nos Services</h2>

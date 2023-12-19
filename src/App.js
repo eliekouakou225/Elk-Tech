@@ -41,10 +41,10 @@ const App = () => {
             </Routes>
             {/* <Footer/> */}
         </BrowserRouter>
-        {/* <footer>
+        <footer>
             <Footer/>
             
-        </footer> */}
+        </footer>
         </>
   );
 };

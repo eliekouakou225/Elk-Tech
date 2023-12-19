@@ -5,8 +5,8 @@ import About from './../Components/About/About.jsx';
 import Formation from './../Components/Formation/Formation.jsx';
 import Services from './../Components/Services/Services.jsx';
 import Parallax from './../Components/Parallax/Parallax.jsx'
-import Idea from './Idea.jsx';
-// import Shop from './Shop.jsx';
+import Idea from './../Components/Idea/Idea.jsx';
+import Shop from './../Components/Shop/Shop.jsx';
 
 // import Projet from './../Components/Projet/Projet.jsx';
 
@@ -19,9 +19,10 @@ const Home = () => {
      <Formation/>
       <Services/>
       <Parallax/>
+     <Shop/>
       <Idea/>
+      
      {/*  <Projet/> */}
-     {/* <Shop/> */}
     </div>
   )
 }

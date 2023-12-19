@@ -1,0 +1,47 @@
+.footer{
+
+    .footer__contact{
+        height: 40vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $color-gray;
+
+        h3{
+            font-weight: 500;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        h2{
+            font-size: 50px;
+            text-decoration: underline;
+        }
+        span i{
+            font-size: 30px;
+        }
+    }
+    .footer__infos{
+        height: 40vh;
+        background-color: $color-footer;
+        color: white;
+        padding: 30px 0;
+        h4{
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+        h2{
+            font-size: 50px;
+        }
+        p{
+            font-size: 15px;
+            margin: 0;
+        }
+        a{
+            color: white;
+        }
+        .footer__infos--social i{
+            margin: 15px;
+        }
+    }
+} 

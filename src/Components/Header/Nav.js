@@ -40,7 +40,7 @@ const Nav = () => {
                             <div className="line"></div>
                             <div className="line"></div>
                             <div className="line"></div>
-                        </div>
+                        </div> 
 
                         <div className="menu">
                             <div className="menu__item">
