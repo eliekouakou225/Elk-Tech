@@ -16,28 +16,32 @@ import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Estimate from './Pages/Estimate'
-import Services from './Pages/Services'
+import Solutions from './Pages/Solutions'
 import Formation from './Pages/Formation'
 import Shop from './Pages/Shop'
 import Login from './Pages/Login'
+import Single from './Pages/Single';
+import Contact from './Pages/Contact';
 
 
 const App = () => {
   return (
         <>
-        <BrowserRouter>
+        <BrowserRouter> 
         <header>
             <Nav/>
         </header>
-            {/* <CustomCursor/> */}
+            {/* <CustomCursor/> */} 
             <Routes>
                 <Route path='/' element={ <Home/> } />
                 <Route path='/apropos' element={ <About/> } />
                 <Route path='/devis' element={ <Estimate/> } />
-                <Route path='/services' element={ <Services/> } />
+                <Route path='/solutions' element={ <Solutions/> } />
                 <Route path='/formations' element={ <Formation/> } />
                 <Route path='/boutique' element={ <Shop/> } />
+                <Route path='/single' element={ <Single/> } />
                 <Route path='/connexion' element={ <Login/> } />
+                <Route path='/contact' element={ <Contact/> } />
             </Routes>
             {/* <Footer/> */}
         </BrowserRouter>

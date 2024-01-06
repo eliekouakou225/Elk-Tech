@@ -3,4 +3,9 @@
     @media (max-width : $breakpoint--phone ){
         padding-top: 50px ;
     }
+    h3{
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 0;
+    }
 }

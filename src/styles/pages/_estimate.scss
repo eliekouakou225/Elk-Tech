@@ -1,0 +1,20 @@
+.estimate{
+    padding-top: 150px;
+    h1{
+        text-align: center;
+        font-size: 60px;
+        font-weight: 900;
+        color: $color-orange--primary;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 30px;
+        color: $color-blue--primary;
+        text-align: center;
+    }
+    .section-header{
+        h2{
+            color: $color-orange--primary;
+        }
+    }
+}

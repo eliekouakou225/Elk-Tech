@@ -22,10 +22,15 @@ const Nav = () => {
                 <div className="navbar">
                     <div className="container">               
                         <div className="logo"  >
+                            <Link to={'/'} >
+                            
                             <img src={logo} alt="" /> 
+                            </Link>
                         </div>
                         <div> 
-                            <button class="btn__nav"> Demander un devis</button>
+                        <Link to="/devis">
+                            <button class="btn__nav"  > Demander un devis </button>
+                        </Link>
                         </div>
                         <div className="menu-toggle" onClick={() => setNavOpen(!navOpen) }>
                             <div className={navOpen ? "hamBox hamboxOpen" : "hamBox"}>
@@ -57,7 +62,7 @@ const Nav = () => {
                                 </div>
                             </div>
                             <div className="menu__item">
-                                <Link to="/services"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Solution</Link>
+                                <Link to="/solutions"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Solution</Link>
                                 <img src={deux} alt="some img" className="menu__item-img"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">

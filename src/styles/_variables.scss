@@ -9,6 +9,9 @@ $color-footer: #0E0E0E;
 $color-white: #FFF;
 
 
+
+$h1--size : clamp(2rem, 2vw, 5rem);
+
 $breakpoint--phone : 576px;
 $breakpoint--tablet : 992px;
 $breakpoint--pc : 1200px;

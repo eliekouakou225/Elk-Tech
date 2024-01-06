@@ -2,40 +2,43 @@
 // small navigation located under the hero section
 // ---------------------------------
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Secondnavbar = () => {
   return (
     <div className="secondnavbar">
 <ul>
-            <li>
-                <a href="{#}">
+            <li> 
+                <Link to={'/solutions'} >
                     <div className="icon">
                     <i class="fa fa-cubes" aria-hidden="true"></i>
                     <i class="fa fa-cubes" aria-hidden="true"></i>
                     </div>
-                    <div className="name"><span data-text="About">Services</span></div>
-                </a>
+                    <div className="name"><span data-text="About">Solutions</span></div>
+                </Link>
             </li>
             <li>
-                <a href="{#}">
+                <Link to={'/formations'}>
                     <div className="icon">
                     <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                         <i className="fa fa-cogs" aria-hidden="true"></i>
                     </div> 
-                    <div className="name"><span data-text="Services">Formations</span></div>
-                </a>
+                    <div className="name"><span data-text="formations">Formations</span></div>
+                </Link>
             </li>
 
             <li>
-                <a href="{#}">
+                <Link to={'/contact'} href="{#}">
                     <div className="icon">
                     <i class="fa fa-comments" aria-hidden="true"></i>
                     <i class="fa fa-comments" aria-hidden="true"></i>
                     </div>
                     <div className="name"><span data-text="Contact">Contacts</span></div>
-                </a>
+                </Link>
             </li>
             <li>
+              <Link to={'/boutique'}>
+
             <button class="cssbuttons-io-button">
   Boutique
   <div class="icon">
@@ -53,6 +56,7 @@ const Secondnavbar = () => {
     </svg>
   </div>
 </button>
+              </Link>
 
             </li>
 
