@@ -7,13 +7,12 @@ import Services from './../Components/Services/Services.jsx';
 import Parallax from './../Components/Parallax/Parallax.jsx'
 import Idea from './../Components/Idea/Idea.jsx';
 import Shop from './../Components/Shop/Shop.jsx';
-
-// import Projet from './../Components/Projet/Projet.jsx';
+import BtnEstimate from '../Components/BtnEstimate/BtnEstimate.jsx';
 
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero/>
        <About/>
      <Formation/>
@@ -22,20 +21,12 @@ const Home = () => {
      <Shop/>
       <Idea/>
       
-     {/*  <Projet/> */}
-    </div>
+     <div className='BtnEstimate__container '>
+          <BtnEstimate/>
+     </div>
+    </>
   )
 }
 
 export default Home
 
-
-// import React from 'react'
-
-// const Home = () => {
-//   return (
-//     <div>Home</div>
-//   )
-// }
-
-// export default Home

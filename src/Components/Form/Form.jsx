@@ -10,8 +10,8 @@ const Form = () => {
          <label class="label" for="name">Nom <span className='require' >*</span></label>
       </div>
       <div class="form-field col-lg-6 ">
-         <input id="company" class="input-text js-input" type="text" required/>
-         <label class="label" for="company">Prénom <span className='require' >*</span> </label>
+         <input id="surmane" class="input-text js-input" type="text" required/>
+         <label class="label" for="surmane">Prénom <span className='require' >*</span> </label>
       </div>
       <div class="form-field col-lg-6 ">
          <input id="email" class="input-text js-input" type="email" required/>

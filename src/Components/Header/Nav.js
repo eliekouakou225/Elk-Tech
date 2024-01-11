@@ -32,8 +32,9 @@ const Nav = () => {
                             <button class="btn__nav"  > Demander un devis </button>
                         </Link>
                         </div>
+                        
                         <div className="menu-toggle" onClick={() => setNavOpen(!navOpen) }>
-                            <div className={navOpen ? "hamBox hamboxOpen" : "hamBox"}>
+                            <div className={navOpen ? "hamBox hamboxOpen" : "hamBox"} >
                                 <span className={navOpen ? "lineTop spin" : "lineTop"}></span>
                                 <span className={navOpen ? "lineBottom spin" : "lineBottom"}></span>
                             </div>

@@ -1,9 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import ProductImgMain from './../Assets/img/3.jpg'
 
 import ShareIcon from '../Components/ShareIcon/ShareIcon'
-import { Link } from 'react-router-dom'
 
 const Single = () => {
   return (
