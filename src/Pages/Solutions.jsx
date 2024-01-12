@@ -10,7 +10,7 @@ const Solutions = () => {
     <section className='solutions'> 
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-4">
             <nav className='articles__nav'>
               <ul>
                 <li className='tile--services'>INFOGRAPHIE - MONTAGNE VIDEO</li>
@@ -74,7 +74,7 @@ const Solutions = () => {
               </ul>
             </nav>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-8">
           {location.pathname === '/solutions' ? (
         <div>
           12

@@ -15,7 +15,6 @@ const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return ( 
- 
 
     <nav className="nav-main">
             <div className="nav-container">
