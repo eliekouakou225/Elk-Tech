@@ -1,59 +1,199 @@
-@mixin button-main ($color-1){
-  display: flex;
-	align-items: center;
-	justify-content: center;
-  color: white;
-  font-weight: 700;
-  padding: 30px;
-	
-	cursor: pointer;
-
-	svg {
-		height: 55px;
-		width: 150px;
-		fill: none;
-		stroke-width: 5;
-
-		.o1 {
-			stroke: rgba($color-1, 0.7);
-			fill: $color-1;
-			transition: all 1s ease-in-out;
-		}
-
-		.o2 {
-			stroke: white;
-			stroke-dasharray: 20 420;
-			stroke-dashoffset: 20;
-			transition: all 1s ease-in-out;
-		}
-	}
-
-	span {
-		position: absolute;
-		margin: auto 0;
-		text-transform: uppercase;
-		// letter-spacing: 3px;
-    padding: 50px;
-	}
-
-	&:hover {
-		.o1{
-			fill: rgba($color-1, 0.8);
-		}
-		
-		.o2 {
-			stroke-dashoffset: -420;
-		}
-	}
+// The mixin holding the main application button
+@mixin button-main($bg-color, $border){
   
+    display: flex;
+    justify-content: space-around;
+    top: 20px;
+    left: 20px;
+  
+     button {
+          width: 150px;
+          height: 50px;
+          background-color: $bg-color;
+          margin: 20px;
+          color: #ffffff;
+          position: relative;
+          overflow: hidden;
+          font-size: 16px;
+          letter-spacing: 1px;
+          font-weight: 900;
+          text-transform: uppercase;
+          transition: all 0.1s ease;
+          cursor: pointer;
+          border: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 3px;
+          font-family: 'redonda_testblack', sans-serif;
+
+      }
+  
+   button:before,  button:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: $border;
+    transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+  }
+  
+   button:before {
+    right: 0;
+    top: 0;
+    transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+  }
+  
+   button:after {
+    left: 0;
+    bottom: 0;
+  }
+  
+   button span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
+  
+   button span:before,  button span:after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 0;
+    background-color: $border;
+    transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+  }
+  
+   button span:before {
+    right: 0;
+    top: 0;
+    transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+  }
+  
+   button span:after {
+    left: 0;
+    bottom: 0;
+  }
+  
+   button p {
+    padding: 0;
+    margin: 0;
+    transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+   button p:before,  button p:after {
+    position: absolute;
+    width: 100%;
+    transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+    z-index: 1;
+    left: 0;
+  }
+  
+   button p:before {
+    content: attr(data-title);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+   button p:after {
+    content: attr(data-text);
+    top: 150%;
+    color: $border;
+  }
+  
+   button:hover:before,  button:hover:after {
+    width: 100%;
+  }
+  
+   button:hover span {
+    z-index: 1;
+  }
+  
+   button:hover span:before,  button:hover span:after {
+    height: 100%;
+  }
+  
+   button:hover p:before {
+    top: -50%;
+    transform: rotate(5deg);
+  }
+  
+   button:hover p:after {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+   button.start {
+    background-color: $border;
+    box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+  }
+  
+   button.start p:before {
+    top: -50%;
+    transform: rotate(5deg);
+  }
+  
+   button.start p:after {
+    color: white;
+    transition: all 0s ease;
+    content: attr(data-start);
+    top: 50%;
+    transform: translateY(-50%);
+    animation: start 0.3s ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes start {
+    from {
+      top: -50%;
+    }
+  }
+  
+   button.start:hover:before,  button.start:hover:after {
+    display: none;
+  }
+  
+   button.start:hover span {
+    display: none;
+  }
+  
+   button:active {
+    outline: none;
+    border: none;
+  }
+  
+   button:focus {
+    outline: 0;
+  }
 }
- 
-.main-btn--blue{
-    @include button-main($color-blue--primary); 
+
+// The button Orange turns white on mouseover 
+.btn__main--orange-hover-white{
+    @include button-main($color-orange--primary, $color-white); 
 }
-.main-btn--orange{
-    @include button-main($color-orange--primary); 
+// The button Orange turns blue on mouseover 
+.btn__main--orange-hover-blue{
+    @include button-main($color-orange--primary, $color-blue--primary); 
 }
+// The button Blue turns orange on mouseover 
+.btn__main--blue-hover-orange{
+    @include button-main($color-blue--primary, $color-orange--primary); 
+}
+// The button blue turns white on mouseover 
+.btn__main-blue--hover-white{
+    @include button-main($color-blue--primary, color-white); 
+}
+
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/

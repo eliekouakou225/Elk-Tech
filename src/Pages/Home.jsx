@@ -20,6 +20,8 @@ const Home = () => {
       <Parallax/>
      <Shop/>
       <Idea/>
+      {/* <div className="hexagon">
+    </div> */}
       
      <div className='BtnEstimate__container '>
           <BtnEstimate/>

@@ -1,0 +1,14 @@
+.catalog{
+    background: center / contain no-repeat url('../../Assets/img/img-product.jpg');
+    width: 100vw;
+    height: 541px;
+
+    h2{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    h1{
+        color: $color-blue--primary;
+        font-size: 50px;
+    }
+}

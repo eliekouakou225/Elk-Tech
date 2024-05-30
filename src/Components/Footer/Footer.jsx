@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="col-12 footer__contact">
                   <h3>
                     Demender <br /> un devis <i class="fa fa-arrow-right" aria-hidden="true"></i> 
-                  </h3>
+                  </h3> 
                   <h2>Contacter-nous</h2>
                   <span><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
             </div>
@@ -21,11 +21,11 @@ const Footer = () => {
 
              
               <div className="row">
-                <div className="col-12 col-lg-3">
+                <div className="col-12 col-lg-4">
                   <h2>It's <br /> possible <span>®</span></h2>
-                  <p>@Elk-Tech 2023</p>
+                  <p>Make with ❤️ by Elk-Tech Groupe</p>
                 </div>
-                <div className="col col-lg-3">
+                <div className="col col-lg-4">
                   <h4>ABIDJAN</h4>
                   <p>elktech21@gmail.com</p>
                   <p>+225 07 88 89 89 98</p>
@@ -33,15 +33,8 @@ const Footer = () => {
                   <a href="{}"> Voir la localisation sur la carte <span><i class="fa fa-arrow-up" aria-hidden="true"></i>
 </span> </a>
                 </div>
-                <div className="col-12 col-lg-3">
-                  <h4>GAGNOA</h4>
-                  <p>+225 07 88 89 89 98</p>
-                  <p>elktech21@gmail.com</p>
-                  <p>Quartier Millionnaire 2ème boutique</p>
-                  <a href="{}"> Voir la localisation sur la carte <span><i class="fa fa-arrow-up" aria-hidden="true"></i>
-</span></a>
-                </div>
-                <div className="col-12 col-lg-3">
+
+                <div className="col-12 col-lg-4">
                   <h4>Voulez vous recevoir toutes nos offres en exclusivité ?</h4>
                   <a href="{}">ABONNER VOUS GRATUITEMENT</a>
                   <h4>Suivez-nous</h4>

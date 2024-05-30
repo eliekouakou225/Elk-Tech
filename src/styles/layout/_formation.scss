@@ -167,3 +167,65 @@
   z-index: 3;
   border-radius: 15px;
 }
+// -------------------------------------------
+
+
+
+
+
+/*--------------------------------------------------------------
+# Features Section
+--------------------------------------------------------------*/
+
+.features-details .features-item+.features-item {
+  margin-top: 60px;
+}
+
+.features-details .features-item .content {
+  background-color: color-mix(in srgb, #388da8, transparent 95%);
+  color: color-mix(in srgb, #3d4348, transparent 40%);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.features-details .features-item h3 {
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.features-details .features-item .more-btn {
+  background-color: #388da8;
+  color: var(--contrast-color);
+  padding: 6px 30px;
+  border-radius: 6px;
+}
+
+.features-details .features-item .more-btn:hover {
+  background-color: color-mix(in srgb, #388da8, transparent 20%);
+}
+
+.features-details .features-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features-details .features-item ul li {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.features-details .features-item ul li:last-child {
+  padding-bottom: 0;
+}
+
+.features-details .features-item ul i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #388da8;
+}
+
+.features-details .features-item img {
+  border-radius: 15px;
+}

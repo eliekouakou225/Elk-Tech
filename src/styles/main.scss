@@ -1,7 +1,32 @@
 // Import partials and dependencies
 
 // @import 'components/font';
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'redonda_testregular';
+    src: url('../Assets/font/Redonda/redondatest-regular-webfont.woff2') format('woff2'),
+         url('../Assets/font/Redonda/redondatest-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'redonda_testblack';
+    src: url('../Assets/font/Redonda/redondatest-black-webfont.woff2') format('woff2'),
+         url('../Assets/font/Redonda/redondatest-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'redonda_testextrabold';
+    src: url('../Assets/font/Redonda/redondatest-extrabold-webfont.woff2') format('woff2'),
+         url('../Assets/font/Redonda/redondatest-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 @import 'variables';
@@ -24,7 +49,7 @@
 // @import 'components/blob';
 // @import 'components/blob';
 // @import 'components/Projet'; 
-// @import 'components/_sectiontitle.scss';
+@import 'components/_sectiontitle.scss';
 
 @import 'layout/hero';
 @import 'layout/about';
@@ -40,7 +65,7 @@
 
 // @import 'layout/navigation';
 // @import 'layout/forms';
-
+ 
 
 @import 'pages/home'; 
 @import 'pages/shop';

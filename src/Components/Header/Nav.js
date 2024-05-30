@@ -14,7 +14,7 @@ const Nav = () => {
 
   const [navOpen, setNavOpen] = useState(false);
 
-  return ( 
+  return (  
 
     <nav className="nav-main">
             <div className="nav-container">
@@ -25,7 +25,7 @@ const Nav = () => {
                             
                             <img src={logo} alt="" /> 
                             </Link>
-                        </div>
+                        </div> 
                         <div> 
                         <Link to="/devis">
                             <button class="btn__nav"  > Demander un devis </button>

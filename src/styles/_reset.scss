@@ -5,8 +5,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
+    // font-family: 'Mulish', sans-serif;
         // cursor: none;
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'redonda_testregular', sans-serif;
+    font-weight: 300;
+        font-style: normal;
 }
 
 // Set default font styles 

@@ -2,28 +2,26 @@ import React from 'react'
 const Shop = () => {
   return (
     <>
-    <div className="container">
-    <div className="section-header">
-          <span>// Notre boutique</span>
-          <h2>//  Notre boutique</h2>
+    <div class="container section-title m-5" data-aos="fade-up">
+        <h2>Boutique</h2>
+        <p>Visitez notre boutique en ligne et profitez de nos offres exceptionnelles pour construire un réseau performant et sécurisé.</p>
+      </div>
+    <div className="container-fluid catalog p-5">
+        <div className="container">
+            <div className="row">
+                  <div className="col-md-6">
+                    <h2>Votre Solution pour un Réseau de Qualité</h2>
+                    <h1>Bénéficiez des marques les plus renommées à un prix incroyablement bas.</h1>
+                    <div class="btn__main--orange-hover-blue">
+              <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
+            </div>
+                </div>
+            </div>
         </div>
 
 
     </div>
 
-    <div>
-
-  <div class="btn__main--container">
-    <div class="main-btn--orange">
-          <span>Hover Me</span>
-          <svg>
-            <polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
-            <polyline class="o2" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
-          </svg>
-    </div>
-  </div>
-  
-    </div>
     </>
   )
 }

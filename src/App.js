@@ -36,6 +36,9 @@ import Telecom from './Components/Services/Telecom/Telecom';
 import Videosurveillance from './Components/Services/Videosurveillence/Videosurveillance';
 import Maintenance from './Components/Services/Maintenance/Maintenance';
 
+
+import ScrollableDiv from './Components/ScrollableDiv'
+
 const App = () => {
     const isPC = useMediaQuery({ minWidth: 992 });
   return ( 
@@ -79,8 +82,9 @@ const App = () => {
                 <Route path='/boutique' element={ <Shop/> } />
 
                 <Route path='/product/:id' element={ <Single/> } />
+                <Route path='/test' element={ <ScrollableDiv/> } />
 
-                {/* <Route path='/single' element={ <Single/> } /> */}
+                <Route path='/single' element={ <Single/> } />
                 <Route path='/connexion' element={ <Login/> } />
                 <Route path='/contact' element={ <Contact/> } />
                 <Route path='/404' element={ <Error404/> } />
