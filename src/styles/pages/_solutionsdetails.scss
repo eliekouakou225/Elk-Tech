@@ -1,0 +1,100 @@
+/*--------------------------------------------------------------
+# master-solution Section
+--------------------------------------------------------------*/
+.master-solution .master-solution-item {
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+  }
+  
+  .master-solution .master-solution-item+.master-solution-item {
+    margin-top: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .master-solution .master-solution-item+.master-solution-item {
+      margin-top: 40px;
+    }
+  }
+  
+  .master-solution .master-solution-item h3 {
+    font-weight: 700;
+    font-size: 26px;
+  }
+  
+  .master-solution .master-solution-item .btn-get-started {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    padding: 8px 30px 10px 30px;
+    border-radius: 4px;
+  }
+  
+  .master-solution .master-solution-item .btn-get-started:hover {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
+  }
+  
+  .master-solution .master-solution-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .master-solution .master-solution-item ul li {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .master-solution .master-solution-item ul li:last-child {
+    padding-bottom: 0;
+  }
+  
+  .master-solution .master-solution-item ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: var(--accent-color);
+  }
+  
+  .master-solution .master-solution-item img {
+    border: 6px solid #fff;
+    box-shadow: 0 15px 30px -10px color-mix(in srgb, var(--default-color), transparent 75%);
+  }
+  
+  .master-solution .master-solution-item .master-solution-img-bg {
+    position: relative;
+    min-height: 500px;
+  }
+  
+  @media (max-width: 640px) {
+    .master-solution .master-solution-item .master-solution-img-bg {
+      min-height: 300px;
+    }
+  }
+  
+  .master-solution .master-solution-item .master-solution-img-bg img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .master-solution .master-solution-item .image-stack {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  .master-solution .master-solution-item .image-stack .stack-back {
+    grid-column: 4/-1;
+    grid-row: 1;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .master-solution .master-solution-item .image-stack .stack-front {
+    grid-row: 1;
+    grid-column: 1/span 8;
+    margin-top: 20%;
+    width: 100%;
+    z-index: 2;
+  }
+  

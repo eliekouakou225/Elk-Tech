@@ -13,31 +13,33 @@ import 'react-creative-cursor/dist/styles.css';
 import Nav from './Components/Header/Nav';
 // import { CustomCursor } from './Components/Cursor/index.jsx';
 import Footer from './Components/Footer/Footer'
-import ScrollToTopButton from './Components/GoUpButton/GoUpButton'
+// import ScrollToTopButton from './Components/GoUpButton/GoUpButton'
 
 //-----import pages
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Estimate from './Pages/Estimate'
 import Solutions from './Pages/Solutions'
-import Formation from './Pages/Formation'
+import Formation from './Pages/Training'
 import Shop from './Pages/Shop'
-import Login from './Pages/Login'
-import Single from './Pages/Single';
+import ProduitPage from './Pages/ProduitPage';
 import Contact from './Pages/Contact';
 import Error404 from './Pages/Error404';
-import Infographie from './Components/Services/INFOGRAPHIE/Infographie';
-import Videomontage from './Components/Services/Videomontage/Videomontage';
-import AccesControl from './Components/Services/AccesControl/AccesControl';
-import Cablagereseau from './Components/Services/Cablagereseau/Cablagereseau';
-import Conceptionweb from './Components/Services/Conceptionweb/Conceptionweb';
-import Emarketing from './Components/Services/Emarketing/Emarketing';
-import Telecom from './Components/Services/Telecom/Telecom';
-import Videosurveillance from './Components/Services/Videosurveillence/Videosurveillance';
-import Maintenance from './Components/Services/Maintenance/Maintenance';
+import FormationDetails from './Pages/FormationDetails';
+// import Infographie from './Components/Services/INFOGRAPHIE/Infographie';
+// import Videomontage from './Components/Services/Videomontage/Videomontage';
+// import AccesControl from './Components/Services/AccesControl/AccesControl';
+// import Cablagereseau from './Components/Services/Cablagereseau/Cablagereseau';
+// import Conceptionweb from './Components/Services/Conceptionweb/Conceptionweb';
+// import Emarketing from './Components/Services/Emarketing/Emarketing';
+// import Telecom from './Components/Services/Telecom/Telecom';
+// import Videosurveillance from './Components/Services/Videosurveillence/Videosurveillance';
+// import Maintenance from './Components/Services/Maintenance/Maintenance';
+import SolutionDetails from './Pages/SolutionDetails';
 
 
-import ScrollableDiv from './Components/ScrollableDiv'
+
+
 
 const App = () => {
     const isPC = useMediaQuery({ minWidth: 992 });
@@ -56,8 +58,9 @@ const App = () => {
                 <Route path='/apropos' element={ <About/> } />
                 <Route path='/devis' element={ <Estimate/> } />
 
+
                 <Route path='/solutions' element={ <Solutions/> }>
-                    <Route path='/solutions/infographie' element={ <Infographie/> } />
+                    {/* <Route path='/solutions/infographie' element={ <Infographie/> } />
                     <Route path='/solutions/controls-d-acces' element={ <AccesControl/> } />
                     <Route path='/solutions/cablage-reseau' element={ <Cablagereseau/> } />
                     <Route path='/solutions/conception-web' element={ <Conceptionweb/> } />
@@ -65,38 +68,37 @@ const App = () => {
                     <Route path='/solutions/e-marketing' element={ <Emarketing/> } />
                     <Route path='/solutions/montagevideo' element={ <Videomontage/> } />
                     <Route path='/solutions/telecommunication' element={ <Telecom/> } />
-                    <Route path='/solutions/video-surveillence' element={ <Videosurveillance/> } />
+                    <Route path='/solutions/video-surveillence' element={ <Videosurveillance/> } /> */}
                 </Route>
                 
                 <Route path='/formations' element={ <Formation/> }>
-                    <Route path='/formations/infographie' element={ <Infographie/> } />
+                    {/* <Route path='/formations/infographie' element={ <Infographie/> } />
                     <Route path='/formations/bureautique' element={ <AccesControl/> } />
                     <Route path='/formations/montage-video' element={ <Cablagereseau/> } />
                     <Route path='/formations/programmation' element={ <Conceptionweb/> } />
                     <Route path='/formations/cablage-reseau' element={ <Maintenance/> } />
-                    <Route path='/formations/electricite' element={ <Emarketing/> } />
+                    <Route path='/formations/electricite' element={ <Emarketing/> } /> */}
                 </Route>
 
 
+                    <Route path='/formations/details' element={ <FormationDetails/> } />
+                    <Route path='/solutions/details' element={ <SolutionDetails/> } />
                 <Route path='/formations' element={ <Formation/> } />
                 <Route path='/boutique' element={ <Shop/> } />
 
-                <Route path='/product/:id' element={ <Single/> } />
-                <Route path='/test' element={ <ScrollableDiv/> } />
+                <Route path='/product/:id' element={ <ProduitPage/> } />
 
-                <Route path='/single' element={ <Single/> } />
-                <Route path='/connexion' element={ <Login/> } />
+                <Route path='/ProduitPage' element={ <ProduitPage/> } />
                 <Route path='/contact' element={ <Contact/> } />
                 <Route path='/404' element={ <Error404/> } />
                 <Route path='/*' element={ <Error404/> } />
             </Routes>
             {/* <Footer/> */}
-        </BrowserRouter>
-        {/* <ScrollToTopButton /> */}
         <footer>
             <Footer/>
-            
         </footer>
+        </BrowserRouter>
+        {/* <ScrollToTopButton /> */}
         </>
   );
 };

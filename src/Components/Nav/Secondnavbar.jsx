@@ -5,14 +5,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Secondnavbar = () => {
-  return (
+  return ( 
     <div className="secondnavbar">
 <ul>
             <li> 
-                <Link to={'/solutions'} data-cursor-size="80px">
+              <Link to={'/solutions'} data-cursor-size="80px">
                     <div className="icon">
                     <i class="fa fa-cubes" aria-hidden="true"></i>
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
+
                     </div>
                     <div className="name"><span data-text="About">Solutions</span></div>
                 </Link>
@@ -21,7 +21,6 @@ const Secondnavbar = () => {
                 <Link to={'/formations'} data-cursor-size="80px">
                     <div className="icon">
                     <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                        <i className="fa fa-cogs" aria-hidden="true"></i>
                     </div> 
                     <div className="name"><span data-text="formations">Formations</span></div>
                 </Link>
@@ -31,7 +30,7 @@ const Secondnavbar = () => {
                 <Link to={'/contact'} href="{#}" data-cursor-size="80px">
                     <div className="icon">
                     <i class="fa fa-comments" aria-hidden="true"></i>
-                    <i class="fa fa-comments" aria-hidden="true"></i>
+
                     </div>
                     <div className="name"><span data-text="Contact">Contacts</span></div>
                 </Link>
@@ -39,7 +38,7 @@ const Secondnavbar = () => {
             <li>
               <Link to={'/boutique'} data-cursor-size="80px">
 
-            <button class="cssbuttons-io-button">
+            <button class="shopbtn-nav" data-cursor-size="80px">
   Boutique
   <div class="icon">
     <svg

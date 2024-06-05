@@ -9,14 +9,14 @@ const About = () => {
 
       <>
     <section id="about" className="about mt-5 mb-5">
-      <div className="container" data-aos="fade-up">
+      <div className="container">
 
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title" >
         <h2>A Propos de nous</h2>
         <p>Elk-Tech Groupe</p>
       </div>
 
-        <div className="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+        <div className="row g-4 g-lg-5" >
 
           <div className="col-lg-5">
             <div className="about-img">
@@ -53,10 +53,15 @@ const About = () => {
                 </div>
                 <p className="fst-italic"> Nous possédons une expertise approfondie dans divers domaine de l'informations, résultat d'années d'expérience et de dévouement à notre métier. Notre équipe possède les compétences et les connaissances nécessaires pour fournir des solutions de qualité supérieure.</p>
             </div>
+
+            <div className='container-btns'>
             <div class="btn__main--orange-hover-blue">
               <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
             </div>
-
+            <div class="btn__main--blue-hover-orange">
+              <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="Contacter"></p></button>
+            </div>
+            </div>
           </div>
 
         </div>

@@ -27,12 +27,12 @@ const Nav = () => {
                             </Link>
                         </div> 
                         <div> 
-                        <Link to="/devis">
+                        <Link to="/devis" data-cursor-size="80px">
                             <button class="btn__nav"  > Demander un devis </button>
                         </Link>
                         </div>
                         
-                        <div className="menu-toggle" onClick={() => setNavOpen(!navOpen) }>
+                        <div className="menu-toggle" onClick={() => setNavOpen(!navOpen) } data-cursor-size="80px">
                             <div className={navOpen ? "hamBox hamboxOpen" : "hamBox"} >
                                 <span className={navOpen ? "lineTop spin" : "lineTop"}></span>
                                 <span className={navOpen ? "lineBottom spin" : "lineBottom"}></span>
@@ -51,7 +51,7 @@ const Nav = () => {
                             <div className="menu__item">
                                 <Link to="/" className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Acceuil</Link>
                                 <img src={trois} alt="some img" className="menu__item-img"/>
-                                <div className="marquee">
+                                <div className="marquee"> 
                                     <div className="marquee__inner"> 
                                         <span>Acceuil</span>
                                         <span>Acceuil</span>

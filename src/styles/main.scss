@@ -1,7 +1,5 @@
 // Import partials and dependencies
 
-// @import 'components/font';
-// @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
     font-family: 'redonda_testregular';
@@ -39,9 +37,8 @@
 @import 'components/secondnavbar';
 @import 'components/product';
 @import 'components/shareicon';
-@import 'components/articles';
-@import 'components/count';
-@import 'components/gotop';
+// @import 'components/gotop';
+@import 'components/card';
 
 // @import 'components/hero';
 // @import 'components/topbar';
@@ -50,7 +47,6 @@
 // @import 'components/blob';
 // @import 'components/Projet'; 
 @import 'components/_sectiontitle.scss';
-
 @import 'layout/hero';
 @import 'layout/about';
 @import 'layout/formation';
@@ -67,14 +63,16 @@
 // @import 'layout/forms';
  
 
-@import 'pages/home'; 
+// @import 'pages/home'; 
 @import 'pages/shop';
 @import 'pages/solution'; 
-@import 'pages/about';
-@import 'pages/single';
-@import 'pages/estimate';
-@import 'pages/formation';
-@import 'pages/contact';
 @import 'pages/error404';
+@import 'pages/about';
+@import 'pages/productpage';
+@import 'pages/estimate';
+@import 'pages/training';
+@import 'pages/trainingdetails';
+@import 'pages/solutionsdetails';
+@import 'pages/contact';
 
 

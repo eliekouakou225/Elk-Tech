@@ -1,13 +1,17 @@
-/* App.css */
+/* Main navbar of site */
 .nav-main{
   position: absolute; 
   z-index : 99;
   left: 0;  
+ 
 
   .nav-container{ 
     width: 100vw;
+    
   }  
-
+  // -------------------NAVBAR----------------------------------------------------
+  // The navbar contains the logo, request a quote button & the hamburger button
+  //------------------------------------------------------------------------------
   .navbar{
     position: fixed;
     top: 0;
@@ -19,9 +23,10 @@
     align-items: center;
     color: #fff;
 
+
     .logo img{
-      width: 100px;
-      height: 75px;
+      width: 170px;
+      height: 50px;
     }
     .menu-toggle{
       cursor: pointer;
@@ -51,31 +56,34 @@
       border-radius: 50%;
       transition: 0.3s ease;
       padding: 2.4em;
+
     
     }
-    .hamBox:hover{
-      background: $color-blue--primary; 
-    }
-    .hamBoxOpen{
-      background: #2a2a2f;
-    }
-    .lineTop, .lineBottom{
+
+    .lineTop, .lineBottom{ 
       margin: 0 auto;
       position: absolute;
       display: block;
       width: 30px;
       height: 3px;
       border-radius: 10px;
-      background: rgba(255,255,255,0.5);
       left: 0;
       right: 0;
       transform: rotate(0deg);
       transition: 1s all ;
+      @media (max-width : $breakpoint--tablet) {
+        width: 40px;
+        height: 5px;
+      }
+
       
     }
     .lineTop{
       top: 2.2em;
       background: #fff;
+      @media (max-width : $breakpoint--tablet) {
+        top: 3.2em;
+      }
     }
     .lineBottom{
       bottom: 2em;
@@ -98,8 +106,9 @@
 
 
 
+/*-----------LINES------------------------------------------*/
+// The lines that scroll on the navbar
 /*-----------------------------------------------------*/
-
 
 .lines {
   position: absolute;
@@ -169,16 +178,16 @@
     top: 110%;
   }
 }
-/*-------------------------------------------*/
+/*------------MENU ITEM----------------------------------------
+Items that display when the hamburger menu is activated
+-------------------------------------------*/
 .menu__item{
   position : relative;
   padding: 0 6vw;
   @media (max-width : $breakpoint--tablet) {
     padding: 2vh 6vw;
   }
-  @media (max-width : $breakpoint--phone) {
-    padding: 2vh 6vw;
-  }
+
 }
 .menu__item-link{
   display: inline-block;
@@ -193,7 +202,8 @@
   text-decoration: none;
   text-transform: uppercase;
   @media (max-width : $breakpoint--tablet) {
-    -webkit-text-stroke : 1.2px #fff;
+    -webkit-text-stroke : 1.5px #fff;
+    letter-spacing: 15px;
   }
 
 }
@@ -232,13 +242,9 @@
   --move-final : calc(-50% + var(--offset));
   font-size: 1vw;
   @media ( max-width: $breakpoint--tablet) {
-    // padding: 10vh 0 25vh; 
     padding: 50% 5%;
   }
-  @media ( max-width: $breakpoint--phone) {
-    // padding: 10vh 0 25vh; 
-    padding: 50% 5%;
-  }
+
 
 }
 .marquee{
@@ -280,8 +286,6 @@
   font-style: italic;
   color: #fff;
   text-transform: uppercase;
-  // font-family: Arial, Helvetica, sans-serif;
-  // font-family: 'veztroregular';
   padding: 0 1w;
   font-weight: 900;
   margin-right: 10px;

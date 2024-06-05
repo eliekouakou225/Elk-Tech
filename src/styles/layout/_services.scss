@@ -7,7 +7,7 @@
 }
 
 .services .service-item {
-  padding: 40px;
+  padding: 40px; 
   background: #fff;
   height: 100%;
   border-radius: 10px;
@@ -43,37 +43,28 @@
 
 .services .service-item h3 {
   color: $color-blue--primary;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
-  font-size: 22px;
+  font-size: 20px;
   position: relative;
   display: inline-block;
   border-bottom: 4px solid #eeeeee;
   transition: 0.3s;
+  text-transform: uppercase;
   
 }
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .service-item .readmore {
-  margin-top: 15px;
-  display: inline-block;
-  color: $color-orange--primary;
-}
 
 .services .service-item:hover .icon:before {
   background: $color-orange--primary;
 }
 
-.services .service-item:hover h3{
-  border-color: $color-orange--primary;
-  color: $color-orange--primary;
-}
 // -----------------------
 .SwiperSlide{
   height: 300px;

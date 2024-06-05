@@ -10,7 +10,7 @@
         text-transform: uppercase;
         font-size: 6em;
         -webkit-text-fill-color: transparent;
-        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 2px; 
         font-family: 'Work Sans', sans-serif;
         font-weight: 700;
         position: absolute;
@@ -35,9 +35,13 @@
 
 .section-title h2 {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 500;
   position: relative;
   color : $color-orange--primary;
+  text-transform: uppercase;
+  @media (max-width : $breakpoint--tablet) {
+    font-weight: 500;
+  }
 }
 
 .section-title h2:before,
@@ -50,7 +54,7 @@
 }
 
 .section-title h2:before {
-  margin: 0 15px 10px 0;
+  margin: 0 15px 10px 0; 
 }
 
 .section-title h2:after {
@@ -60,4 +64,5 @@
 .section-title p {
   margin-bottom: 0;
   color: $color-blue--primary;
+  font-size: 24px;
 }

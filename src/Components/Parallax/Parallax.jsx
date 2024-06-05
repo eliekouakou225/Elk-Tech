@@ -11,7 +11,7 @@ const Example = () => {
       <div className="container">
         <h2 className="client--title">Ils nous font confiance</h2>
         <Client/>
-      </div>
+      </div> 
 
     </div>
   );

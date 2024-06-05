@@ -1,42 +1,7 @@
-.solutions{
-    padding-top: 150px;
 
-}
-.articles__nav{
-    ul{ 
-        list-style: disc;
-        color: $color-orange--primary;
-        line-height: 1.5;
-        font-weight: 500;
-        text-transform: lowercase;
-        font-size: 20px;
-        
-    }
-    .tile--services{
-        text-transform: uppercase;
-    }
-    a{
-        text-decoration: none;
-        color: $color-orange--primary;
-        font-weight: 500;
-        display: block;
-        transition: all 0.3s ease;
-     
-    }
-    a.active{
-        color: $color-blue--primary;
-        cursor: pointer;
-        padding-left: 8px;
 
-    }
-    .subtitle:hover{
-        color: $color-blue--primary;
-        cursor: pointer;
-        font-weight: 500;
-        padding-left: 8px;
-        transition: all 0.3s ease;
 
-       
-    }
+.solution_card-container{
+    
 
 }

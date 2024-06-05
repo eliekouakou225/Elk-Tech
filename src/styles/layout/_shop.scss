@@ -1,14 +1,10 @@
-.catalog{
-    background: center / contain no-repeat url('../../Assets/img/img-product.jpg');
+.slider-products{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     width: 100vw;
     height: 541px;
-
-    h2{
-        font-size: 18px;
-        font-weight: 700;
-    }
-    h1{
-        color: $color-blue--primary;
-        font-size: 50px;
-    }
+    padding: 20px;
+    @media (max-width : $breakpoint--tablet) {
+        height: 700px;
+        overflow: hidden;
+      }
 }
