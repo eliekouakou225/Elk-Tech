@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="container">
     <div className="row">
     <div className="col-4">
-    <Link to={'/'} className='btn-estimate-footer'>Demander <br /> un devis <i class="fa fa-arrow-right" aria-hidden="true"></i> </Link>
+    <Link to={'/'} className='btn-estimate-footer'>Demander <br /> un devis <i className="fa fa-arrow-right" aria-hidden="true"></i> </Link>
     
     </div>
     <div className="col-8">
@@ -20,7 +20,7 @@ const Footer = () => {
     <Link to={'/contact'} className='btn-contact' data-cursor-size="80px">
     <h2>Contacter-nous
     </h2>
-    <span><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
+    <span><i className="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
     </Link>
     
     
@@ -43,7 +43,7 @@ const Footer = () => {
     <p>elktech21@gmail.com</p>
     <p>+225 07 88 89 89 98</p>
     <p>Yopougon PMI, enface du second entrée de la pouponniere</p>
-    <a href="{}"> Voir la localisation sur la carte <span><i class="fa fa-arrow-up" aria-hidden="true"></i>
+    <a href="{}"> Voir la localisation sur la carte <span><i className="fa fa-arrow-up" aria-hidden="true"></i>
     </span> </a>
     </div>
     
@@ -53,16 +53,16 @@ const Footer = () => {
     <h4>Suivez-nous</h4>
     <div className='footer__infos--social'>
     <Link to={'/contact'}>
-    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i className="fa fa-facebook" aria-hidden="true"></i>
     </Link>
     <Link to={'/contact'}>
-    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i className="fa fa-instagram" aria-hidden="true"></i>
     </Link>
     <Link>
-    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i className="fa fa-twitter" aria-hidden="true"></i>
     </Link>
     <Link>
-    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+    <i className="fa fa-whatsapp" aria-hidden="true"></i>
     </Link>
     </div>
     

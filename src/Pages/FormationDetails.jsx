@@ -2,14 +2,14 @@ import React from 'react'
 // import {Accordion} from 'react-bootstrap/Accordion';
 import { Accordion } from "react-bootstrap";
 
-import aboutImg from '../Assets/img/about.jpg'
+import aboutImg from '../Assets/img/about.jpg' 
 
 const FormationDetails = () => {
     return (
         <section className='p-150'>
         <div id="training-overview" className="training-overview">
         <div className="container" data-aos="fade-up">
-        
+       
         <div class="container section-title" >
     <h2>Nos Formations</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, animi.</p> 

@@ -26,17 +26,11 @@ import ProduitPage from './Pages/ProduitPage';
 import Contact from './Pages/Contact';
 import Error404 from './Pages/Error404';
 import FormationDetails from './Pages/FormationDetails';
-// import Infographie from './Components/Services/INFOGRAPHIE/Infographie';
-// import Videomontage from './Components/Services/Videomontage/Videomontage';
-// import AccesControl from './Components/Services/AccesControl/AccesControl';
-// import Cablagereseau from './Components/Services/Cablagereseau/Cablagereseau';
-// import Conceptionweb from './Components/Services/Conceptionweb/Conceptionweb';
-// import Emarketing from './Components/Services/Emarketing/Emarketing';
-// import Telecom from './Components/Services/Telecom/Telecom';
-// import Videosurveillance from './Components/Services/Videosurveillence/Videosurveillance';
-// import Maintenance from './Components/Services/Maintenance/Maintenance';
-import SolutionDetails from './Pages/SolutionDetails';
 
+import SolutionDetails from './Pages/SolutionDetails';
+// import Data from './Pages/Data';
+
+// import dataJson from './Assets/Data/Data.json'; 
 
 
 
@@ -60,24 +54,10 @@ const App = () => {
 
 
                 <Route path='/solutions' element={ <Solutions/> }>
-                    {/* <Route path='/solutions/infographie' element={ <Infographie/> } />
-                    <Route path='/solutions/controls-d-acces' element={ <AccesControl/> } />
-                    <Route path='/solutions/cablage-reseau' element={ <Cablagereseau/> } />
-                    <Route path='/solutions/conception-web' element={ <Conceptionweb/> } />
-                    <Route path='/solutions/maintenance' element={ <Maintenance/> } />
-                    <Route path='/solutions/e-marketing' element={ <Emarketing/> } />
-                    <Route path='/solutions/montagevideo' element={ <Videomontage/> } />
-                    <Route path='/solutions/telecommunication' element={ <Telecom/> } />
-                    <Route path='/solutions/video-surveillence' element={ <Videosurveillance/> } /> */}
+
                 </Route>
                 
                 <Route path='/formations' element={ <Formation/> }>
-                    {/* <Route path='/formations/infographie' element={ <Infographie/> } />
-                    <Route path='/formations/bureautique' element={ <AccesControl/> } />
-                    <Route path='/formations/montage-video' element={ <Cablagereseau/> } />
-                    <Route path='/formations/programmation' element={ <Conceptionweb/> } />
-                    <Route path='/formations/cablage-reseau' element={ <Maintenance/> } />
-                    <Route path='/formations/electricite' element={ <Emarketing/> } /> */}
                 </Route>
 
 

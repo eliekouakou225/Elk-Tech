@@ -55,11 +55,11 @@ const About = () => {
             </div>
 
             <div className='container-btns'>
-            <div class="btn__main--orange-hover-blue">
-              <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
+            <div className="btn__main--orange-hover-blue">
+              <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
             </div>
-            <div class="btn__main--blue-hover-orange">
-              <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="Contacter"></p></button>
+            <div className="btn__main--blue-hover-orange">
+              <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="Contacter"></p></button>
             </div>
             </div>
           </div>

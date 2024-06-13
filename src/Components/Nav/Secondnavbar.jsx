@@ -11,7 +11,7 @@ const Secondnavbar = () => {
             <li> 
               <Link to={'/solutions'} data-cursor-size="80px">
                     <div className="icon">
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
+                    <i className="fa fa-cubes" aria-hidden="true"></i>
 
                     </div>
                     <div className="name"><span data-text="About">Solutions</span></div>
@@ -20,7 +20,7 @@ const Secondnavbar = () => {
             <li>
                 <Link to={'/formations'} data-cursor-size="80px">
                     <div className="icon">
-                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    <i className="fa fa-graduation-cap" aria-hidden="true"></i>
                     </div> 
                     <div className="name"><span data-text="formations">Formations</span></div>
                 </Link>
@@ -29,7 +29,7 @@ const Secondnavbar = () => {
             <li>
                 <Link to={'/contact'} href="{#}" data-cursor-size="80px">
                     <div className="icon">
-                    <i class="fa fa-comments" aria-hidden="true"></i>
+                    <i className="fa fa-comments" aria-hidden="true"></i>
 
                     </div>
                     <div className="name"><span data-text="Contact">Contacts</span></div>

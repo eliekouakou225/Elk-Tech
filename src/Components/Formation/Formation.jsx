@@ -25,7 +25,7 @@ const Formation = () => {
     <section className='m-5'>
 
 {/* <!-- Section Title --> */}
-<div class="container section-title">
+<div className="container section-title">
         <h2>Nos Formations</h2>
         <p>« La formation est l’essence de tout succès. » Arnaud Boti</p>
   </div>
@@ -48,8 +48,8 @@ const Formation = () => {
         <p>
         Avec nos méthodes de formation exclusivement basées sur la pratique, nous demandons à nos apprenants de ne faire aucun effort de rétention. C'est la méthode d'enseignement qui détermine ce que l'on retient.
         </p>
-        <div class="btn__main--orange-hover-blue">
-        <button class="btn"><span></span><p data-start="good luck!" data-text="davantage" data-title="Apprendre"></p></button>
+        <div className="btn__main--orange-hover-blue">
+        <button className="btn"><span></span><p data-start="good luck!" data-text="davantage" data-title="Apprendre"></p></button>
       </div>
       </div>
     </div>
@@ -67,8 +67,8 @@ const Formation = () => {
         Il n'est jamais trop tard pour apprendre.
         </p>
         
-        <div class="btn__main--blue-hover-orange">
-        <button class="btn"><span></span><p data-start="good luck!" data-text="Formations" data-title="Details"></p></button>
+        <div className="btn__main--blue-hover-orange">
+        <button className="btn"><span></span><p data-start="good luck!" data-text="Formations" data-title="Details"></p></button>
       </div>
       </div>
 
@@ -114,7 +114,7 @@ const Formation = () => {
     <p>Détails</p>
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -145,7 +145,7 @@ const Formation = () => {
     <p>Détails</p>
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -176,7 +176,7 @@ const Formation = () => {
     <p>Détails</p>
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -207,7 +207,7 @@ const Formation = () => {
     <p>Détails</p>
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -238,7 +238,7 @@ const Formation = () => {
     <p>Détails</p>
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -269,7 +269,7 @@ const Formation = () => {
     <p>Détails</p>
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -300,7 +300,7 @@ const Formation = () => {
     <p>Détails</p>
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -331,7 +331,7 @@ const Formation = () => {
     <p>Détails</p>
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    class="h-6 w-6"
+    className="h-6 w-6"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
