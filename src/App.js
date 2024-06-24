@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';                       
 import { Cursor } from 'react-creative-cursor';
 import { useMediaQuery } from 'react-responsive';
 
@@ -19,18 +19,17 @@ import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Estimate from './Pages/Estimate'
-import Solutions from './Pages/Solutions'
-import Formation from './Pages/Training'
 import Shop from './Pages/Shop'
-import ProduitPage from './Pages/ProduitPage';
+import ProduitDetail from './Pages/ProductDetail';
 import Contact from './Pages/Contact';
 import Error404 from './Pages/Error404';
-import FormationDetails from './Pages/FormationDetails';
 
-import SolutionDetails from './Pages/SolutionDetails';
-// import Data from './Pages/Data';
+import SolutionPage from './Pages/SolutionPage';
+import SolutionDetails from './Pages/SolutionDetail';
+import WifiServices from './Pages/WifiServices';
 
-// import dataJson from './Assets/Data/Data.json'; 
+import TrainingPage from './Pages/TrainingPage';
+import TrainingDetail from './Pages/trainingDetail';
 
 
 
@@ -52,23 +51,19 @@ const App = () => {
                 <Route path='/apropos' element={ <About/> } />
                 <Route path='/devis' element={ <Estimate/> } />
 
+                {/* Road to solutions */} 
+                <Route path='/solutions' element={ <SolutionPage/> }/>
+                <Route path='/solutions/wifi' element={ <WifiServices/> }/>
+                <Route path='/solutions/:id' element={<SolutionDetails/>} />
 
-                <Route path='/solutions' element={ <Solutions/> }>
+                {/* Road to  trainings */}
+                <Route path='/formations' element={ <TrainingPage/>} />
+                <Route path='/formations/:title' element={ <TrainingDetail/> } />
 
-                </Route>
-                
-                <Route path='/formations' element={ <Formation/> }>
-                </Route>
-
-
-                    <Route path='/formations/details' element={ <FormationDetails/> } />
-                    <Route path='/solutions/details' element={ <SolutionDetails/> } />
-                <Route path='/formations' element={ <Formation/> } />
+              
                 <Route path='/boutique' element={ <Shop/> } />
+                <Route path='/boutique/:id' element={ <ProduitDetail/> } />
 
-                <Route path='/product/:id' element={ <ProduitPage/> } />
-
-                <Route path='/ProduitPage' element={ <ProduitPage/> } />
                 <Route path='/contact' element={ <Contact/> } />
                 <Route path='/404' element={ <Error404/> } />
                 <Route path='/*' element={ <Error404/> } />

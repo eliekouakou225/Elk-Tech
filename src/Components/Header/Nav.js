@@ -21,18 +21,18 @@ const Nav = () => {
                 <div className="navbar">
                     <div className="container">               
                         <div className="logo"  >
-                            <Link to={'/'} >
+                            <Link to={'/'} data-cursor-size="20px">
                             
                             <img src={logo} alt="" /> 
                             </Link>
                         </div> 
                         <div> 
-                        <Link to="/devis" data-cursor-size="80px">
+                        <Link to="/devis" data-cursor-size="20px">
                             <button class="btn__nav"  > Demander un devis </button>
                         </Link>
                         </div>
                         
-                        <div className="menu-toggle" onClick={() => setNavOpen(!navOpen) } data-cursor-size="80px">
+                        <div className="menu-toggle" onClick={() => setNavOpen(!navOpen) } data-cursor-size="20px">
                             <div className={navOpen ? "hamBox hamboxOpen" : "hamBox"} >
                                 <span className={navOpen ? "lineTop spin" : "lineTop"}></span>
                                 <span className={navOpen ? "lineBottom spin" : "lineBottom"}></span>

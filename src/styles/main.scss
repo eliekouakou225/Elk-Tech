@@ -4,26 +4,26 @@
 @font-face {
     font-family: 'redonda_testregular';
     src: url('../Assets/font/Redonda/redondatest-regular-webfont.woff2') format('woff2'),
-         url('../Assets/font/Redonda/redondatest-regular-webfont.woff') format('woff');
+    url('../Assets/font/Redonda/redondatest-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+    
 }
 @font-face {
     font-family: 'redonda_testblack';
     src: url('../Assets/font/Redonda/redondatest-black-webfont.woff2') format('woff2'),
-         url('../Assets/font/Redonda/redondatest-black-webfont.woff') format('woff');
+    url('../Assets/font/Redonda/redondatest-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+    
 }
 @font-face {
     font-family: 'redonda_testextrabold';
     src: url('../Assets/font/Redonda/redondatest-extrabold-webfont.woff2') format('woff2'),
-         url('../Assets/font/Redonda/redondatest-extrabold-webfont.woff') format('woff');
+    url('../Assets/font/Redonda/redondatest-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+    
 }
 
 
@@ -37,8 +37,18 @@
 @import 'components/secondnavbar';
 @import 'components/product';
 @import 'components/shareicon';
-// @import 'components/gotop';
+@import 'components/accordion';
+// @import 'components/gotop'; 
 @import 'components/card';
+@import 'components/title';
+@import 'components/skill';
+
+// @import 'components/emptylist';
+// @import 'components/blogitem';
+// @import 'components/bloglist';
+// @import 'components/searchbar';
+@import 'components/trainingdetailsnew';
+
 
 // @import 'components/hero';
 // @import 'components/topbar';
@@ -49,19 +59,20 @@
 @import 'components/_sectiontitle.scss';
 @import 'layout/hero';
 @import 'layout/about';
-@import 'layout/formation';
+@import 'layout/training';
 // @import 'layout/cardShop';
 // @import 'layout/grid';
 @import 'layout/client';
-@import 'layout/services';
+@import 'layout/solutions';
 @import 'layout/shop';
+@import 'layout/parallax';
 // @import 'layout/footer';
 @import 'layout/idea';
 @import 'layout/form';
 
 // @import 'layout/navigation';
 // @import 'layout/forms';
- 
+
 
 // @import 'pages/home'; 
 @import 'pages/shop';
@@ -69,6 +80,7 @@
 @import 'pages/error404';
 @import 'pages/about';
 @import 'pages/productpage';
+@import 'pages/productdetails';
 @import 'pages/estimate';
 @import 'pages/training';
 @import 'pages/trainingdetails';

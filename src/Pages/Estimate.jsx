@@ -3,19 +3,17 @@ import Form from '../Components/Form/Form'
 
 
 const Estimate = () => {
-  return (
-    <div className="estimate">
+    return (
+        <div className="estimate">
+            <div className='container container-title'>
+                <h2>Demander un devis </h2>
+                <p>Remplissez ce formulaire de demande de devis ou contactez-nous directement sur WhatsApp</p>
+            </div>
             <div className="container">
-            {/* <h1>Devis</h1> */}
-            <div className="section-header">
-                        <span>//DEMANDER UN DEVIS</span>
-                        <h2>//DEMANDER UN DEVIS</h2>
-            <p>Remplissez ce formulaire de demande de devis</p>
-                    </div>
-           <Form/>     
+                <Form />
             </div>
         </div>
-  )
+    )
 }
 
 export default Estimate

@@ -2,13 +2,18 @@ import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 import Client from "../Client/Client";
 
+// import InterconnexionOfSite from '../../Assets/img/interconnexion-of-site.webp'
+// import InterconnexionOfSite from '../../Assets/img/interconnexion-of-site.webp';::
+
+
+
 const Example = () => {
   return (
-    <div  style={{ background : '#F7F7F7' }} className="pb-5">
+    <div  style={{ background : '#FFF' }} className="pb-5"> 
 
       <HorizontalScrollCarousel />
 
-      <div className="container">
+      <div className="container mt-5">
         <h2 className="client--title">Ils nous font confiance</h2>
         <Client/>
       </div> 
@@ -26,7 +31,7 @@ const HorizontalScrollCarousel = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[300vh]" style={{ background : '#F7F7F7' }}>
+    <section ref={targetRef} className="relative h-[300vh] parallax">
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((card) => {
@@ -65,38 +70,33 @@ export default Example;
 
 const cards = [
   {
-    url: "https://plus.unsplash.com/premium_photo-1663054378169-8ffea2e11c42?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Title 1",
-    id: 1,
+    url: "./images/cablage-reseau.webp",
+    title: "#1",
+    id: 1, 
   },
   {
-    url: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Title 2",
+    url: "./images/interconnexion-of-site.webp",
+    title: "#2",
     id: 2,
   },
   {
-    url: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Title 3",
+    url: "./images/developpement-applications-responsive.webp",
+    title: "#3",
     id: 3,
   },
   {
-    url: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    url: "./images/controle-acces.webp",
     title: "Title 4",
     id: 4,
   },
   {
-    url: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    url: "./images/video-surveillence.webp",
     title: "Title 5",
     id: 5,
   },
   {
-    url: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    url: "./images/maintenance-informatique.webp",
     title: "Title 6",
     id: 6,
-  },
-  {
-    url: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Title 7",
-    id: 7,
   },
 ];

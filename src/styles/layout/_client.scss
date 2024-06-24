@@ -6,12 +6,12 @@
 
     &.img-client:hover {
        filter: none;
-       opacity: 1;
+       opacity: 1; 
    }
   } 
 .client--title{
-    color: $color-blue--primary;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 500;
+    // color: $color-blue--primary;
+    // text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
 }

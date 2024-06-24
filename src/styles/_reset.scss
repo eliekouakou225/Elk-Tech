@@ -5,27 +5,25 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    // font-family: 'Mulish', sans-serif;
-        // cursor: none;
-        font-family: "Kanit", sans-serif;
-        font-weight: 300;
-        font-style: normal;
+    font-family: 'redonda_testregular' sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'redonda_testregular', sans-serif;
-    font-weight: 300;
-        font-style: normal;
+    font-weight: 700;
+    font-style: normal;
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-
+    
     /* Styles for tablets (widths between 600px and 900px) */
     @media (min-width: 600px) and (max-width: 899px) {
-            font-size: 18px;
-           
+        font-size: 18px;
+        
     }
     /* Styles for desktop (widths 900px and above) */
     @media (min-width: 900px) {

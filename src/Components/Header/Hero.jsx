@@ -41,8 +41,8 @@ const Hero = () => {
           
           <div class="btn__main--container">         
       <div class="btn__main--orange-hover-white">
-      <Link to={'/solutions'} data-cursor-size="80px">
-        <button class="btn"><span></span><p data-start="good luck!" data-text="Maintenant" data-title="Commencer"></p></button>
+      <Link to={'/solutions'} data-cursor-size="20px">
+        <button class="btn"><span></span><p  data-text="Maintenant" data-title="Commencer"></p></button>
       </Link>
       </div>
           </div>

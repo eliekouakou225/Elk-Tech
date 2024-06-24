@@ -1,8 +1,9 @@
-$color-blue--primary: #21417F;
+// $color-blue--primary: #084B83;
+$color-blue--primary: #1363C6;
 // $color-blue--primary: #318CE7;
 // $color-blue--primary: #3776a8;
 $color-orange--primary: #F8B234;
-$color-orange-secondary: #FFD68D;
+$color-orange-secondary: #FFD68D; 
 $color-red: #F2696B;
 $color-green: #2BB673;
 $color-gray: #F7F7F7;
@@ -15,6 +16,11 @@ $color-white: #FFF;
 $h1--size : clamp(2rem, 2vw, 5rem);
 
 $breakpoint--phone : 576px;
-$breakpoint--tablet : 992px;
+$breakpoint--tablet : 992px; 
 $breakpoint--pc : 1200px;
- 
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;

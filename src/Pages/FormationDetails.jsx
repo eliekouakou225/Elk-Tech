@@ -153,7 +153,7 @@ const FormationDetails = () => {
   <h3>Contenu de la formation</h3>
   <Accordion defaultActiveKey="0" className='accordion--t'>
       <Accordion.Item eventKey="0">
-        <Accordion.Header className='accordion-text'>PhotoShop</Accordion.Header>
+        <Accordion.Header className='accordion-text'>training.c</Accordion.Header>
         <Accordion.Body className='accordion--body'>
         <ul>
           <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, cum!</li>
