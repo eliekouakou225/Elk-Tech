@@ -45,8 +45,8 @@ const Slideshow = () => {
         renderBullet: (index, className) => {
           const number = (index <= 8) ? '0' + (index + 1) : (index + 1);
           let paginationItem = `<span class="slideshow-pagination-item">`;
-          paginationItem += `<span class="pagination-number">${number}</span>`;
-          paginationItem += (index <= 8) ? `<span class="pagination-separator"><span class="pagination-separator-loader"></span></span>` : '';
+          paginationItem += `<span className="pagination-number">${number}</span>`;
+          paginationItem += (index <= 8) ? `<span className="pagination-separator"><span className="pagination-separator-loader"></span></span>` : '';
           paginationItem += `</span>`;
           return paginationItem;
         },

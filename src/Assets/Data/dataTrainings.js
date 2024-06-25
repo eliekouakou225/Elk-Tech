@@ -3,450 +3,412 @@ export const trainings = [
 {
         id: 1,
         title: "Infographie",
-        introduction : "L'infographie graphique est un puissant outil de communication visuelle qui combine art et information pour rendre les données complexes accessibles et compréhensibles. En utilisant des éléments visuels tels que des icônes, des graphiques, des diagrammes et des couleurs, elle permet de transmettre des messages clairs et concis de manière attrayante et engageante.",
+        introduction : "L'infographie est un puissant outil de communication visuelle qui combine art et information pour rendre les données complexes accessibles et compréhensibles. En utilisant des éléments visuels tels que des icônes, des graphiques, des diagrammes et des couleurs, elle permet de transmettre des messages clairs et concis de manière attrayante.",
         small_description: "Transformez votre créativité en compétence professionnelle avec notre formation en infographie, où chaque pixel raconte votre histoire.",
         long_description: "Plongez dans l'univers captivant de la création visuelle avec notre formation en infographie. Que vous soyez un débutant curieux ou un professionnel cherchant à affiner ses compétences, notre programme vous offre une immersion complète dans les techniques essentielles de conception graphique. Explorez les outils innovants, apprenez à manipuler les formes, les couleurs et les typographies pour donner vie à vos idées avec éclat. Nos instructeurs expérimentés vous guideront à travers des projets pratiques, vous permettant de développer votre style personnel tout en acquérant une compréhension approfondie des principes fondamentaux de la conception. Rejoignez-nous dans cette aventure artistique où chaque leçon vous rapprochera un peu plus de la maîtrise de l'art de l'infographie.",
         duration: 45,
         session: 12, 
-        price: 55.000,
-        worker: "infographe",
+        price: "50.000",
+        worker: "infographe", 
+        image_training :"../images/infographie-img.webp",
+        image_certified : "../images/infographie-img.webp",
         contentModule: [
           {
             moduleid : 1,
-              titlemodule: "Generalité",
+              titlemodule: "Généralité",
               moduleItems: [
-                  "Installation des logiciels 111111111",
+                  "Installation des logiciels",
                   "Types de logiciel",
                   "Révision ordinateur (les différents raccourcis)",
                   "Présentation Générale sur l’infographie",
                   "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  
               ]
           },
           {
               moduleid : 2,
               titlemodule: "Photoshop",
               moduleItems: [
-                  "Installation des logiciels 2222222222",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
+                
                   "Les polices",
                   "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  "Le Mode de colorimétrique",
+                  "Navigation dans Photoshop",
+                  "Utilisation des panneaux et des barres d'outils",
+                  "Compréhension des calques",
+                  "Gestion des calques (création, suppression, duplication)",
+                  "Insertion de texte et manipulation de calques de texte",
+                  "Insertion des images",
+                    "Détourage ",
+                    "Les dégradés",
+                    "Création d’Affiche avec PhotoShop +  TP ",
+                  "Retouche photo",
+                  "Manipulation Photo + TP",
+
               ]
           },
           {
               titlemodule: "Lightroom",
               moduleid : 3,
               moduleItems: [
-                  "Installation des logiciels 3333333",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  "Présentation de lightroom",
+                  "Interface de Lightroom",
+                  "Rétourche photo avec Lightroom",
+                  "Rétourche en masse de photo avec Lightroom",
+                  "Exportation des catalogue",
               ]
           },
           {
             moduleid : 4,
               titlemodule: "Illustrator",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
+                  "Présentation du logiciel",
+                  "Prise en main des outils",
+                  "Le détourage",
+                  "Conception d’une affiche avec Illustraor + TP",
+                  "La vectorisation",
+                  "Calque model photo cartoon",
+                  "Différents type de logo",
+                  "Réalisation de logo + TP"
+              ] 
           }
       ]
     },
 {
         id: 2,
         title: "Montage Video",
+        introduction : "Le montage vidéo est l'art de raconter des histoires à travers la manipulation et l'arrangement de séquences vidéo, d'images et de sons. Essentiel dans les domaines du cinéma, de la télévision, et de la création de contenu en ligne, le montage vidéo permet de transformer des bribes de vidéos brutes en œuvres captivantes et cohérentes. ",
         small_description: "Transformez votre créativité en compétence professionnelle avec notre formation en infographie, où chaque pixel raconte votre histoire.",
-        long_description: "Plongez dans l'univers captivant de la création visuelle avec notre formation en infographie. Que vous soyez un débutant curieux ou un professionnel cherchant à affiner ses compétences, notre programme vous offre une immersion complète dans les techniques essentielles de conception graphique. Explorez les outils innovants, apprenez à manipuler les formes, les couleurs et les typographies pour donner vie à vos idées avec éclat. Nos instructeurs expérimentés vous guideront à travers des projets pratiques, vous permettant de développer votre style personnel tout en acquérant une compréhension approfondie des principes fondamentaux de la conception. Rejoignez-nous dans cette aventure artistique où chaque leçon vous rapprochera un peu plus de la maîtrise de l'art de l'infographie.",
-        duration: 45,
-        session: 12,
-        price: 55.000,
+        long_description: "Notre formation en montage vidéo vous permettra de maîtriser les outils et techniques essentiels pour créer des vidéos captivantes et professionnelles. À travers des modules interactifs, vous apprendrez à utiliser des logiciels de pointe comme Adobe Premiere Pro et After Effects. Vous découvrirez les bases du montage, l'application des transitions et effets, ainsi que les techniques avancées d'animation et de correction des couleurs. ",
+        duration: 60,
+        session: 16, 
+        price: "60.000",
+        worker: "monteur vidéo", 
+        image_training :"../images/montage-video-img.webp",
+        image_certified : "../images/infographie-img.webp",
         contentModule: [
           {
-              titlemodule: "Generalité",
+            moduleid : 1,
+              titlemodule: "Généralité",
               moduleItems: [
                   "Installation des logiciels",
                   "Types de logiciel",
                   "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  "Présentation Générale sur le cinéma et le montage vidéo",
+                    "Types de logiciel",
+                  "Image & Vidéo libre de droit",
+                  
               ]
           },
           {
-              titlemodule: "After effect",
+              moduleid : 2,
+              titlemodule: "Filmora",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                
+                  "Présentation de l'interface",
+                  "Navigation dans Filmora",
+                  "Importation des assets",
+                  "....",
+                  "Montage de film d'anniversaire avec filmora"
+
               ]
           },
           {
-              titlemodule: "Lightroom",
+              titlemodule: "Premiere Pro",
+              moduleid : 3,
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                 "Présentation de l'interface",
+                  "Navigation dans Premiere Pro",
+                  "...",
+                  "Importation et Organisation des Médias ",
+                  "Édition de la Timeline",
+                  "Transitions et Effets",
+                  "Titres et Sous-titres",
+                  "Exportation",
+                  "Montage de documentaire dans premiere pro",
+                  "Montage Multicaméra",
+                  "Correction et Gradation des Couleurs",
+                  "Mixage Audio",
+                  
               ]
           },
           {
-              titlemodule: "Illustrator",
+            moduleid : 4,
+              titlemodule: "After Effect",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
+                  "Présentation du logiciel",
+                  "Prise en main des outils",
+                  "Animation et Keyframes",
+                  "Effets Visuels de Base ",
+                  "Texte et Graphiques Animés",
+                  "Masques et Rotoscoping",
+                  "...",
+                  "Effets Spéciaux",
+                  "Tracking et Stabilisation",
+                  "Expressions et Scripts",
+              ] 
           }
       ]
     },
 {
         id: 3,
-        title: "Programmation",
+        title: "Bureautique",
+        introduction : "Dans un monde de plus en plus numérique, la maîtrise des outils informatiques est devenue une nécessité incontournable. Que ce soit pour des raisons professionnelles ou personnelles, savoir utiliser efficacement un ordinateur et ses logiciels est essentiel.",
         small_description: "Transformez votre créativité en compétence professionnelle avec notre formation en infographie, où chaque pixel raconte votre histoire.",
-        long_description: "Plongez dans l'univers captivant de la création visuelle avec notre formation en infographie. Que vous soyez un débutant curieux ou un professionnel cherchant à affiner ses compétences, notre programme vous offre une immersion complète dans les techniques essentielles de conception graphique. Explorez les outils innovants, apprenez à manipuler les formes, les couleurs et les typographies pour donner vie à vos idées avec éclat. Nos instructeurs expérimentés vous guideront à travers des projets pratiques, vous permettant de développer votre style personnel tout en acquérant une compréhension approfondie des principes fondamentaux de la conception. Rejoignez-nous dans cette aventure artistique où chaque leçon vous rapprochera un peu plus de la maîtrise de l'art de l'infographie.",
-        duration: 45,
-        session: 12,
-        price: 55.000,
+        long_description: "Notre formation en informatique générale offre de nombreux avantages pour quiconque souhaite se familiariser avec le monde numérique. En participant à notre programme, vous acquerrez une solide compréhension des principes de base de l'informatique, y compris la gestion des systèmes d'exploitation, la navigation sur Internet, et l'utilisation des logiciels bureautiques courants.",
+        duration: 30,
+        session: 12, 
+        price: "30.000",
+        worker: " ", 
+        image_training :"../images/bureautique.webp",
+        image_certified : "../images/infographie-img.webp",
         contentModule: [
           {
-              titlemodule: "Generalité",
+            moduleid : 1,
+              titlemodule: "Généralité",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  "Nécessité de l'informatique ",
+                  "Les différents types l'ordinateur & leurs composants",
+                  "Les systèmes d'exploitation",
+                  "Création de dossier, fichier",
+                  "Navigation sur internet",
+                  "Envoie de mail",
+                  "..."
+
               ]
           },
           {
-              titlemodule: "Photoshop",
+              moduleid : 2,
+              titlemodule: "Word",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  "Introduction à Microsoft Word",
+                  "Présentation de l'interface Word",
+                  "Saisie et mise en forme de texte",
+                  "Paragraphes et alignements",
+                  "Listes et puces",
+                  "Outils de Mise en Forme Avancés",
+                  "Outils de Révision et Collaboration",
+
               ]
           },
           {
-              titlemodule: "Lightroom",
+              titlemodule: "PowerPoint",
+              moduleid : 3,
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                "Introduction à Microsoft PowerPoint",
+                "Présentation de l'interface PowerPoint",
+                "Conception et Mise en Page ",
+                " Utilisation des graphiques et tableaux",
+                " Ajout de multimédia",
+                " Navigation et interaction avec la présentation",
+                " Maîtrise du mode diaporama",
+                "...",
               ]
           },
           {
-              titlemodule: "Illustrator",
+            moduleid : 4,
+              titlemodule: "Excel",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
+                  " Présentation de l'interface Excel",
+                  "Saisie de données et formats de cellule ",
+                  " Formules et fonctions de base",
+                  " Gestion des feuilles de calcul",
+                  "Analyse de Données et Visualisation ",
+                  "Validation des données ",
+                  "... ",
+                  
+              ] 
           }
       ]
     },
 {
         id: 4,
-        title: "Réseaux",
+        title: "Programmation",
+        introduction : "Dans un monde où la technologie est omniprésente, apprendre la programmation informatique est devenu une compétence essentielle. La programmation permet de comprendre et de contrôler les systèmes numériques qui façonnent notre quotidien.",
         small_description: "Transformez votre créativité en compétence professionnelle avec notre formation en infographie, où chaque pixel raconte votre histoire.",
-        long_description: "Plongez dans l'univers captivant de la création visuelle avec notre formation en infographie. Que vous soyez un débutant curieux ou un professionnel cherchant à affiner ses compétences, notre programme vous offre une immersion complète dans les techniques essentielles de conception graphique. Explorez les outils innovants, apprenez à manipuler les formes, les couleurs et les typographies pour donner vie à vos idées avec éclat. Nos instructeurs expérimentés vous guideront à travers des projets pratiques, vous permettant de développer votre style personnel tout en acquérant une compréhension approfondie des principes fondamentaux de la conception. Rejoignez-nous dans cette aventure artistique où chaque leçon vous rapprochera un peu plus de la maîtrise de l'art de l'infographie.",
-        duration: 45,
-        session: 12,
-        price: 55.000,
+        long_description: "Notre formation en programmation offre de nombreux avantages pour les débutants comme pour les professionnels souhaitant approfondir leurs compétences. En suivant notre programme, vous acquerrez une compréhension solide des langages de programmation les plus demandés.",
+        duration: 30,
+        session: 12, 
+        price: "35.000",
+        worker: "Devs Junior", 
+        image_training :"../images/programmation.webp",
+        image_certified : "../images/infographie-img.webp",
         contentModule: [
           {
-              titlemodule: "Generalité",
+            moduleid : 1,
+              titlemodule: "Généralité",
               moduleItems: [
                   "Installation des logiciels",
                   "Types de logiciel",
                   "Révision ordinateur (les différents raccourcis)",
                   "Présentation Générale sur l’infographie",
+                "Types de logiciel",
                   "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  
               ]
           },
           {
+              moduleid : 2,
               titlemodule: "Photoshop",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
+                
                   "Les polices",
                   "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  "Le Mode de colorimétrique",
+                  "Navigation dans Photoshop",
+                  "Utilisation des panneaux et des barres d'outils",
+                  "Compréhension des calques",
+                  "Gestion des calques (création, suppression, duplication)",
+                  "Insertion de texte et manipulation de calques de texte",
+                  "Insertion des images",
+                    "Détourage ",
+                    "Les dégradés",
+                    "Création d’Affiche avec PhotoShop +  TP ",
+                  "Retouche photo",
+                  "Manipulation Photo + TP",
+
               ]
           },
           {
               titlemodule: "Lightroom",
+              moduleid : 3,
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  "Présentation de lightroom",
+                  "Interface de Lightroom",
+                  "Rétourche photo avec Lightroom",
+                  "Rétourche en masse de photo avec Lightroom",
+                  "Exportation des catalogue",
               ]
           },
           {
+            moduleid : 4,
               titlemodule: "Illustrator",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
+                  "Présentation du logiciel",
+                  "Prise en main des outils",
+                  "Le détourage",
+                  "Conception d’une affiche avec Illustraor + TP",
+                  "La vectorisation",
+                  "Calque model photo cartoon",
+                  "Différents type de logo",
+                  "Réalisation de logo + TP"
+              ] 
           }
       ]
     },
 {
         id: 5,
-        title: "Bureautique",
+        title: "Reseaux",
+        introduction : "Dans une ère où la connectivité et la communication numérique sont au cœur de presque toutes les activités humaines, l'apprentissage des réseaux informatiques est devenu crucial. Les réseaux informatiques sont la colonne vertébrale de notre société moderne, facilitant le transfert de données, l'accès à l'information et la communication instantanée à l'échelle mondiale.",
         small_description: "Transformez votre créativité en compétence professionnelle avec notre formation en infographie, où chaque pixel raconte votre histoire.",
-        long_description: "Plongez dans l'univers captivant de la création visuelle avec notre formation en infographie. Que vous soyez un débutant curieux ou un professionnel cherchant à affiner ses compétences, notre programme vous offre une immersion complète dans les techniques essentielles de conception graphique. Explorez les outils innovants, apprenez à manipuler les formes, les couleurs et les typographies pour donner vie à vos idées avec éclat. Nos instructeurs expérimentés vous guideront à travers des projets pratiques, vous permettant de développer votre style personnel tout en acquérant une compréhension approfondie des principes fondamentaux de la conception. Rejoignez-nous dans cette aventure artistique où chaque leçon vous rapprochera un peu plus de la maîtrise de l'art de l'infographie.",
-        duration: 45,
-        session: 12,
-        price: 55.000,
+        long_description: "Notre formation en réseau informatique offre une pléthore d'avantages pour les aspirants et les professionnels souhaitant approfondir leurs compétences dans ce domaine essentiel. En suivant notre programme, vous développerez une compréhension approfondie des concepts fondamentaux des réseaux, tels que la configuration, la gestion et la sécurisation des infrastructures réseau. ",
+        duration: 30,
+        session: 12, 
+        price: "35.000",
+        worker: "Devs Junior", 
+        image_training :"../images/network.webp",
+        image_certified : "../images/infographie-img.webp",
         contentModule: [
           {
-              titlemodule: "Generalité",
+            moduleid : 1,
+              titlemodule: "Généralité",
               moduleItems: [
                   "Installation des logiciels",
                   "Types de logiciel",
                   "Révision ordinateur (les différents raccourcis)",
                   "Présentation Générale sur l’infographie",
+                "Types de logiciel",
                   "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  
               ]
           },
           {
+              moduleid : 2,
               titlemodule: "Photoshop",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
+                
                   "Les polices",
                   "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  "Le Mode de colorimétrique",
+                  "Navigation dans Photoshop",
+                  "Utilisation des panneaux et des barres d'outils",
+                  "Compréhension des calques",
+                  "Gestion des calques (création, suppression, duplication)",
+                  "Insertion de texte et manipulation de calques de texte",
+                  "Insertion des images",
+                    "Détourage ",
+                    "Les dégradés",
+                    "Création d’Affiche avec PhotoShop +  TP ",
+                  "Retouche photo",
+                  "Manipulation Photo + TP",
+
               ]
           },
           {
               titlemodule: "Lightroom",
+              moduleid : 3,
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
+                  "Présentation de lightroom",
+                  "Interface de Lightroom",
+                  "Rétourche photo avec Lightroom",
+                  "Rétourche en masse de photo avec Lightroom",
+                  "Exportation des catalogue",
               ]
           },
           {
+            moduleid : 4,
               titlemodule: "Illustrator",
               moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
-          }
-      ]
-    },
-{
-        id: 6,
-        title: "Ai",
-        small_description: "Transformez votre créativité en compétence professionnelle avec notre formation en infographie, où chaque pixel raconte votre histoire.",
-        long_description: "Plongez dans l'univers captivant de la création visuelle avec notre formation en infographie. Que vous soyez un débutant curieux ou un professionnel cherchant à affiner ses compétences, notre programme vous offre une immersion complète dans les techniques essentielles de conception graphique. Explorez les outils innovants, apprenez à manipuler les formes, les couleurs et les typographies pour donner vie à vos idées avec éclat. Nos instructeurs expérimentés vous guideront à travers des projets pratiques, vous permettant de développer votre style personnel tout en acquérant une compréhension approfondie des principes fondamentaux de la conception. Rejoignez-nous dans cette aventure artistique où chaque leçon vous rapprochera un peu plus de la maîtrise de l'art de l'infographie.",
-        duration: 45,
-        session: 12,
-        price: 55.000,
-        contentModule: [
-          {
-              titlemodule: "Generalité",
-              moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
-          },
-          {
-              titlemodule: "Photoshop",
-              moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
-          },
-          {
-              titlemodule: "Lightroom",
-              moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
-          },
-          {
-              titlemodule: "Illustrator",
-              moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
-          }
-      ]
-    },
-{
-        id: 7,
-        title: "Cab",
-        small_description: "Transformez votre créativité en compétence professionnelle avec notre formation en infographie, où chaque pixel raconte votre histoire.",
-        long_description: "Plongez dans l'univers captivant de la création visuelle avec notre formation en infographie. Que vous soyez un débutant curieux ou un professionnel cherchant à affiner ses compétences, notre programme vous offre une immersion complète dans les techniques essentielles de conception graphique. Explorez les outils innovants, apprenez à manipuler les formes, les couleurs et les typographies pour donner vie à vos idées avec éclat. Nos instructeurs expérimentés vous guideront à travers des projets pratiques, vous permettant de développer votre style personnel tout en acquérant une compréhension approfondie des principes fondamentaux de la conception. Rejoignez-nous dans cette aventure artistique où chaque leçon vous rapprochera un peu plus de la maîtrise de l'art de l'infographie.",
-        duration: 45,
-        session: 12,
-        price: 55.000,
-        contentModule: [
-          {
-              titlemodule: "Generalité",
-              moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
-          },
-          {
-              titlemodule: "Photoshop",
-              moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
-          },
-          {
-              titlemodule: "Lightroom",
-              moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
-          },
-          {
-              titlemodule: "Illustrator",
-              moduleItems: [
-                  "Installation des logiciels",
-                  "Types de logiciel",
-                  "Révision ordinateur (les différents raccourcis)",
-                  "Présentation Générale sur l’infographie",
-                  "Image libre de droit",
-                  "Les polices",
-                  "Les couleurs",
-                  "Le Mode de colorimétrique"
-              ]
+                  "Présentation du logiciel",
+                  "Prise en main des outils",
+                  "Le détourage",
+                  "Conception d’une affiche avec Illustraor + TP",
+                  "La vectorisation",
+                  "Calque model photo cartoon",
+                  "Différents type de logo",
+                  "Réalisation de logo + TP"
+              ] 
           }
       ]
     },
 
+
+
 ];
-  
+export const testimonials = [
+    {
+        id: "1",
+        name: "Elie Kouakou",
+        satisfaction: "Bravo",
+        Msg: "Vraiment une tres bonne formations",
+
+    },
+    {
+        id: "2",
+        name: "Elie Kouako2",
+        satisfaction: "Bravo",
+        Msg: "Vraiment une tres bonne formations",
+
+    },
+    {
+        id: "3",
+        name: "Elie Kouakou3",
+        satisfaction: "Bravo",
+        Msg: "Vraiment une tres bonne formations",
+
+    },
+    {
+        id: "4",
+        name: "Elie Kouakou4", 
+        satisfaction: "Bravo",
+        Msg: "Vraiment une tres bonne formations",
+
+    },
+    {
+        id: "5",
+        name: "Elie Kouakou5",
+        satisfaction: "Bravo",
+        Msg: "Vraiment une tres bonne formations",
+
+    },
+]

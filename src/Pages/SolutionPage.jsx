@@ -1,6 +1,6 @@
 import React from 'react'
 import SolutionPageList from '../Components/Solution/SolutionList/SolutionPageList';
-import { solutions } from '../Assets/Data/dataSolution';
+import { solutions } from '../Assets/Data/dataSolutions';
 import SolutionTestimonials from '../Components/Solution/SolutionTestimonials';
 
 const SolutionPage = () => {
@@ -19,7 +19,7 @@ const SolutionPage = () => {
             </section>
             <SolutionTestimonials />
         </>
-    )
+    ) 
 }
 
 export default SolutionPage

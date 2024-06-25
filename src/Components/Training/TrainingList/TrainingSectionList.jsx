@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-// import required modules
+// import required modules 
 import { Pagination } from 'swiper/modules';
 
 import { convertTitleToUrl } from '../../Utils/utils';

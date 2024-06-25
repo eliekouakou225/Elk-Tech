@@ -39,10 +39,10 @@ const Hero = () => {
 
           <div className="d-flex justify-content-center justify-content-lg-start">
           
-          <div class="btn__main--container">         
-      <div class="btn__main--orange-hover-white">
+          <div className="btn__main--container">         
+      <div className="btn__main--orange-hover-white">
       <Link to={'/solutions'} data-cursor-size="20px">
-        <button class="btn"><span></span><p  data-text="Maintenant" data-title="Commencer"></p></button>
+        <button className="btn"><span></span><p  data-text="Maintenant" data-title="Commencer"></p></button>
       </Link>
       </div>
           </div>

@@ -16,7 +16,7 @@ import Mikrotik from '../../Assets/img/Mikrotik.png'
 const Shop = () => {
   return (
     <>
-    <div class="section-title mt-5">
+    <div className="section-title mt-5">
     <div className="container">
     <h2>Boutique</h2>
     <p>Visitez notre boutique en ligne et profitez de nos offres exceptionnelles pour construire un réseau performant et sécurisé.</p>
@@ -69,8 +69,8 @@ const Shop = () => {
   <div className="col-12 col-lg-6">
   <h3>Mikrotik RB5009</h3>
   <p>Le routeur de laboratoire domestique robuste ultime avec USB 3.0, Ethernet 1G et 2,5G et une cage SFP+ 10G. Vous pouvez monter quatre de ces nouveaux routeurs dans un seul espace de montage en rack 1U ! Une puissance de traitement sans précédent dans un si petit format.</p>
-  <div class="btn__main--orange-hover-blue">
-  <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
+  <div className="btn__main--orange-hover-blue">
+  <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
   </div>
   </div>
   <div className="col-12 col-lg-6">
@@ -87,8 +87,8 @@ const Shop = () => {
   <div className="col-12 col-lg-6">
   <h3>Mikrotik RB5009</h3>
   <p>Le routeur de laboratoire domestique robuste ultime avec USB 3.0, Ethernet 1G et 2,5G et une cage SFP+ 10G. Vous pouvez monter quatre de ces nouveaux routeurs dans un seul espace de montage en rack 1U ! Une puissance de traitement sans précédent dans un si petit format.</p>
-  <div class="btn__main--orange-hover-blue">
-  <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
+  <div className="btn__main--orange-hover-blue">
+  <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
   </div>
   </div>
   <div className="col-12 col-lg-6">
@@ -105,8 +105,8 @@ const Shop = () => {
   <div className="col-12 col-lg-6">
   <h3>Mikrotik RB5009</h3>
   <p>Le routeur de laboratoire domestique robuste ultime avec USB 3.0, Ethernet 1G et 2,5G et une cage SFP+ 10G. Vous pouvez monter quatre de ces nouveaux routeurs dans un seul espace de montage en rack 1U ! Une puissance de traitement sans précédent dans un si petit format.</p>
-  <div class="btn__main--orange-hover-blue">
-  <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
+  <div className="btn__main--orange-hover-blue">
+  <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
   </div>
   </div>
   <div className="col-12 col-lg-6">
@@ -123,8 +123,8 @@ const Shop = () => {
   <div className="col-12 col-lg-6">
   <h3>Mikrotik RB5009</h3>
   <p>Le routeur de laboratoire domestique robuste ultime avec USB 3.0, Ethernet 1G et 2,5G et une cage SFP+ 10G. Vous pouvez monter quatre de ces nouveaux routeurs dans un seul espace de montage en rack 1U ! Une puissance de traitement sans précédent dans un si petit format.</p>
-  <div class="btn__main--orange-hover-blue">
-  <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
+  <div className="btn__main--orange-hover-blue">
+  <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
   </div>
   </div>
   <div className="col-12 col-lg-6">
@@ -141,8 +141,8 @@ const Shop = () => {
   <div className="col-12 col-lg-6">
   <h3>Mikrotik RB5009</h3>
   <p>Le routeur de laboratoire domestique robuste ultime avec USB 3.0, Ethernet 1G et 2,5G et une cage SFP+ 10G. Vous pouvez monter quatre de ces nouveaux routeurs dans un seul espace de montage en rack 1U ! Une puissance de traitement sans précédent dans un si petit format.</p>
-  <div class="btn__main--orange-hover-blue">
-  <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
+  <div className="btn__main--orange-hover-blue">
+  <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
   </div>
   </div>
   <div className="col-12 col-lg-6">
@@ -159,8 +159,8 @@ const Shop = () => {
   <div className="col-12 col-lg-6">
   <h3>Mikrotik RB5009</h3>
   <p>Le routeur de laboratoire domestique robuste ultime avec USB 3.0, Ethernet 1G et 2,5G et une cage SFP+ 10G. Vous pouvez monter quatre de ces nouveaux routeurs dans un seul espace de montage en rack 1U ! Une puissance de traitement sans précédent dans un si petit format.</p>
-  <div class="btn__main--orange-hover-blue">
-  <button class="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
+  <div className="btn__main--orange-hover-blue">
+  <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
   </div>
   </div>
   <div className="col-12 col-lg-6">

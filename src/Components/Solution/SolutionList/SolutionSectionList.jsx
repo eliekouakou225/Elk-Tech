@@ -6,7 +6,7 @@ import { convertTitleToUrl } from '../../Utils/utils';
 
 function SolutionSectionList({ solutions }) {
     return (
-        <>
+        <> 
                 {solutions.map(solution => (
                 <div className="col-lg-4 col-md-6">
                     <div className="solutions-item  position-relative">
@@ -20,11 +20,12 @@ function SolutionSectionList({ solutions }) {
                             Voir les détails &#x2197;
 
                         </Link>
+                        
                     </div>
                 </div>
             ))}
         </>
-    );
+    ); 
 }
 
 export default SolutionSectionList;

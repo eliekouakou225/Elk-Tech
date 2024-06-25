@@ -8,9 +8,9 @@ const FormationDetails = () => {
     return (
         <section className='p-150'>
         <div id="training-overview" className="training-overview">
-        <div className="container" data-aos="fade-up">
+        <div className="container" >
        
-        <div class="container section-title" >
+        <div className="container section-title" >
     <h2>Nos Formations</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, animi.</p> 
     </div>
@@ -64,7 +64,7 @@ const FormationDetails = () => {
 
         <div className="col-lg-6">
           <div className="training-details-item d-flex">
-          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+          <i className="fa fa-graduation-cap" aria-hidden="true"></i>
             <div>
               <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter">45 JOURS</span>
               <p><strong>Durée formation : </strong> <span>Varie selon le nbre de séances</span></p>
@@ -74,7 +74,7 @@ const FormationDetails = () => {
 
         <div className="col-lg-6">
           <div className="training-details-item d-flex">
-          <i class="fa fa-list-ol" aria-hidden="true"></i>
+          <i className="fa fa-list-ol" aria-hidden="true"></i>
             <div>
               <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter">12 SEANCES</span>
               <p><strong>Durée séances : </strong> <span> 01 heures 30 Min</span></p>
@@ -84,7 +84,7 @@ const FormationDetails = () => {
 
         <div className="col-lg-6">
           <div className="training-details-item d-flex">
-          <i class="fa fa-calendar" aria-hidden="true"></i>
+          <i className="fa fa-calendar" aria-hidden="true"></i>
             <div>
               <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" className="purecounter">2 OU 3 JOURS</span>
               <p><strong>Nbre jour par semaine : </strong> <span>Au choix de l'apprenant</span></p>
@@ -94,7 +94,7 @@ const FormationDetails = () => {
 
         <div className="col-lg-6">
           <div className="training-details-item d-flex">
-          <i class="fa fa-clock-o" aria-hidden="true"></i>
+          <i className="fa fa-clock-o" aria-hidden="true"></i>
             <div>
               <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" className="purecounter">9h-12H / 14h-17H </span>
               <p><strong>Heures formation : </strong> <span>Au choix de l'apprenant</span></p>
@@ -111,7 +111,7 @@ const FormationDetails = () => {
 </div>
 
         </section>
-        <section id="pricing" class="pricing section">
+        <section id="pricing" className="pricing section">
 
 {/* <!-- Section Title --> */}
 <div className="container section-title mt-5">
@@ -129,16 +129,16 @@ const FormationDetails = () => {
         <h3>Infographie</h3>
         <p className="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
         <h4><sup>FCFA </sup>50.000<span></span></h4>
-        <div class="btn__main--orange-hover-blue">
-              <button class="btn"><span></span><p data-start="good luck!" data-text="Maintenant" data-title="S'incrire"></p></button>
+        <div className="btn__main--orange-hover-blue">
+              <button className="btn"><span></span><p data-start="good luck!" data-text="Maintenant" data-title="S'incrire"></p></button>
             </div>
         <p className="text-center small">Cash ● wave ● Orange Monney ● Mtn Monney ● Moov Monney </p>
         <ul>
-                <li><i class="fa fa-check" aria-hidden="true"></i>
+                <li><i className="fa fa-check" aria-hidden="true"></i>
  <span>Ajout dans le groupe de professionnels</span></li>
-                <li><i class="fa fa-check" aria-hidden="true"></i>
+                <li><i className="fa fa-check" aria-hidden="true"></i>
  <span>...</span></li>
-                <li><i class="fa fa-check" aria-hidden="true"></i> <span>Certificat de fin de formations</span></li>
+                <li><i className="fa fa-check" aria-hidden="true"></i> <span>Certificat de fin de formations</span></li>
               </ul>
       </div>
     </div>

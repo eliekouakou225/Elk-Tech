@@ -1,12 +1,11 @@
 // src/components/TrainingList.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image1 from '../../../Assets/img/project-1.jpg'
 import { convertTitleToUrl } from '../../Utils/utils';
 
 function TrainingList({ trainings }) {
     return (
-
+ 
         <>
             {/* {trainings.map(training => (
                 <div className="col-12 card-list-item " data-cursor-size="80px" key={training.id}>
@@ -33,7 +32,7 @@ function TrainingList({ trainings }) {
             {trainings.map(training => (
                 <div className="col-lg-4" key={training.id} data-cursor-size="20px"  >
                     <div className="case-item position-relative overflow-hidden rounded mb-2">
-                        <img className="img-fluid" src={image1} alt="" /> 
+                        <img className="img-fluid" src={training.image_training }alt="" /> 
                         <Link to={`/formations/${convertTitleToUrl(training.title)}`} className="case-overlay text-decoration-none" href="">
                             <small>Formations</small>
                             <h5 className="lh-base text-white mb-3">{training.title}

@@ -17,7 +17,7 @@ import Footer from './Components/Footer/Footer'
 
 //-----import pages
 import Home from './Pages/Home';
-import About from './Pages/About';
+import About from './Pages/About.jsx';
 import Estimate from './Pages/Estimate'
 import Shop from './Pages/Shop'
 import ProduitDetail from './Pages/ProductDetail';
@@ -54,7 +54,7 @@ const App = () => {
                 {/* Road to solutions */} 
                 <Route path='/solutions' element={ <SolutionPage/> }/>
                 <Route path='/solutions/wifi' element={ <WifiServices/> }/>
-                <Route path='/solutions/:id' element={<SolutionDetails/>} />
+                <Route path='/solutions/:title' element={<SolutionDetails/>} />
 
                 {/* Road to  trainings */}
                 <Route path='/formations' element={ <TrainingPage/>} />

@@ -11,7 +11,7 @@ function SolutionPageList({ solutions }) {
                         <h2>{solution.title}</h2>
                         <p> {solution.small_description} </p>
                         <Link to={`/solution/${convertTitleToUrl(solution.title)}`} className='btn-links' data-cursor-size="80px">
-                            Voir les Détails <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            Voir les Détails <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                         </Link>
                     </div>
@@ -26,7 +26,7 @@ function SolutionPageList({ solutions }) {
                     </div>
                 </div>
             ))} */}
-               {solutions.map(solution => (
+               {solutions.map(solution => (  
                 <div className="col-lg-4" key={solution.id} data-cursor-size="20px"  >
                     <div className="case-item position-relative overflow-hidden rounded mb-2">
                         <img className="img-fluid" src={image1} alt="" /> 

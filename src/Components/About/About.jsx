@@ -29,7 +29,7 @@ const About = () => {
 
                         <div className="col-lg-7">
                             <div className='about--content'>
-                                <div className="d-flex align-items-center mt-4 " data-cursor-exclusion style={{ backgroundColor: '#fff' }}>
+                                <div Name="d-flex align-items-center mt-4 " data-cursor-exclusion style={{ backgroundColor: '#fff' }}>
                                     <i className="bi bi-check2"></i>
                                     <h4 id="stick-title">Notre mission</h4>
                                 </div>

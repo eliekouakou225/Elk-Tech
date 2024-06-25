@@ -22,7 +22,7 @@ const Solutions = () => {
 
         <section className='p-150'>
             <sections className="solutions m-5">
-                <div class="container section-title" >
+                <div className="container section-title" >
                     <h2>Nos Solutions</h2>
                     <p>Elk-Tech Groupe</p>
                 </div>
@@ -52,7 +52,7 @@ const Solutions = () => {
                                 <h2>VPN Mikrotik</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, tempora necessitatibus cum.</p>
                                 <Link to={'/'} className='btn-links' data-cursor-size="80px">
-                                    Voir les Détails <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    Voir les Détails <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                                 </Link>
                             </div>
@@ -71,7 +71,7 @@ const Solutions = () => {
                                 <h2>VPN Mikrotik</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, tempora necessitatibus cum.</p>
                                 <Link to={'/'} className='btn-links' data-cursor-size="80px">
-                                    Voir les Détails <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    Voir les Détails <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                                 </Link>
                             </div>
@@ -90,7 +90,7 @@ const Solutions = () => {
                                 <h2>VPN Mikrotik</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, tempora necessitatibus cum.</p>
                                 <Link to={'/'} className='btn-links' data-cursor-size="80px">
-                                    Voir les Détails <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    Voir les Détails <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                                 </Link>
                             </div>
@@ -109,7 +109,7 @@ const Solutions = () => {
                                 <h2>VPN Mikrotik</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, tempora necessitatibus cum.</p>
                                 <Link to={'/'} className='btn-links' data-cursor-size="80px">
-                                    Voir les Détails <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    Voir les Détails <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                                 </Link>
                             </div>
@@ -128,7 +128,7 @@ const Solutions = () => {
                                 <h2>VPN Mikrotik</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, tempora necessitatibus cum.</p>
                                 <Link to={'/'} className='btn-links' data-cursor-size="80px">
-                                    Voir les Détails <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    Voir les Détails <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                                 </Link>
                             </div>
@@ -147,7 +147,7 @@ const Solutions = () => {
                                 <h2>VPN Mikrotik</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, tempora necessitatibus cum.</p>
                                 <Link to={'/'} className='btn-links' data-cursor-size="80px">
-                                    Voir les Détails <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    Voir les Détails <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                                 </Link>
                             </div>

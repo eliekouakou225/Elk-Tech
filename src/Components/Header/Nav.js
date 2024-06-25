@@ -28,7 +28,7 @@ const Nav = () => {
                         </div> 
                         <div> 
                         <Link to="/devis" data-cursor-size="20px">
-                            <button class="btn__nav"  > Demander un devis </button>
+                            <button className="btn__nav"  > Demander un devis </button>
                         </Link>
                         </div>
                         

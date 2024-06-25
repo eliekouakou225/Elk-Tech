@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Skill from '../Components/Skill/Skill'
 const About = () => {
-  return (
-    <div>About</div>
-  )
+    return (
+        <>
+            <Skill />
+        </>
+    )
 }
 
 export default About

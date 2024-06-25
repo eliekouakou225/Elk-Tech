@@ -38,9 +38,9 @@ const Secondnavbar = () => {
             <li>
               <Link to={'/boutique'} data-cursor-size="20px">
 
-            <button class="shopbtn-nav" data-cursor-size="20px">
+            <button className="shopbtn-nav" data-cursor-size="20px">
   Boutique
-  <div class="icon">
+  <div className="icon">
     <svg
       height="24"
       width="24"

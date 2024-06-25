@@ -1,9 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { trainings } from '../Assets/Data/dataTrainings';
+
 import { convertTitleToUrl } from '../Components/Utils/utils'
 import Error404 from './Error404'
-import TrainingImg from "../Assets/img/image-of-our-team.webp"
+// import TrainingImg from "../Assets/img/image-of-our-team.webp"
 import TrainingImgCertified from "../Assets/img/trainings-image.webp"
 import { Accordion } from "react-bootstrap";
 
@@ -41,7 +42,7 @@ function TrainingDetail() {
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <figure role="figure" aria-label="Photo of skill of elk tech structure team">
-                            <img src={TrainingImg} className="training__img" alt="training `{training.title}`" />
+                            <img src={training.image_training} className="training__img" alt="training `{training.title}`" />
                         </figure>
                     </div>
                     <div className="col-12 col-md-6">
@@ -58,12 +59,12 @@ function TrainingDetail() {
                     <h1 className="text-white mb-4">Apprenez votre métier avec des professionnels</h1>
                     <div className="row g-5">
                         <div className="col-12 col-md-6">
-                            <p className='text-white'><i class="fa fa-check-circle-o" aria-hidden="true"></i> Expérimentés</p>
-                            <p className='text-white'><i class="fa fa-check-circle-o" aria-hidden="true"></i> Professionnels</p>
+                            <p className='text-white'><i className="fa fa-check-circle-o" aria-hidden="true"></i> Expérimentés</p>
+                            <p className='text-white'><i className="fa fa-check-circle-o" aria-hidden="true"></i> Professionnels</p>
                         </div>
                         <div className="col-12 col-md-6">
-                            <p className='text-white'> <i class="fa fa-check-circle-o" aria-hidden="true"></i> Motivés</p>
-                            <p className='text-white'> <i class="fa fa-check-circle-o" aria-hidden="true"></i> Suivi individuel</p>
+                            <p className='text-white'> <i className="fa fa-check-circle-o" aria-hidden="true"></i> Motivés</p>
+                            <p className='text-white'> <i className="fa fa-check-circle-o" aria-hidden="true"></i> Suivi individuel</p>
                         </div>
                     </div>
                     <div className="row">
@@ -98,7 +99,7 @@ function TrainingDetail() {
                             <div className="d-flex rounded p-3">
                                 <i className="fa fa-users fa-3x text-white"></i>
                                 <div className="ms-3">
-                                    <h2 className="text-white mb-0" data-toggle="counter-up">9h-12h ou 13h-15h <span className='text-danger'>*</span></h2>
+                                    <h2 className="text-white mb-0" data-toggle="counter-up">9h-12h ou 13h-16h <span className='text-danger'>*</span></h2>
                                     <p className="text-white mb-0">Heure de Formation</p>
                                 </div>
                             </div>
@@ -114,7 +115,7 @@ function TrainingDetail() {
                 <h2>De 0 à certifié {training.worker} professionnel </h2>
                 <p>  C'est le meilleur moment pour apprendre. #It's possible    </p>
             </div>
-            <div className="container"> 
+            <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <figure role="figure" aria-label="Photo of skill of elk tech structure team">
@@ -137,7 +138,7 @@ function TrainingDetail() {
                     </div>
                     <div className="card__price">
                         <h5>Frais de formation</h5>
-                        <h4>50.000FCFA</h4>
+                        <h4>{training.price}FCFA</h4>
                         <p>Payable en 03 modalités</p>
                     </div>
                 </div>
@@ -150,7 +151,7 @@ function TrainingDetail() {
                                 <Accordion.Body>
                                     {modules.moduleItems.map(moduleitem => (
                                         <ul>
-                                            <li>{moduleitem} </li>
+                                            <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> {moduleitem} </li>
                                         </ul>
                                     ))}
                                 </Accordion.Body>

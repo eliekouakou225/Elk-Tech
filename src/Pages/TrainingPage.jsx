@@ -1,10 +1,8 @@
 import React from 'react'
 import TrainingPageList from '../Components/Training/TrainingList/TrainingPageList';
 import { trainings } from '../Assets/Data/dataTrainings';
+import { testimonials } from '../Assets/Data/dataTrainings';
 import TrainingTestimonials from '../Components/Training/TrainingTestimonials';
-import iamge1 from '../Assets/img/project-1.jpg'
-import iamge2 from '../Assets/img/project-2.jpg'
-import iamge3 from '../Assets/img/project-3.jpg'
 
 
 const TrainingPage = () => {
@@ -19,9 +17,9 @@ const TrainingPage = () => {
                     <div className="row g-4">
                         <TrainingPageList trainings={trainings} />
                     </div>
-                </div>
+                </div> 
             </section>
-            <TrainingTestimonials />
+            <TrainingTestimonials testimonials={testimonials} />
 
             
         </>
