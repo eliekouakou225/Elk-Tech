@@ -40,12 +40,12 @@ function TrainingDetail() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-md-6">
+                    <div className="col-lg-6">
                         <figure role="figure" aria-label="Photo of skill of elk tech structure team">
                             <img src={training.image_training} className="training__img" alt="training `{training.title}`" />
                         </figure>
                     </div>
-                    <div className="col-12 col-md-6">
+                    <div className="col-lg-6">
                         <h4>Introduction {training.title}</h4>
                         <p>{training.introduction}</p>
                         <h4>Description formation</h4>
@@ -117,12 +117,12 @@ function TrainingDetail() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-md-6">
+                    <div className="col-lg-6">
                         <figure role="figure" aria-label="Photo of skill of elk tech structure team">
                             <img src={TrainingImgCertified} className="training__img" alt="training `{training.title}`" />
                         </figure>
                     </div>
-                    <div className="col-12 col-md-6">
+                    <div className="col-lg-6">
                         <p>Suivre une formation 100% pratique est crucial pour acquérir des compétences concrètes et immédiatement applicables dans le monde professionnel. En mettant l'accent sur des exercices réels et des mises en situation, ce type de formation permet aux apprenants de maîtriser les outils et les techniques de leur domaine de manière efficace. De plus, l'obtention d'un certificat en fin de formation atteste de leur expertise et de leur sérieux, renforçant leur crédibilité auprès des employeurs et ouvrant de nouvelles opportunités de carrière.</p>
                     </div>
                 </div>
@@ -146,14 +146,14 @@ function TrainingDetail() {
                     <h4 className='mb-5 mt-2'>Modules de formation</h4>
                     <Accordion>
                         {training.contentModule.map(modules => (
-                            <Accordion.Item eventKey={modules.moduleid}>
+                            <Accordion.Item eventKey={modules.moduleid} key={modules.moduleid}>
                                 <Accordion.Header className='accordion--header'>{modules.titlemodule}</Accordion.Header>
                                 <Accordion.Body>
-                                    {modules.moduleItems.map(moduleitem => (
-                                        <ul>
-                                            <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> {moduleitem} </li>
-                                        </ul>
-                                    ))}
+                                    <ul>
+                                        {modules.moduleItems.map(moduleitem => (
+                                            <li key={moduleitem.moduleid} ><i className="fa fa-check-circle-o" aria-hidden="true"></i> {moduleitem} </li>
+                                        ))}
+                                    </ul>
                                 </Accordion.Body>
                             </Accordion.Item>
                         ))}

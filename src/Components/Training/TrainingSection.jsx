@@ -1,7 +1,8 @@
 // --------------------------------- 
 // Formation section
 // ---------------------------------
-import React, { useRef, useState } from 'react';
+import React from 'react';
+// import React, { useRef, useState } from 'react';
 // import TrainingCarousel from './TrainingCarousel/TrainingCarousel'
 import { Link } from 'react-router-dom';
 

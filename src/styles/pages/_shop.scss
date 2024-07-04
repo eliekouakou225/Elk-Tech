@@ -63,3 +63,20 @@
     height: 35vh;
     background-color: $color-orange--primary;
 }
+.portrait-image, .paysage-image{
+    display: none;
+  }
+  
+  /* For screens larger than 760px: display portrait image */
+  @media screen and (min-width: 770px) {
+    .portrait-image {
+      display: block;
+    }
+  }
+  
+  /* For screens less than 760px: display paysage image */
+  @media screen and (max-width: 769px) {
+    .paysage-image {
+      display: block;
+    }
+  }

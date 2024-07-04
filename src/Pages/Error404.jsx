@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Error404 = () => {
@@ -13,7 +14,7 @@ const Error404 = () => {
                 <ul>
                     <li>
                         <Link to={'/'}>
-                            Acceuil <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            Acceuil <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
                         </Link>
                     </li>
                     <li>

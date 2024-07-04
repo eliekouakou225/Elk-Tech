@@ -19,21 +19,21 @@ const About = () => {
                     <div className="row g-4 g-lg-5" >
 
                         <div className="col-lg-5">
-                            <div className="about-img">
+                             <div className="about-img">
                                 <figure role="figure" aria-label="Photo of the elk tech structure team">
                                     <img src={ImageOfOurTeam} className="img-fluid" alt="Our-team" />
                                 </figure>
 
                             </div>
-                        </div>
+                        </div> 
 
                         <div className="col-lg-7">
                             <div className='about--content'>
-                                <div Name="d-flex align-items-center mt-4 " data-cursor-exclusion style={{ backgroundColor: '#fff' }}>
+                                <div className="d-flex align-items-center mt-4 " data-cursor-exclusion style={{ backgroundColor: '#fff' }}>
                                     <i className="bi bi-check2"></i>
                                     <h4 id="stick-title">Notre mission</h4>
                                 </div>
-                                <p className="fst-italic">Notre mission est bien plus qu'un simple objectif commercial. Nous nous engageons à développer un nom d'unique afin de vous démarquer de la concurrence. </p>
+                                <p className="fst-italic">Notre mission est bien plus qu un simple objectif commercial. Nous nous engageons à développer un nom d'unique afin de vous démarquer de la concurrence. </p>
                             </div>
                             <div className='about--content'>
                                 <div className="d-flex align-items-center mt-4" data-cursor-exclusion style={{ backgroundColor: '#fff' }}>
@@ -54,7 +54,7 @@ const About = () => {
                                     <i className="bi bi-check2"></i>
                                     <h4 id="stick-title">Pourquoi nous choisir</h4>
                                 </div>
-                                <p className="fst-italic"> Nous possédons une expertise approfondie dans divers domaine de l'informations, résultat d'années d'expérience et de dévouement à notre métier. Notre équipe possède les compétences et les connaissances nécessaires pour fournir des solutions de qualité supérieure.</p>
+                                <p className="fst-italic"> Nous possédons une expertise approfondie dans divers domaine de l informations, résultat d'années d'expérience et de dévouement à notre métier. Notre équipe possède les compétences et les connaissances nécessaires pour fournir des solutions de qualité supérieure.</p>
                             </div>
 
                             <div className='container-btns'>

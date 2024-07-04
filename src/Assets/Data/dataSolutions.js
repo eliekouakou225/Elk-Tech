@@ -289,3 +289,40 @@ export const solutions = [
 
 ];
   
+export const testimonials = [
+    {
+        id: "1",
+        name: "Elie Kouakou",
+        satisfaction: "Bravo",
+        msg: "Vraiment une tres bonne formations",
+
+    },
+    {
+        id: "2", 
+        name: "Elie Kouako2",
+        satisfaction: "Bravo",
+        msg: "Vraiment une tres bonne formations",
+
+    },
+    {
+        id: "3",
+        name: "Elie Kouakou3",
+        satisfaction: "Bravo",
+        msg: "Vraiment une tres bonne formations",
+
+    },
+    {
+        id: "4",
+        name: "Elie Kouakou4", 
+        satisfaction: "Bravo",
+        msg: "Vraiment une tres bonne formations",
+
+    },
+    {
+        id: "5",
+        name: "Elie Kouakou5",
+        satisfaction: "Bravo",
+        msg: "Vraiment une tres bonne formations",
+
+    },
+]

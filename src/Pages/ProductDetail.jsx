@@ -1,7 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
+import Error404 from './Error404';
 import sproduct from '../Assets/img/sproduct_1.png'
-const ProductDetail = () => {
+import { products } from '../Assets/Data/dataProducts';
+import { convertTitleToUrl } from '../Components/Utils/utils'
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
+
+
+function ProductDetail() {
+    // const { id } = useParams(); 
+    const { title } = useParams();
+    // const training = trainings.find(t => t.id === parseInt(id) );
+    const product = products.find((product) => convertTitleToUrl(product.title) === title);
+
+    if (!product) {
+        return <Error404 />;
+    }
+
     return (
         <>
             <div className="product_image_area section_padding p-500">
@@ -18,16 +34,21 @@ const ProductDetail = () => {
                         </div>
                         <div className="col-lg-5 col-xl-4">
                             <div className="s_product_text">
-                                <h5>previous <span>|</span> next</h5>
-                                <h3>Mikrotik Rb951 Ui</h3>
-                                <h2>55.000 FCFA</h2>
+                                <Breadcrumb>
+                                    <Breadcrumb.Item href="elktech-ci.com/boutique">Boutique</Breadcrumb.Item>
+                                    <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+                                        Routers
+                                    </Breadcrumb.Item>
+                                    <Breadcrumb.Item active>{product.title}</Breadcrumb.Item>
+                                </Breadcrumb>
+                                <h3> {product.title} </h3>
+                                <h2>{product.price} FCFA</h2>
                                 <ul className="list">
-                                    <li> <span>Catégorie</span> : Mikrotik - Réseau </li>
+                                    <li> <span>Catégorie</span> : {product.category} </li>
                                     <li>  <span>Disponibilité </span> : En Stock  </li>
                                 </ul>
                                 <p>
-                                    First replenish living. Creepeth image image. Creeping can't, won't called.
-                                    Two fruitful let days signs sea together all land fly subdue
+                                    {product.details}
                                 </p>
                                 <div className="card_area d-flex justify-content-between align-items-center">
                                     <Link href="{#}" className="btn_buy" data-cursor-size="20px">Commender</Link>

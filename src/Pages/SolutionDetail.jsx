@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import Skill from '../Components/Skill/Skill'
+import Skill from '../Components/Skill/Skill' 
 
 // import ServiceImg from '../Assets/img/image-of-our-team.webp'
 
@@ -28,10 +28,10 @@ function SolutionDetail() {
                 <h2>{solution.title} </h2>
                 <p>Phrase d'accroche sur l'infographie</p>
                 <div className="row">
-                    <div className="col-12 col-md-4">
-                        <img src={solution.image_solution } alt="service " className='Service__img' />
+                    <div className="col-lg-4 mb-4">
+                        <img src={solution.image_solution} alt="service " className='Service__img' />
                     </div>
-                    <div className="col-12 col-md-8">
+                    <div className="col-lg-8">
                         <h4>Description {solution.title}</h4>
                         <p>{solution.long_description}</p>
                         <h4>Faites la différence grace à nous</h4>
@@ -40,21 +40,21 @@ function SolutionDetail() {
                 </div>
             </div>
             <div className="container">
-                <div className="row">
-                    <div className="col-12 col-md-6">
+                <div className="row m-3">
+                    <div className="col-lg-6 mb-4">
                         <h4>Quelque </h4>
-                        <Accordion> 
+                        <Accordion>
                             {solution.skill_list.map(skill => (
-                                <Accordion.Item eventKey={skill.skill_list_id}>
+                                <Accordion.Item eventKey={skill.skill_list_id} key={skill.skill_list_id}>
                                     <Accordion.Header className='accordion--header'>{skill.skill_list_title}</Accordion.Header>
                                     <Accordion.Body>
-                                    {skill.skill_list_description}
+                                        {skill.skill_list_description}
                                     </Accordion.Body>
                                 </Accordion.Item>
                             ))}
-                        </Accordion> 
+                        </Accordion>
                     </div>
-                    <div className="col-12 col-md-6">
+                    <div className="col-lg-6  mb-4">
                         <h4>DIte nous de quoi avez vous besoin</h4>
                     </div>
                 </div>
@@ -65,11 +65,11 @@ function SolutionDetail() {
                     <div className="row g-5">
                         <div className="col-12 col-md-6">
                             <p className='text-white'><i className="fa fa-check-circle-o" aria-hidden="true"></i> Expérimentés</p>
-                            <p classNameName='text-white'><i className="fa fa-check-circle-o" aria-hidden="true"></i> Professionnels</p>
+                            <p className='text-white'><i className="fa fa-check-circle-o" aria-hidden="true"></i> Professionnels</p>
                         </div>
                         <div className="col-12 col-md-6">
-                            <p className='text-white'> <i class="fa fa-check-circle-o" aria-hidden="true"></i> Bas prix</p>
-                            <p className='text-white'> <i class="fa fa-check-circle-o" aria-hidden="true"></i> Conseils client</p>
+                            <p className='text-white'> <i className="fa fa-check-circle-o" aria-hidden="true"></i> Bas prix</p>
+                            <p className='text-white'> <i className="fa fa-check-circle-o" aria-hidden="true"></i> Conseils client</p>
                         </div>
                     </div>
                     <div className="row">

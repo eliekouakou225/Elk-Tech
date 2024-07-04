@@ -62,7 +62,7 @@ const App = () => {
 
               
                 <Route path='/boutique' element={ <Shop/> } />
-                <Route path='/boutique/:id' element={ <ProduitDetail/> } />
+                <Route path='/boutique/:title' element={ <ProduitDetail/> } />
 
                 <Route path='/contact' element={ <Contact/> } />
                 <Route path='/404' element={ <Error404/> } />

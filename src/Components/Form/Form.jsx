@@ -7,31 +7,31 @@ const Form = () => {
    <form className="contact-form row">
       <div className="form-field col-lg-6">
          <input id="name" className="input-text js-input" type="text" required/>
-         <label className="label" for="name">Nom <span className='require' >*</span></label>
+         <label className="label" htmlFor="name">Nom <span className='require' >*</span></label>
       </div>
       <div className="form-field col-lg-6 ">
          <input id="surmane" className="input-text js-input" type="text" required/>
-         <label className="label" for="surmane">Prénom <span className='require' >*</span> </label>
+         <label className="label" htmlFor="surmane">Prénom <span className='require' >*</span> </label>
       </div>
       <div className="form-field col-lg-6 ">
          <input id="email" className="input-text js-input" type="email" required/>
-         <label className="label" for="email">E-mail <span className='require' >*</span></label>
+         <label className="label" htmlFor="email">E-mail <span className='require' >*</span></label>
       </div>
        <div className="form-field col-lg-6 ">
          <input id="phone" className="input-text js-input" type="text" required/>
-         <label className="label" for="phone">Télephone <span className='require' >*</span></label>
+         <label className="label" htmlFor="phone">Télephone <span className='require' >*</span></label>
       </div>
       <div className="form-field col-lg-6 ">
          <input id="company" className="input-text js-input" type="text" required/>
-         <label className="label" for="company">Nom de l'Entreprise</label>
+         <label className="label" htmlFor="company">Nom de l'Entreprise</label>
       </div>
        <div className="form-field col-lg-6 ">
          <input id="site" className="input-text js-input" type="url" required/>
-         <label className="label" for="site">Site web url</label>
+         <label className="label" htmlFor="site">Site web url</label>
       </div>
       <div className="form-field col-lg-12">
          <input id="message" className="input-text js-input" type="text" required/>
-         <label className="label" for="message">Message</label>
+         <label className="label" htmlFor="message">Message</label>
       </div>
       <div className="form-field col-lg-6 ">
         <p>Je suis interessé par...</p>
@@ -44,7 +44,7 @@ const Form = () => {
       </div>
        <div className="form-field col-lg-6 ">
         <p>J'ai un fichier</p>
-        <label for="file-upload" className=" file-upload">
+        <label htmlFor="file-upload" className=" file-upload">
             <input id="file-upload" type="file" style={{ display: "none" }}/>
             <span>Ajouter une pièces jointe</span>
             <span> <i className="fa fa-paperclip" aria-hidden="true"></i> </span>

@@ -1,4 +1,5 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
+// import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -6,13 +7,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+import { testimonials } from '../../Assets/Data/dataTrainings';
 
 // import required modules
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-function TrainingTestimonials({ testimonials }) {
+function TrainingTestimonials() {  
     return (
         <section className="testimonials m-5">
 
@@ -68,7 +69,7 @@ function TrainingTestimonials({ testimonials }) {
                             </div>
 
                             <p className="message">
-                            {testimonials.Msg}
+                                {testimonials.Msg}
                             </p>
                         </div>
                     </SwiperSlide>

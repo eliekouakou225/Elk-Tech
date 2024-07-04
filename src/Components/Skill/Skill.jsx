@@ -8,23 +8,27 @@ const Skill = () => {
                 <p>« La formation est l’essence de tout succès. » Arnaud Boti</p>
             </div>
             <div className="container skill">
-                <div className="row m-5">
+                <div className="row m-5 ">
                     <div className="col-12 col-lg-6 ">
                         <figure role="figure" aria-label="Photo of skill of elk tech structure team">
                             <img src={skillQuality} className="skill__img" alt="Our-quality" />
                         </figure>
                     </div>
-                    <div className="col-12 col-lg-6">
-                        <h4>Qualité</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos consectetur unde ipsum vero voluptates! Fugiat, dolor corporis. Officiis eligendi illo mollitia, placeat ipsam possimus velit eveniet dolore hic, eius ratione!</p>
+                    <div className="col-12 col-lg-6 align-middle  d-flex align-items-center">
+                        <div className="content">
+                            <h4>Qualité</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos consectetur unde ipsum vero voluptates! Fugiat, dolor corporis. Officiis eligendi illo mollitia, placeat ipsam possimus velit eveniet dolore hic, eius ratione!</p>
+                        </div>
                     </div>
                 </div>
-                <div className="row p-5">
-                    <div className="col-12 col-lg-6">
-                        <h4>Prix</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga eligendi quos eum corporis nam dolorem, amet quaerat dolore impedit? Est autem iusto, maxime sint tenetur sed consequuntur soluta dignissimos.</p>
+                <div className="row p-5 flex-column-reverse flex-lg-row" >
+                    <div className="col-12 col-lg-6 align-middle  d-flex align-items-center">
+                        <div className="content">
+                            <h4>Prix</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga eligendi quos eum corporis nam dolorem, amet quaerat dolore impedit? Est autem iusto, maxime sint tenetur sed consequuntur soluta dignissimos.</p>
+                        </div>
                     </div>
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6 ">
                         <figure role="figure" aria-label="Photo of skill of elk tech structure team">
                             <img src={skillQuality} className="skill__img" alt="Our-quality" />
                         </figure>
@@ -32,13 +36,16 @@ const Skill = () => {
                 </div>
                 <div className="row p-5">
                     <div className="col-12 col-lg-6">
-                    <figure role="figure" aria-label="Photo of skill of elk tech structure team">
-                            <img src={skillQuality} className="skill__img" alt="Our-quality"/>
+                        <figure role="figure" aria-label="Photo of skill of elk tech structure team">
+                            <img src={skillQuality} className="skill__img" alt="Our-quality" />
                         </figure>
                     </div>
-                    <div className="col-12 col-lg-6">
-                        <h4>Confidentialité</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, alias animi? Natus vitae reiciendis, ipsa, sapiente assumenda molestias perspiciatis iure blanditiis incidunt, quasi commodi sint unde voluptatum? Aperiam, optio quas!</p>
+                    <div className="col-12 col-lg-6 align-middle  d-flex align-items-center">
+                        <div className="content">
+                            <h4>Confidentialité</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, alias animi? Natus vitae reiciendis, ipsa, sapiente assumenda
+                                molestias perspiciatis iure blanditiis incidunt, quasi commodi sint unde voluptatum? Aperiam, optio quas!</p>
+                        </div>
                     </div>
                 </div>
             </div>

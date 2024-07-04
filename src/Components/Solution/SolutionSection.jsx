@@ -1,5 +1,6 @@
 // src/components/Home.js
-import React, { useState } from 'react';
+import React from 'react';
+// import React, { useState } from 'react';
 import SolutionSectionList from './SolutionList/SolutionSectionList';
 import { solutions } from '../../Assets/Data/dataSolutions';
 

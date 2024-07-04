@@ -1,7 +1,6 @@
 import React from 'react'
 import TrainingPageList from '../Components/Training/TrainingList/TrainingPageList';
 import { trainings } from '../Assets/Data/dataTrainings';
-import { testimonials } from '../Assets/Data/dataTrainings';
 import TrainingTestimonials from '../Components/Training/TrainingTestimonials';
 
 
@@ -19,7 +18,7 @@ const TrainingPage = () => {
                     </div>
                 </div> 
             </section>
-            <TrainingTestimonials testimonials={testimonials} />
+            <TrainingTestimonials />
 
             
         </>

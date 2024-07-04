@@ -2,13 +2,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { convertTitleToUrl } from '../../Utils/utils';
-
+import PropTypes from 'prop-types';
 
 function SolutionSectionList({ solutions }) {
     return (
         <> 
                 {solutions.map(solution => (
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-4 col-md-6" key={solution.id}>
                     <div className="solutions-item  position-relative">
                         <div className="icon">
                             <i className={solution.icon} aria-hidden="true"></i>
@@ -27,5 +27,14 @@ function SolutionSectionList({ solutions }) {
         </>
     ); 
 }
+SolutionSectionList.propTypes = {
+    solutions: PropTypes.arrayOf(
+      PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        title: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+      })
+    ).isRequired,
+  };
 
 export default SolutionSectionList;
