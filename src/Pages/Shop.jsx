@@ -5,6 +5,17 @@ import Accesoires from '../Assets/img/collection-item2.jpg'
 import Accesoires2 from '../Assets/img/collection-item3.jpg'
 
 import { products } from '../Assets/Data/dataProducts'
+
+import { accessories } from '../Assets/Data/dataProducts'
+import AccessoriesList from '../Components/Products/Accessories/AccessoriesList'
+
+import { mikrotiks } from '../Assets/Data/dataProducts'
+import MikrotikList from '../Components/Products/Mikrotik/MikrotikList'
+
+
+import { networks } from '../Assets/Data/dataProducts'
+import NetworkList from '../Components/Products/Network/NetworkList'
+
 import { Link } from 'react-router-dom'
 import ProductItem from '../Components/Products/ProductItem'
 import PubTechnicien_portait from "../Assets/img/techncien-for-web-portrait.webp"
@@ -13,6 +24,10 @@ import PubTechnicien_paysage from "../Assets/img/techncien-for-web-paysage.webp"
 
 const Shop = () => {
     const filteredProducts = products.slice(0, 5);
+
+    const filteredMikrotiks = mikrotiks.slice(0, 5);
+    const filteredNetworks = products.slice(0, 5);
+    const filteredAccessories = products.slice(0, 5);
     return (
         <>
             {/* <!-- Start Hero Section --> */}
@@ -26,7 +41,7 @@ const Shop = () => {
                                 <p><a href="{#}" className="btn btn-secondary me-2">Shop Now</a><a href="{#}" className="btn btn-white-outline">Explore</a></p>
                             </div>
                         </div>
-                        <div className="col-lg-7"> 
+                        <div className="col-lg-7">
                             <div className="hero-img-wrap">
                                 <img src={HeroShopImage} className="img-fluid" alt=' on Hero ' />
                             </div>
@@ -51,7 +66,7 @@ const Shop = () => {
                                 <div className="col-lg-7 col-md-12 left-content">
                                     <div className="collection-item">
                                         <div className="products-thumb">
-                                            <Link to={"/solutions"}>
+                                            <Link to={"/boutique/categorie/reseaux"}>
                                                 <img src={ImageCatalogNetwork} alt="collection item" className="large-image image-rounded rounded" />
                                             </Link>
                                         </div>
@@ -69,7 +84,7 @@ const Shop = () => {
                                 <div className="col-lg-5 col-md-12 right-content flex-wrap">
                                     <div className="collection-item top-item">
                                         <div className="products-thumb">
-                                            <Link to>
+                                            <Link to={'/boutique/categorie/mikrotik'} >
 
                                                 <img src={Accesoires} alt="collection item" className="small-image image-rounded" />
                                             </Link>
@@ -85,7 +100,7 @@ const Shop = () => {
                                     </div>
                                     <div className="collection-item bottom-item">
                                         <div className="products-thumb">
-                                            <Link to={"/home"}>
+                                            <Link to={"/boutique/categorie/accessoires"}>
 
                                                 <img src={Accesoires2} alt="collection item" className="small-image image-rounded" />
                                             </Link>
@@ -115,6 +130,7 @@ const Shop = () => {
                             </div>
                             <ProductItem products={filteredProducts} />
                             <button> Voir plus</button>
+                            <MikrotikList mikrotiks={filteredMikrotiks} />
                         </div>
                     </div>
 

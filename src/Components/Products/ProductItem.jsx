@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { convertTitleToUrl } from './../Utils/utils';
 
 function ProductItem({ products }) { 
-    return (   
+    return (    
         <> 
             <div className="single_product_list_slider">
                 <div className="row align-items-center justify-content-between">

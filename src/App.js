@@ -28,6 +28,15 @@ import SolutionPage from './Pages/SolutionPage';
 import SolutionDetails from './Pages/SolutionDetail';
 import WifiServices from './Pages/WifiServices';
 
+import CategoryMikrotik from './Components/Products/Mikrotik/CategoryMikrotik.jsx';
+import MikrotikDetail from './Components/Products/Mikrotik/MikrotikDetail.jsx';
+
+import CategoryNetwork from './Components/Products/Network/CategoryNetwork.jsx';
+import NetworkDetail from './Components/Products/Network/NetworkDetail.jsx';
+
+import CategoryAccessories from './Components/Products/Accessories/CategoryAccessories.jsx';
+import AccessoriesDetail from './Components/Products/Accessories/AccessoriesDetail.jsx';
+
 import TrainingPage from './Pages/TrainingPage';
 import TrainingDetail from './Pages/trainingDetail';
 
@@ -63,6 +72,15 @@ const App = () => {
               
                 <Route path='/boutique' element={ <Shop/> } />
                 <Route path='/boutique/:title' element={ <ProduitDetail/> } />
+
+                <Route path='/boutique/categorie/mikrotik' element={ <CategoryMikrotik/> } />
+                <Route path='/boutique/categorie/mikrotik/:title' element={ <MikrotikDetail/> } />
+
+                <Route path='/boutique/categorie/reseaux' element={ <CategoryNetwork/> } />
+                <Route path='/boutique/categorie/reseaux/:title' element={ <NetworkDetail/> } />
+
+                <Route path='/boutique/categorie/accessoires' element={ <CategoryAccessories/> } />
+                <Route path='/boutique/categorie/accessoires/:title' element={ <AccessoriesDetail/> } />
 
                 <Route path='/contact' element={ <Contact/> } />
                 <Route path='/404' element={ <Error404/> } />
