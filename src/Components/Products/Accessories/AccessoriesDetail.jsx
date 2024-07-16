@@ -28,15 +28,15 @@ function AccessoriesDetail() {
                                     <div>
                                         <img src={accessorie.image} alt={accessorie.title} />
                                     </div>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                         <div className="col-lg-5 col-xl-4">
                             <div className="s_product_text">
-                                <Breadcrumb>
-                                    <Breadcrumb.Item href="elktech-ci.com/boutique">Boutique</Breadcrumb.Item>
-                                    <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-                                        Routers
+                            <Breadcrumb>
+                                    <Breadcrumb.Item > <Link to={'/boutique'}>Boutique</Link> </Breadcrumb.Item>
+                                    <Breadcrumb.Item>
+                                        <Link to={'/boutique/categorie/accessoires'}>accessoires informatique  </Link>
                                     </Breadcrumb.Item>
                                     <Breadcrumb.Item active>{accessorie.title}</Breadcrumb.Item>
                                 </Breadcrumb>

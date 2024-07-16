@@ -3,8 +3,8 @@ import HeroShopImage from '../Assets/img/couch.png'
 import ImageCatalogNetwork from '../Assets/img/collection-item1.jpg'
 import Accesoires from '../Assets/img/collection-item2.jpg'
 import Accesoires2 from '../Assets/img/collection-item3.jpg'
-
-import { products } from '../Assets/Data/dataProducts'
+import learning from '../Assets/img/formation.webp'
+// import { products } from '../Assets/Data/dataProducts'
 
 import { accessories } from '../Assets/Data/dataProducts'
 import AccessoriesList from '../Components/Products/Accessories/AccessoriesList'
@@ -17,17 +17,17 @@ import { networks } from '../Assets/Data/dataProducts'
 import NetworkList from '../Components/Products/Network/NetworkList'
 
 import { Link } from 'react-router-dom'
-import ProductItem from '../Components/Products/ProductItem'
+// import ProductItem from '../Components/Products/ProductItem'
 import PubTechnicien_portait from "../Assets/img/techncien-for-web-portrait.webp"
 import PubTechnicien_paysage from "../Assets/img/techncien-for-web-paysage.webp"
 
 
 const Shop = () => {
-    const filteredProducts = products.slice(0, 5);
+    // const filteredProducts = products.slice(0, 5);
 
-    const filteredMikrotiks = mikrotiks.slice(0, 5);
-    const filteredNetworks = products.slice(0, 5);
-    const filteredAccessories = products.slice(0, 5);
+    const filteredMikrotiks = mikrotiks.slice(0, 10);
+    const filteredNetworks = networks.slice(0, 10);
+    const filteredAccessories = accessories.slice(0, 10);
     return (
         <>
             {/* <!-- Start Hero Section --> */}
@@ -66,7 +66,7 @@ const Shop = () => {
                                 <div className="col-lg-7 col-md-12 left-content">
                                     <div className="collection-item">
                                         <div className="products-thumb">
-                                            <Link to={"/boutique/categorie/reseaux"}>
+                                            <Link to={"/boutique/categorie/reseau"}>
                                                 <img src={ImageCatalogNetwork} alt="collection item" className="large-image image-rounded rounded" />
                                             </Link>
                                         </div>
@@ -123,14 +123,20 @@ const Shop = () => {
             <section>
                 <div className="container">
                     <div className="row">
-                        <div className="col">
-                            <div className='container container-title'>
-                                <h2>Quelques produits de notre catalogue Mikrotik</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ex necessitatibus, nemo iste ut alias excepturi neque corporis qui officiis nihil explicabo hic nostrum tempora deleniti totam quae a aspernatur?</p>
-                            </div>
-                            <ProductItem products={filteredProducts} />
-                            <button> Voir plus</button>
+                        <div className='container container-title'>
+                            <h2>Quelques produits de notre catalogue Mikrotik</h2>
+                            <p>MikroTik fabrique des routeurs, des commutateurs et des systèmes sans fil pour tous les usages, des petits bureaux ou des maisons aux réseaux des FAI des opérateurs.</p>
+                        </div>
+                        <div className="col-10">
                             <MikrotikList mikrotiks={filteredMikrotiks} />
+                            <div className='container-btns'>
+                                <div className="btn__main--orange-hover-blue">
+                                    <Link to={'/boutique/categorie/mikrotik'}><button className="btn"><span></span><p data-start="good luck!" data-text="Mikrotik" data-title="Voir plus"></p></button></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-2">
+                            <img src={learning} alt="" />
                         </div>
                     </div>
 
@@ -143,17 +149,54 @@ const Shop = () => {
                     </div>
                 </div>
             </section>
-            {/* <section>
-                <div className="container">
+            <section>
+                <div className="container mt-5">
                     <div className="row">
-                        <div className="col-2"></div>
-                        <div className="col-10">
-                            <ProductItem />
+                        <div className='container container-title'>
+                            <h2>Quelques produits de notre catalogue réseau informatique</h2>
+                            <p>MikroTik fabrique des routeurs, des commutateurs et des systèmes sans fil pour tous les usages, des petits bureaux ou des maisons aux réseaux des FAI des opérateurs.</p>
+                        </div>
+                    
+                        <div className="col-12">
+                            <NetworkList networks={filteredNetworks} />
+                        </div>
+                        <div className='container-btns'>
+                            <div className="btn__main--orange-hover-blue">
+                                <Link to={'/boutique/categorie/reseau'}><button className="btn"><span></span><p data-start="good luck!" data-text="Accessoires" data-title="Voir plus"></p></button></Link>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-            </section> */}
+            </section>
+            <section>
+                <div className="container-fluid">
+                    <div className="image-large">
+
+                    </div>
+                </div>
+            </section>
+            {/* <NetworkList networks={filteredNetworks} /> */}
+
+            <section>
+                <div className="container mt-5">
+                    <div className="row">
+                        <div className='container container-title'>
+                            <h2>Quelques produits de notre catalogue Accessoire informatique</h2>
+                            <p>MikroTik fabrique des routeurs, des commutateurs et des systèmes sans fil pour tous les usages, des petits bureaux ou des maisons aux réseaux des FAI des opérateurs.</p>
+                        </div>
+                        <div className="col-12">
+                            <AccessoriesList accessories={filteredAccessories} />
+                        </div>
+                        <div className='container-btns'>
+                            <div className="btn__main--orange-hover-blue">
+                                <Link to={'/boutique/categorie/accessoires'}><button className="btn"><span></span><p data-start="good luck!" data-text="Accessoires" data-title="Voir plus"></p></button></Link>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
         </>
     )
 }

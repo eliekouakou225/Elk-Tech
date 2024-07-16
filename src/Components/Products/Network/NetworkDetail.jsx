@@ -36,9 +36,9 @@ function NetworkDetail() {
                         <div className="col-lg-5 col-xl-4">
                             <div className="s_product_text">
                                 <Breadcrumb>
-                                    <Breadcrumb.Item href="elktech-ci.com/boutique">Boutique</Breadcrumb.Item>
-                                    <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-                                        Routers
+                                    <Breadcrumb.Item > <Link to={'/boutique'}>Boutique</Link> </Breadcrumb.Item>
+                                    <Breadcrumb.Item>
+                                        <Link to={'/boutique/categorie/reseau'}>Réseau  </Link>
                                     </Breadcrumb.Item>
                                     <Breadcrumb.Item active>{network.title}</Breadcrumb.Item>
                                 </Breadcrumb>

@@ -8,8 +8,8 @@ const CategoryAccessories = () => {
         <>
             <section className="trainings m-5">
                 <div className='container container-title container-title-center'>
-                    <h2>Notre superbe catalogue Accesoires </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ex necessitatibus, nemo iste ut alias excepturi neque corporis qui officiis nihil explicabo hic nostrum tempora deleniti totam quae a aspernatur?</p>
+                    <h2>Notre Catalogue Accesoires informatique</h2>
+                    <p>Tous les gadgets de dernière technologie à votre porté de main.</p>
                 </div>
                 <div className="container">
                     <div className="row g-4">

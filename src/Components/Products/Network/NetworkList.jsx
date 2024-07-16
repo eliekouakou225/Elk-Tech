@@ -19,7 +19,7 @@ function NetworkList({ networks }) {
                                     <h4>{network.title}</h4>
                                     <h3>{network.price} FCFA</h3>
                                     <div className='container-btn-links'>
-                                        <Link to={`/boutique/categorie/mikrotik/${convertTitleToUrl(network.title)}`} className="btn-links"> Voir les détails 	&rarr;</Link>
+                                        <Link to={`/boutique/categorie/reseau/${convertTitleToUrl(network.title)}`} className="btn-links"> Voir les détails 	&rarr;</Link>
                                     </div>
                                 </div>
                             </div>

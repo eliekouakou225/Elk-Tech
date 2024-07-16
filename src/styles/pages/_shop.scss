@@ -65,17 +65,17 @@
 }
 .portrait-image, .paysage-image{
     display: none;
-  }
+  } 
   
   /* For screens larger than 760px: display portrait image */
-  @media screen and (min-width: 770px) {
+  @media  (min-width: $breakpoint--tablet) {
     .portrait-image {
       display: block;
     }
   }
   
   /* For screens less than 760px: display paysage image */
-  @media screen and (max-width: 769px) {
+  @media (max-width: $breakpoint--tablet ) {
     .paysage-image {
       display: block;
     }

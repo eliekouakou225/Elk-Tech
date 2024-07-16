@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-creative-cursor/dist/styles.css';
 
 
+
 //-----import Components
 import Nav from './Components/Header/Nav';
 // import { CustomCursor } from './Components/Cursor/index.jsx';
@@ -20,7 +21,7 @@ import Home from './Pages/Home';
 import About from './Pages/About.jsx';
 import Estimate from './Pages/Estimate'
 import Shop from './Pages/Shop'
-import ProduitDetail from './Pages/ProductDetail';
+// import ProduitDetail from './Pages/ProductDetail';
 import Contact from './Pages/Contact';
 import Error404 from './Pages/Error404';
 
@@ -47,6 +48,7 @@ const App = () => {
     const isPC = useMediaQuery({ minWidth: 992 });
   return ( 
         <>
+        
         <BrowserRouter> 
         {isPC && <div className="mobile-only">
             <Cursor isGelly={true} />
@@ -71,13 +73,13 @@ const App = () => {
 
               
                 <Route path='/boutique' element={ <Shop/> } />
-                <Route path='/boutique/:title' element={ <ProduitDetail/> } />
+                {/* <Route path='/boutique/:title' element={ <ProduitDetail/> } /> */}
 
                 <Route path='/boutique/categorie/mikrotik' element={ <CategoryMikrotik/> } />
                 <Route path='/boutique/categorie/mikrotik/:title' element={ <MikrotikDetail/> } />
 
-                <Route path='/boutique/categorie/reseaux' element={ <CategoryNetwork/> } />
-                <Route path='/boutique/categorie/reseaux/:title' element={ <NetworkDetail/> } />
+                <Route path='/boutique/categorie/reseau' element={ <CategoryNetwork/> } />
+                <Route path='/boutique/categorie/reseau/:title' element={ <NetworkDetail/> } />
 
                 <Route path='/boutique/categorie/accessoires' element={ <CategoryAccessories/> } />
                 <Route path='/boutique/categorie/accessoires/:title' element={ <AccessoriesDetail/> } />

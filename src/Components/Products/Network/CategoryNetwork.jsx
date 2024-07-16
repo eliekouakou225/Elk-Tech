@@ -9,7 +9,7 @@ const CategoryNetwork = () => {
             <section className="trainings m-5">
                 <div className='container container-title container-title-center'>
                     <h2>Notre superbe catalogue Réseaux </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ex necessitatibus, nemo iste ut alias excepturi neque corporis qui officiis nihil explicabo hic nostrum tempora deleniti totam quae a aspernatur?</p>
+                    <p>Quand le besoin de connectivité est inéluctable à tous.</p>
                 </div>
                 <div className="container">
                     <div className="row g-4">
