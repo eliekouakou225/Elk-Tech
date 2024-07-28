@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import PropTypes from 'prop-types';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -51,5 +51,16 @@ function TrainingCarousel({ trainings }) {
 
     );
 }
+
+TrainingCarousel.propTypes = {
+    trainings: PropTypes.arrayOf(
+        PropTypes.shape({
+            key: PropTypes.number.isRequired,
+            image: PropTypes.string.isRequired,
+            title: PropTypes.string.isRequired,
+            small_description: PropTypes.string.isRequired,
+        })
+    ).isRequired,
+};
 
 export default TrainingCarousel;

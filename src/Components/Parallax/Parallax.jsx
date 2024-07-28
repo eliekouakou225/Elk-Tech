@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 import Client from "../Client/Client";
+import PropTypes from 'prop-types';
 
 // import InterconnexionOfSite from '../../Assets/img/interconnexion-of-site.webp'
 // import InterconnexionOfSite from '../../Assets/img/interconnexion-of-site.webp';::
@@ -67,6 +68,16 @@ const Card = ({ card }) => {
     );
 };
 
+Card.propTypes = {
+    card: PropTypes.arrayOf(
+        PropTypes.shape({
+            key: PropTypes.number.isRequired,
+            image: PropTypes.string.isRequired,
+            url: PropTypes.string.isRequired,
+            title: PropTypes.string.isRequired,
+        })
+    ).isRequired,
+};
 export default Example;
 
 const cards = [
