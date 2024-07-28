@@ -29,14 +29,14 @@ function TrainingList({ trainings }) {
 
     );
 }
+
 TrainingList.propTypes = {
     trainings: PropTypes.arrayOf(
         PropTypes.shape({
-            id: PropTypes.number.isRequired,
+            key: PropTypes.number.isRequired,
+            image: PropTypes.string.isRequired,
             title: PropTypes.string.isRequired,
-            description: PropTypes.string.isRequired,
         })
     ).isRequired,
 };
-
 export default TrainingList;

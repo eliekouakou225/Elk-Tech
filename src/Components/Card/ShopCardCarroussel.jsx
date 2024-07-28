@@ -8,7 +8,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 import imageProduct1 from '../../Assets/img/features-1.jpg'
-import imageProduct2 from '../../Assets/img/features-2.jpg'
+// import imageProduct2 from '../../Assets/img/features-2.jpg'
 
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';

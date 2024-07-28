@@ -6,7 +6,7 @@ import Error404 from '../../../Pages/Error404';
 // import { products } from '../../../Assets/Data/dataProducts';
 import { mikrotiks } from '../../../Assets/Data/dataProducts';
 import { convertTitleToUrl } from '../../../Components/Utils/utils'
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
+// import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 
 function MikrotikDetail() {
@@ -35,13 +35,13 @@ function MikrotikDetail() {
                         </div>
                         <div className="col-lg-5 col-xl-4">
                             <div className="s_product_text">
-                                <Breadcrumb>
+                                {/* <Breadcrumb>
                                     <Breadcrumb.Item > <Link to={'/boutique'}>Boutique</Link> </Breadcrumb.Item>
                                     <Breadcrumb.Item>
                                         <Link to={'/boutique/categorie/mikrotik'}>MikroTik  </Link>
                                     </Breadcrumb.Item>
                                     <Breadcrumb.Item active>{mikrotik.title}</Breadcrumb.Item>
-                                </Breadcrumb>
+                                </Breadcrumb> */}
                                 <h3> {mikrotik.title} </h3>
                                 <h2>{mikrotik.price} FCFA</h2>
                                 <ul className="list">
