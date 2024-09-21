@@ -11,8 +11,32 @@
         line-height: 30px;
         
       }
-      .Service__img{
-        width: 450px;
-        height: auto;
-      }
+    //   .Service__img{
+    //     width: 450px;
+    //     height: auto;
+    //     border-radius: 10%;
+    //   }
 }  
+.header-solution-page{
+    padding-top: 5rem;
+    @media (max-width: $breakpoint--tablet) {
+        margin-top: 150px;
+        padding: calc(4rem - 30px) 0 4rem 0;
+    }
+}
+
+
+
+.ex-basic-1 .list-unstyled .fas {
+	font-size: 0.375rem;
+	line-height: 1.625rem;
+}
+
+.ex-basic-1 .list-unstyled .flex-grow-1 {
+	margin-left: 0.5rem;
+}
+
+.ex-basic-1 .text-box {
+	padding: 1.25rem 1.25rem 0.5rem 1.25rem;
+	background-color: #f9f9f9;
+}

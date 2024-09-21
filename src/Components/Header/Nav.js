@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import {useState} from "react";
 
 //import image Assest
-import un from '../../Assets/img/1.jpg'
-import deux from '../../Assets/img/2.jpg'
-import trois from '../../Assets/img/3.jpg'
-import quartre from '../../Assets/img/4.jpg'
-import cinq from '../../Assets/img/5.jpg'
+import home from '../../Assets/img/home.webp'
+import solutions from '../../Assets/img/solutions.webp'
+import training from '../../Assets/img/training.webp'
+import shop from '../../Assets/img/shop.webp'
+import contact from '../../Assets/img/contact.webp'
 
 const Nav = () => {
 
@@ -16,7 +16,7 @@ const Nav = () => {
 
   return (  
 
-    <nav className="nav-main">
+    <nav className="nav-main"> 
             <div className="nav-container">
                 <div className="navbar">
                     <div className="container">               
@@ -39,7 +39,7 @@ const Nav = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="nav-overlay" style={{ top: navOpen ? "0" : "-100%", transitionDelay: navOpen ? "0s" : "0s", }}>
+                    <div className="nav-overlay" style={{ top: navOpen ? "0" : "-100%", transitionDelay: navOpen ? "0s" : "0s",  }}>
 
                         <div className="lines">
                             <div className="line"></div>
@@ -50,7 +50,7 @@ const Nav = () => {
                         <div className="menu">
                             <div className="menu__item">
                                 <Link to="/" className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Acceuil</Link>
-                                <img src={trois} alt="some img" className="menu__item-img"/>
+                                <img src={home} alt="some img" className="menu__item-img"/>
                                 <div className="marquee"> 
                                     <div className="marquee__inner"> 
                                         <span>Acceuil</span>
@@ -63,7 +63,7 @@ const Nav = () => {
                             </div>
                             <div className="menu__item">
                                 <Link to="/solutions"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Solution</Link>
-                                <img src={deux} alt="some img" className="menu__item-img"/>
+                                <img src={solutions} alt="some img" className="menu__item-img"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">
                                         <span>Solution</span>
@@ -76,7 +76,7 @@ const Nav = () => {
                             </div>
                             <div className="menu__item">
                             <Link to="/formations"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Formations</Link>
-                                <img src={quartre} alt="some img" className="menu__item-img"/>
+                                <img src={training} alt="some img" className="menu__item-img"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">
                                         <span>Formations</span>
@@ -89,7 +89,7 @@ const Nav = () => {
                             </div>
                             <div className="menu__item">
                             <Link to="/boutique" className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Boutique</Link>
-                                <img src={un} alt="some img" className="menu__item-img"/>
+                                <img src={shop} alt="some img" className="menu__item-img"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">
                                         <span>Boutique</span>
@@ -102,7 +102,7 @@ const Nav = () => {
                             </div>
                             <div className="menu__item">
                             <Link to="/contact"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Contact</Link>
-                                <img src={cinq} alt="some img" className="menu__item-img"/>
+                                <img src={contact} alt="some img" className="menu__item-img"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">
                                         <span>Contact</span>

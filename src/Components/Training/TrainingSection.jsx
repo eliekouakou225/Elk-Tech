@@ -2,14 +2,12 @@
 // Formation section
 // ---------------------------------
 import React from 'react';
-// import React, { useRef, useState } from 'react';
-// import TrainingCarousel from './TrainingCarousel/TrainingCarousel'
+
 import { Link } from 'react-router-dom';
 
 import TrainingSectionList from './TrainingList/TrainingSectionList';
 import { trainings } from '../../Assets/Data/dataTrainings';
 
-// import student from '../../Assets/img/student.jpg'
 import trainingsImage from '../../Assets/img/trainings-image.webp'
 import ourTeacherImage from '../../Assets/img/our-teachers.webp'
 
@@ -42,7 +40,7 @@ const TrainingSection = () => {
 
                         <div className="col-lg-5 d-flex align-items-center">
                             <div className="content">
-                                <h3>Apprendre n'a jamais ete aussi facile.</h3>
+                                <h3>Apprendre n'a jamais été aussi facile.</h3>
                                 <p>
                                     Avec nos méthodes de formation exclusivement basées sur la pratique, nous demandons à nos apprenants de ne faire aucun effort de rétention. C'est la méthode d'enseignement qui détermine ce que l'on retient.
                                 </p>
@@ -69,7 +67,7 @@ const TrainingSection = () => {
 
                                 <div className="btn__main--blue-hover-orange" >
                                     <Link to={'formations'}>
-                                        <button className="btn" data-cursor-size="20px"><span></span><p data-start="good luck!" data-text="Formations" data-title="Details"></p></button>
+                                        <button className="btn" data-cursor-size="20px"><span></span><p data-start="good luck!" data-text="Formateurs" data-title="Details"></p></button>
                                     </Link>
                                 </div>
                             </div>

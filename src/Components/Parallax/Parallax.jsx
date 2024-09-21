@@ -4,10 +4,6 @@ import { useRef } from "react";
 import Client from "../Client/Client";
 import PropTypes from 'prop-types';
 
-// import InterconnexionOfSite from '../../Assets/img/interconnexion-of-site.webp'
-// import InterconnexionOfSite from '../../Assets/img/interconnexion-of-site.webp';::
-
-
 
 const Example = () => {
     return (
@@ -49,7 +45,7 @@ const Card = ({ card }) => {
     return (
         <div
             key={card.id}
-            className="group relative h-[450px] w-[450px] overflow-hidden bg-neutral-200"
+            className="group relative h-[550px] w-[550px] overflow-hidden bg-neutral-200"
         >
             <div
                 style={{
@@ -98,17 +94,27 @@ const cards = [
     },
     {
         url: "./images/controle-acces.webp",
-        title: "Title 4",
+        title: "#4",
         id: 4,
     },
     {
         url: "./images/video-surveillence.webp",
-        title: "Title 5",
+        title: "#5",
         id: 5,
     },
     {
         url: "./images/maintenance-informatique.webp",
-        title: "Title 6",
+        title: "#6",
         id: 6,
+    },
+    {
+        url: "./images/router.webp",
+        title: "#7",
+        id: 7,
+    },
+    {
+        url: "./images/mikrotik.webp",
+        title: "#8",
+        id: 8,
     },
 ];

@@ -7,13 +7,19 @@ import Error404 from '../../../Pages/Error404';
 import { networks } from '../../../Assets/Data/dataProducts';
 import { convertTitleToUrl } from '../../Utils/utils'
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-
+import { useEffect } from "react";
 
 function NetworkDetail() {
     // const { id } = useParams(); 
     const { title } = useParams();
     // const training = trainings.find(t => t.id === parseInt(id) );
     const network = networks.find((network) => convertTitleToUrl(network.title) === title);
+    const pageTitle = `${network.title} - Boutique`;
+
+    useEffect(() => {
+        document.title = `${pageTitle} | Elk-Tech`;
+    }, [pageTitle]);
+
 
     if (!network) {
         return <Error404 />;

@@ -15,13 +15,14 @@ import Nav from './Components/Header/Nav';
 // import { CustomCursor } from './Components/Cursor/index.jsx';
 import Footer from './Components/Footer/Footer'
 // import ScrollToTopButton from './Components/GoUpButton/GoUpButton'
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop.js';
 
 //-----import pages
 import Home from './Pages/Home';
 import About from './Pages/About.jsx';
-import Estimate from './Pages/Estimate'
-import Shop from './Pages/Shop'
-// import ProduitDetail from './Pages/ProductDetail';
+import Estimate from './Pages/Estimate';
+import Shop from './Pages/Shop';
+import RegistrationTraining from './Pages/RegistrationTraining.jsx';
 import Contact from './Pages/Contact';
 import Error404 from './Pages/Error404';
 
@@ -48,24 +49,27 @@ const App = () => {
     const isPC = useMediaQuery({ minWidth: 992 });
   return ( 
         <>
-        
+       
         <BrowserRouter> 
+        <ScrollToTop /> 
         {isPC && <div className="mobile-only">
             <Cursor isGelly={true} />
             </div>}
         <header>
             <Nav/>
-        </header>
+        </header> 
             {/* <CustomCursor/> */}  
             <Routes>
                 <Route path='/' element={ <Home/> } />
                 <Route path='/apropos' element={ <About/> } />
                 <Route path='/devis' element={ <Estimate/> } />
-
+                <Route path='formation/inscription' element={ <RegistrationTraining/> } />
+                {/* <Route path='/inscription-formation' element={ <Registration/> } />  */}
+                
                 {/* Road to solutions */} 
                 <Route path='/solutions' element={ <SolutionPage/> }/>
                 <Route path='/solutions/wifi' element={ <WifiServices/> }/>
-                <Route path='/solutions/:title' element={<SolutionDetails/>} />
+                <Route path='/solutions/:title' element={<SolutionDetails/>} /> 
 
                 {/* Road to  trainings */}
                 <Route path='/formations' element={ <TrainingPage/>} />
@@ -73,8 +77,6 @@ const App = () => {
 
               
                 <Route path='/boutique' element={ <Shop/> } />
-                {/* <Route path='/boutique/:title' element={ <ProduitDetail/> } /> */}
-
                 <Route path='/boutique/categorie/mikrotik' element={ <CategoryMikrotik/> } />
                 <Route path='/boutique/categorie/mikrotik/:title' element={ <MikrotikDetail/> } />
 

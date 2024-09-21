@@ -54,17 +54,17 @@ const About = () => {
                                     <i className="bi bi-check2"></i>
                                     <h4 id="stick-title">Pourquoi nous choisir</h4>
                                 </div>
-                                <p className="fst-italic"> Nous possédons une expertise approfondie dans divers domaine de l informations, résultat d'années d'expérience et de dévouement à notre métier. Notre équipe possède les compétences et les connaissances nécessaires pour fournir des solutions de qualité supérieure.</p>
+                                <p className="fst-italic"> Nous possédons une expertise approfondie dans divers domaine de l'informations, résultat d'années d'expérience et de dévouement à notre métier. Notre équipe possède les compétences et les connaissances nécessaires pour fournir des solutions de qualité supérieure.</p>
                             </div>
 
-                            <div className='container-btns'>
+                            {/* <div className='container-btns'>
                                 <div className="btn__main--orange-hover-blue">
                                     <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="En Savoir plus"></p></button>
                                 </div>
                                 <div className="btn__main--blue-hover-orange">
                                     <button className="btn"><span></span><p data-start="good luck!" data-text="Elk-Tech Groupe" data-title="Contacter"></p></button>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>

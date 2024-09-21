@@ -1,9 +1,20 @@
-.hero-shop-category{
-    top: 80px;
+.hero-shop-category-mikrotik{
+    top: 50px;
     position: relative;
-    padding: 20px;
-    border: 2px solid red;
-    border-radius: 20px;
-    width: calc(100vw - 3vw); 
-    height: 200px;
+    height: 500px;
+    background-image: url("../../Assets/img/ListMikrotiktcRouter.webp");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+}
+.hero-shop-category-computer-accessories{
+    top: 70px;
+    position: relative;
+    height: 500px;
+    background-image: url("../../Assets/img/computer-accessories.webp");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
 }

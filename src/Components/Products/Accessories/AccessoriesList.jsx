@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import { convertTitleToUrl } from '../../Utils/utils';
 import PropTypes from 'prop-types';
 
+
 function AccessoriesList({ accessories }) {
+
     return (
 
         <>

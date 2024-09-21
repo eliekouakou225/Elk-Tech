@@ -1,6 +1,6 @@
 
 .container-title{
-    margin: 10% 0;
+    margin: 10% 0; 
     h2{
         font-size:48px;
         font-weight: 700;
@@ -15,6 +15,9 @@
         vertical-align: baseline;
         letter-spacing: normal;
         word-spacing: 0px;
+    }
+    @media (max-width: $breakpoint--tablet){ 
+        margin: 30% 0 10% 0; 
     }
 }
 .container-title-right{

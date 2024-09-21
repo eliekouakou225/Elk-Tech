@@ -14,7 +14,7 @@ import { Pagination } from 'swiper/modules';
 import { convertTitleToUrl } from '../../Utils/utils';
 
 function TrainingCarousel({ trainings }) {
-    return (
+    return ( 
         <Swiper
             slidesPerView={3}
             spaceBetween={30}
@@ -34,12 +34,10 @@ function TrainingCarousel({ trainings }) {
                     <div className='trainings--card'>
                         <h4 className='pl-2'>{training.title}</h4>
                         <div className='p-4'>
-
                             <p className='trainings--card-text'>{training.small_description} </p>
                             <Link to={`/formations/${convertTitleToUrl(training.title)}`} className='btn-links' data-cursor-size="20px">
-                            Voir les détails &#x2197;
-
-                        </Link>
+                                Voir les détails <span className='arrow-rotate'><i className="fa fa-long-arrow-right" aria-hidden="true"></i> </span>
+                            </Link>
                         </div>
                     </div>
                 </SwiperSlide>

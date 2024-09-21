@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -13,6 +14,9 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 const Devis = () => {
+    useEffect(() => {
+        document.title = "Devis | Elk-Tech";
+    }, []);
   return (
     <>
        <Swiper

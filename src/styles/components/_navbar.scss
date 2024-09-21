@@ -1,107 +1,111 @@
 /* Main navbar of site */
 .nav-main{
-  position: absolute; 
-  z-index : 99;
-  left: 0;  
- 
-
-  .nav-container{ 
-    width: 100vw;
+    position: absolute; 
+    z-index : 99;
+    left: 0;  
     
-  }  
-  // -------------------NAVBAR----------------------------------------------------
-  // The navbar contains the logo, request a quote button & the hamburger button
-  //------------------------------------------------------------------------------
-  .navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba($color-blue--primary, 1);
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #fff;
-
-
-    .logo img{
-      width: 170px;
-      height: 50px;
+    .nav-container{ 
+        width: 100vw;
+        
+    }  
+    // -------------------NAVBAR----------------------------------------------------
+    // The navbar contains the logo, request a quote button & the hamburger button
+    //------------------------------------------------------------------------------
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba($color-blue--primary, 1);
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #fff;
+        @media (max-width: $breakpoint--tablet){ 
+            height: 150px;
+        }
+        
+        
+        .logo img{
+            width: 170px;
+            height: 50px;
+        }
+        .menu-toggle{
+            cursor: pointer;
+        } 
+        
+        .nav-overlay{
+            position: fixed;
+            background: $color-blue--primary;
+            z-index: -2;
+            top: -100%; 
+            // display: none;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            padding: 4em;
+            transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+            
+            @media (max-width: $breakpoint--tablet){ 
+                transition: all 4s cubic-bezier(0.16, 1, 0.3, 1);
+            }
+            
+        }
+        .hamBox{
+            position: relative;
+            width: 44px;
+            height: 44px;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: 0.3s ease;
+            padding: 2.4em;
+            
+            
+        }
+        
+        .lineTop, .lineBottom{ 
+            margin: 0 auto;
+            position: absolute;
+            display: block;
+            width: 30px;
+            height: 3px;
+            border-radius: 10px;
+            left: 0;
+            right: 0;
+            transform: rotate(0deg);
+            transition: 1s all ;
+            @media (max-width : $breakpoint--tablet) {
+                width: 40px;
+                height: 5px;
+            }
+            
+            
+        }
+        .lineTop{
+            top: 2.2em;
+            background: #fff;
+            @media (max-width : $breakpoint--tablet) {
+                top: 3.2em;
+            }
+        }
+        .lineBottom{
+            bottom: 2em;
+            background: #fff;
+        }
+        .lineTop.spin{
+            top: 2.35em;
+            transform: rotate(135deg);
+            transition: 1s all ;
+            background: #ffffff;
+        }
+        .lineBottom.spin{
+            top: 2.35em;
+            transition: 1s all ;
+            transform: rotate(225deg);
+            background: #ffffff;
+        }
     }
-    .menu-toggle{
-      cursor: pointer;
-    } 
-    .nav-overlay{
-      position: fixed;
-      background: $color-blue--primary;
-      z-index: -2;
-      top: -100%; 
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      padding: 4em;
-      transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
-      
-      @media (max-width: $breakpoint--tablet){ 
-        transition: all 4s cubic-bezier(0.16, 1, 0.3, 1);
-      }
-
-    }
-    .hamBox{
-      position: relative;
-      width: 44px;
-      height: 44px;
-      cursor: pointer;
-      border-radius: 50%;
-      transition: 0.3s ease;
-      padding: 2.4em;
-
-    
-    }
-
-    .lineTop, .lineBottom{ 
-      margin: 0 auto;
-      position: absolute;
-      display: block;
-      width: 30px;
-      height: 3px;
-      border-radius: 10px;
-      left: 0;
-      right: 0;
-      transform: rotate(0deg);
-      transition: 1s all ;
-      @media (max-width : $breakpoint--tablet) {
-        width: 40px;
-        height: 5px;
-      }
-
-      
-    }
-    .lineTop{
-      top: 2.2em;
-      background: #fff;
-      @media (max-width : $breakpoint--tablet) {
-        top: 3.2em;
-      }
-    }
-    .lineBottom{
-      bottom: 2em;
-      background: #fff;
-    }
-    .lineTop.spin{
-      top: 2.35em;
-      transform: rotate(135deg);
-      transition: 1s all ;
-      background: #ffffff;
-    }
-    .lineBottom.spin{
-      top: 2.35em;
-      transition: 1s all ;
-      transform: rotate(225deg);
-      background: #ffffff;
-    }
-  }
 }
 
 
@@ -111,190 +115,190 @@
 /*-----------------------------------------------------*/
 
 .lines {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  margin: auto;
-  width: 90vw;
-  overflow: hidden;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+    width: 90vw;
+    overflow: hidden;
 }
 
 .line {
-  position: absolute;
-  width: 1px;
-  height: 100%;
-  top: 0;
-  left: 50%;
-  background: rgba(255, 255, 255, 0.1);
-  overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
 }
 .line::after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 15vh;
-  width: 100%;
-  top: -50%;
-  left: 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
-  -webkit-animation: drop 7s 0s infinite;
-          animation: drop 7s 0s infinite;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
-          animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+    content: "";
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+    -webkit-animation: drop 7s 0s infinite;
+    animation: drop 7s 0s infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
 }
 .line:nth-child(1) {
-  margin-left: -25%;
+    margin-left: -25%;
 }
 .line:nth-child(1)::after {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
 }
 .line:nth-child(3) {
-  margin-left: 25%;
+    margin-left: 25%;
 }
 .line:nth-child(3)::after {
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
 }
 
 @-webkit-keyframes drop {
-  0% {
-    top: -50%;
-  }
-  100% {
-    top: 110%;
-  }
+    0% {
+        top: -50%;
+    }
+    100% {
+        top: 110%;
+    }
 }
 
 @keyframes drop {
-  0% {
-    top: -50%;
-  }
-  100% {
-    top: 110%;
-  }
+    0% {
+        top: -50%;
+    }
+    100% {
+        top: 110%;
+    }
 }
 /*------------MENU ITEM----------------------------------------
 Items that display when the hamburger menu is activated
 -------------------------------------------*/
 .menu__item{
-  position : relative;
-  padding: 0 6vw;
-  @media (max-width : $breakpoint--tablet) {
-    padding: 2vh 6vw;
-  }
-
+    position : relative;
+    padding: 0 6vw;
+    @media (max-width : $breakpoint--tablet) {
+        padding: 2vh 6vw;
+    }
+    
 }
 .menu__item-link{
-  display: inline-block;
-  font-family:  sans-serif;
-  cursor: pointer;
-  position: relative;
-  letter-spacing: 10px;
-  -webkit-text-stroke : 0.9px #fff;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  transition: opacity 0.4s ;
-  text-decoration: none;
-  text-transform: uppercase;
-  @media (max-width : $breakpoint--tablet) {
-    -webkit-text-stroke : 1.5px #fff;
-    letter-spacing: 15px;
-  }
-
+    display: inline-block;
+    font-family:  sans-serif;
+    cursor: pointer;
+    position: relative;
+    letter-spacing: 10px;
+    -webkit-text-stroke : 0.9px #fff;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    transition: opacity 0.4s ;
+    text-decoration: none;
+    text-transform: uppercase;
+    @media (max-width : $breakpoint--tablet) {
+        -webkit-text-stroke : 1.5px #fff;
+        letter-spacing: 15px;
+    }
+    
 }
 .menu__item-link::before{
-  all: initial ;
-  counter-increment: menu;
-  position: absolute;
-  bottom: 60%;
-  pointer-events: none;
+    all: initial ;
+    counter-increment: menu;
+    position: absolute;
+    bottom: 60%;
+    pointer-events: none;
 }
 .menu__item-link:hover{
-  transition-duration: 0.1s;
-  opacity: 0;
+    transition-duration: 0.1s;
+    opacity: 0;
 }
 .menu__item-img{
-  pointer-events: none;
-  position: absolute;
-  height: 50vh;
-  max-height: 400px;
-  opacity: 0;
-  left: 100%;
-  top: 50%;
-  transform: translate3d(calc(-100% - 6vw), -30%, 0 ) translate3d(0, 20px, 0) ;
-
+    pointer-events: none;
+    position: absolute;
+    height: 50vh;
+    max-height: 400px;
+    opacity: 0;
+    left: 100%;
+    top: 50%;
+    transform: translate3d(calc(-100% - 6vw), -30%, 0 ) translate3d(0, 20px, 0) ;
+    
 }
 .menu__item-link:hover + .menu__item-img{
-  opacity: 1;
-  transform: translate3d(calc(-100% - 6vw), -30%, 0 ) translate3d(0, 0, 1, 4deg) ;
-  transition: all 0.4s;
-  rotate: 4deg;
+    opacity: 1;
+    transform: translate3d(calc(-100% - 6vw), -30%, 0 ) translate3d(0, 0, 1, 4deg) ;
+    transition: all 0.4s;
+    rotate: 4deg;
 }
 .menu{
-  padding: 10vh 0 25vh; 
-  --offset: 20vw;
-  --move-initial : calc(-25% + var(--offset));
-  --move-final : calc(-50% + var(--offset));
-  font-size: 1vw;
-  @media ( max-width: $breakpoint--tablet) {
-    padding: 50% 5%;
-  }
-
-
+    padding: 10vh 0 25vh; 
+    --offset: 20vw;
+    --move-initial : calc(-25% + var(--offset));
+    --move-final : calc(-50% + var(--offset));
+    font-size: 1vw;
+    @media ( max-width: $breakpoint--tablet) {
+        padding: 50% 5%;
+    }
+    
+    
 }
 .marquee{
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  color: #fff;
-  pointer-events: none;
-  mix-blend-mode: difference;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    color: #fff;
+    pointer-events: none;
+    mix-blend-mode: difference;
 }
 .marquee__inner{
-  width: fit-content;
-  display: flex;
-  position: relative;
-  animation: marquee 5s linear infinite;
-  opacity: 0;
-  transition:  opacity 0.1s;
-  
+    width: fit-content;
+    display: flex;
+    position: relative;
+    animation: marquee 5s linear infinite;
+    opacity: 0;
+    transition:  opacity 0.1s;
+    
 }
 .menu__item-link:hover ~ .marquee .marquee__inner{
-  animation-play-state: running;
-  opacity: 1;
-  transition-duration: 0.4s;
+    animation-play-state: running;
+    opacity: 1;
+    transition-duration: 0.4s;
 }
 .menu__item-link, .marquee span{
-  white-space: nowrap;
-  font-size: 5vw; 
-  padding: 0 1w;
-  font-weight: 900;
-  line-height: 1.20;
-
+    white-space: nowrap;
+    font-size: 5vw; 
+    padding: 0 1w;
+    font-weight: 900;
+    line-height: 1.20;
+    
     @media (max-width : $breakpoint--tablet){
-      font-size: 8vw;
+        font-size: 8vw;
     }
-  
+    
 }
 .marquee span{
-  font-style: italic;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 0 1w;
-  font-weight: 900;
-  margin-right: 10px;
+    font-style: italic;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 1w;
+    font-weight: 900;
+    margin-right: 10px;
 }
 @keyframes marquee{
-  0%{
-      transform: translate3d(var(--move-initial),0 ,0 );
-  }
-  100%{
-      transform: translate3d(var(--move-final),0 ,0 );
-  }
+    0%{
+        transform: translate3d(var(--move-initial),0 ,0 );
+    }
+    100%{
+        transform: translate3d(var(--move-final),0 ,0 );
+    }
 }

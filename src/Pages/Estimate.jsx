@@ -1,8 +1,12 @@
 import React from 'react'
+import { useEffect } from "react";
 import Form from '../Components/Form/Form'
 
 
 const Estimate = () => {
+    useEffect(() => {
+        document.title = "Demander un devis | Elk-Tech";
+    }, []);
     return (
         <div className="estimate">
             <div className='container container-title'>

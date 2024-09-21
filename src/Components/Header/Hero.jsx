@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="btn__main--container">         
       <div className="btn__main--orange-hover-white">
       <Link to={'/solutions'} data-cursor-size="20px">
-        <button className="btn"><span></span><p  data-text="Maintenant" data-title="Commencer"></p></button>
+        <button className="btn"><span></span><p  data-text="Maintenant" data-title="Decouvrir"></p></button>
       </Link>
       </div>
           </div>

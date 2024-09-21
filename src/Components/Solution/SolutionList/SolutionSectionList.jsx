@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 
 function SolutionSectionList({ solutions }) {
     return (
-        <> 
-                {solutions.map(solution => (
+        <>
+            {solutions.map(solution => (
                 <div className="col-lg-4 col-md-6" key={solution.id}>
                     <div className="solutions-item  position-relative">
                         <div className="icon">
@@ -17,24 +17,24 @@ function SolutionSectionList({ solutions }) {
                         <p>{solution.small_description} </p>
 
                         <Link to={`/solutions/${convertTitleToUrl(solution.title)}`} className='btn-links' data-cursor-size="20px">
-                            Voir les détails &#x2197;
+                            Voir les détails <span className='arrow-rotate'><i className="fa fa-long-arrow-right" aria-hidden="true"></i> </span>
 
                         </Link>
-                        
+
                     </div>
                 </div>
             ))}
         </>
-    ); 
+    );
 }
 SolutionSectionList.propTypes = {
     solutions: PropTypes.arrayOf(
-      PropTypes.shape({
-        id: PropTypes.number.isRequired,
-        title: PropTypes.string.isRequired,
-        description: PropTypes.string.isRequired,
-      })
+        PropTypes.shape({
+            id: PropTypes.number.isRequired,
+            title: PropTypes.string.isRequired,
+            description: PropTypes.string.isRequired,
+        })
     ).isRequired,
-  };
+};
 
 export default SolutionSectionList;
