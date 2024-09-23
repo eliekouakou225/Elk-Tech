@@ -7,7 +7,7 @@ import TrainingSection from './../Components/Training/TrainingSection.jsx';
 import SolutionSection from '../Components/Solution/SolutionSection.jsx';
 import Parallax from './../Components/Parallax/Parallax.jsx'
 import Idea from './../Components/Idea/Idea.jsx';
-// import Shop from './../Components/Shop/Shop.jsx';
+import Shop from './../Components/Shop/Shop.jsx';
 import ShopBtn from '../Components/Btn/ShopBtn.jsx';
 
 
@@ -22,7 +22,7 @@ const Home = () => {
             <TrainingSection />
             <SolutionSection />
             <Parallax />
-            {/* <Shop /> */}
+            <Shop />
             <Idea />
             <div className='shopbtn__container '>
                 <ShopBtn />

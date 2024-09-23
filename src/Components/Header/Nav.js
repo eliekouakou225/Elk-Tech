@@ -62,15 +62,15 @@ const Nav = () => {
                                 </div>
                             </div>
                             <div className="menu__item">
-                                <Link to="/solutions"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Solution</Link>
+                                <Link to="/solutions"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Solutions</Link>
                                 <img src={solutions} alt="some img" className="menu__item-img"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">
-                                        <span>Solution</span>
-                                        <span>Solution</span>
-                                        <span>Solution</span>
-                                        <span>Solution</span>
-                                        <span>Solution</span>
+                                        <span>Solutions</span>
+                                        <span>Solutions</span>
+                                        <span>Solutions</span>
+                                        <span>Solutions</span>
+                                        <span>Solutions</span>
                                     </div>
                                 </div>
                             </div>

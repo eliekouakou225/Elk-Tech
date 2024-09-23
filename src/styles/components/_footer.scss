@@ -21,7 +21,6 @@
         h2{
             display: flex;
             justify-content: space-between;
-            // font-size: 50px;
             text-decoration: underline;
             font-size:48px;
             font-weight: 700;
@@ -31,6 +30,9 @@
             a{
                 color: $color-footer;
             }
+            @media (max-width : $breakpoint--tablet) {
+                         font-size: 35px;
+                   }
             
         }
         span i{
