@@ -2,14 +2,11 @@ import React from 'react'
 import { useEffect } from "react";
 // import HeroShopImage from '../Assets/img/depannage-informatique-item-6-1024x523.png'
 import ImageCatalogNetwork from '../Assets/img/collection-item1.jpg'
-import Accesoires from '../Assets/img/collection-item2.jpg'
-import Accesoires2 from '../Assets/img/collection-item3.jpg'
+import ImageCatalogMikrotik from '../Assets/img/collection-item2.jpg'
+import ImageCatalogAccesoires from '../Assets/img/collection-item3.jpg'
 import learning from '../Assets/img/formation.webp'
 import { Link } from 'react-router-dom'
-import imgShop1 from '../Assets/img/img_shop.png'
-import imgShop2 from '../Assets/img/img_shop2.png'
-import imgShop3 from '../Assets/img/img_shop3.png'
-import imgShop4 from '../Assets/img/img_shop4.png'
+
 
 import { accessories } from '../Assets/Data/dataProducts'
 import AccessoriesList from '../Components/Products/Accessories/AccessoriesList'
@@ -78,153 +75,11 @@ const Shop = () => {
                             </div>
                         </div>
 
-                        <div className="flex w-full gap-6 pb-8 mt-12 overflow-x-auto sm:mt-16 lg:mt-20 snap-x">
-                            <div className="relative snap-center scroll-ml-6 shrink-0 first:pl-6 last:pr-6">
-                                <div className="overflow-hidden w-[300px] lg:w-[420px] transition-all duration-200 transform bg-white border border-gray-200 rounded-2xl hover:shadow-lg hover:-translate-y-1">
-                                    <div className="px-4 py-5 sm:p-5">
-                                        <div className="flex items-start lg:items-center">
-                                            <a href="#" title="" className="shrink-0">
-                                                <img className="lg:h-24 w-14 h-14 lg:w-24 rounded-xl object-cvoer" src={imgShop2} alt="" />
-                                            </a>
 
-                                            <div className="flex-1 ml-4 lg:ml-6">
-                                                <p className="text-xs font-medium text-gray-900 lg:text-sm">
-                                                    <a href="#" title="" className=""> Growth </a>
-                                                </p>
-                                                <p className="mt-2 text-sm font-bold text-gray-900 lg:text-lg group-hover:text-gray-600">
-                                                    <a href="#" title="" className=""> How a visual artist redefines success in graphic design </a>
-                                                </p>
-                                                <p className="mt-2 text-xs font-medium text-gray-500 lg:text-sm">April 09, 2022</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="relative snap-center scroll-ml-6 shrink-0 first:pl-6 last:pr-6">
-                                <div className="overflow-hidden w-[300px] lg:w-[420px] transition-all duration-200 transform bg-white border border-gray-200 rounded-2xl hover:shadow-lg hover:-translate-y-1">
-                                    <div className="px-4 py-5 sm:p-5">
-                                        <div className="flex items-start lg:items-center">
-                                            <a href="#" title="" className="shrink-0">
-                                                <img className="lg:h-24 w-14 h-14 lg:w-24 rounded-xl object-cvoer" src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/5/thumbnail-2.png" alt="" />
-                                            </a>
-
-                                            <div className="flex-1 ml-4 lg:ml-6">
-                                                <p className="text-xs font-medium text-gray-900 lg:text-sm">
-                                                    <a href="#" title="" className=""> Growth </a>
-                                                </p>
-                                                <p className="mt-2 text-sm font-bold text-gray-900 lg:text-lg group-hover:text-gray-600">
-                                                    <a href="#" title="" className=""> How a visual artist redefines success in graphic design </a>
-                                                </p>
-                                                <p className="mt-2 text-xs font-medium text-gray-500 lg:text-sm">April 09, 2022</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="relative snap-center scroll-ml-6 shrink-0 first:pl-6 last:pr-6">
-                                <div className="overflow-hidden w-[300px] lg:w-[420px] transition-all duration-200 transform bg-white border border-gray-200 rounded-2xl hover:shadow-lg hover:-translate-y-1">
-                                    <div className="px-4 py-5 sm:p-5">
-                                        <div className="flex items-start lg:items-center">
-                                            <a href="#" title="" className="shrink-0">
-                                                <img className="lg:h-24 w-14 h-14 lg:w-24 rounded-xl object-cvoer" src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/5/thumbnail-3.png" alt="" />
-                                            </a>
-
-                                            <div className="flex-1 ml-4 lg:ml-6">
-                                                <p className="text-xs font-medium text-gray-900 lg:text-sm">
-                                                    <a href="#" title="" className=""> Growth </a>
-                                                </p>
-                                                <p className="mt-2 text-sm font-bold text-gray-900 lg:text-lg group-hover:text-gray-600">
-                                                    <a href="#" title="" className=""> How a visual artist redefines success in graphic design </a>
-                                                </p>
-                                                <p className="mt-2 text-xs font-medium text-gray-500 lg:text-sm">April 09, 2022</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="relative snap-center scroll-ml-6 shrink-0 first:pl-6 last:pr-6">
-                                <div className="overflow-hidden w-[300px] lg:w-[420px] transition-all duration-200 transform bg-white border border-gray-200 rounded-2xl hover:shadow-lg hover:-translate-y-1">
-                                    <div className="px-4 py-5 sm:p-5">
-                                        <div className="flex items-start lg:items-center">
-                                            <a href="#" title="" className="shrink-0">
-                                                <img className="lg:h-24 w-14 h-14 lg:w-24 rounded-xl object-cvoer" src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/5/thumbnail-4.png" alt="" />
-                                            </a>
-
-                                            <div className="flex-1 ml-4 lg:ml-6">
-                                                <p className="text-xs font-medium text-gray-900 lg:text-sm">
-                                                    <a href="#" title="" className=""> Growth </a>
-                                                </p>
-                                                <p className="mt-2 text-sm font-bold text-gray-900 lg:text-lg group-hover:text-gray-600">
-                                                    <a href="#" title="" className=""> How a visual artist redefines success in graphic design </a>
-                                                </p>
-                                                <p className="mt-2 text-xs font-medium text-gray-500 lg:text-sm">April 09, 2022</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="relative snap-center scroll-ml-6 shrink-0 first:pl-6 last:pr-6">
-                                <div className="overflow-hidden w-[300px] lg:w-[420px] transition-all duration-200 transform bg-white border border-gray-200 rounded-2xl hover:shadow-lg hover:-translate-y-1">
-                                    <div className="px-4 py-5 sm:p-5">
-                                        <div className="flex items-start lg:items-center">
-                                            <a href="#" title="" className="shrink-0">
-                                                <img className="lg:h-24 w-14 h-14 lg:w-24 rounded-xl object-cvoer" src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/5/thumbnail-5.png" alt="" />
-                                            </a>
-
-                                            <div className="flex-1 ml-4 lg:ml-6">
-                                                <p className="text-xs font-medium text-gray-900 lg:text-sm">
-                                                    <a href="#" title="" className=""> Growth </a>
-                                                </p>
-                                                <p className="mt-2 text-sm font-bold text-gray-900 lg:text-lg group-hover:text-gray-600">
-                                                    <a href="#" title="" className=""> How a visual artist redefines success in graphic design </a>
-                                                </p>
-                                                <p className="mt-2 text-xs font-medium text-gray-500 lg:text-sm">April 09, 2022</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </section>
                 </div>
             </div>
-            {/* <!-- Start Hero Section --> */}
 
-            {/* <div className="hero-shop" >
-                <div className="container ">
-                    <div className="row justify-content-between">
-                        <div className="col-lg-5">
-                            <div className="intro-excerpt">
-                                <h1>Matériel Informatique  <span className="d-block"> Haut de Gamme à Prix Imbattables !</span></h1>
-                                <p className="mb-4 text-white">Équipez-vous facilement avec nos solutions informatiques : Livraison Rapide et Sécurisée !</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="hero-img-wrap">
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row d-flex align-items-end">
-                        <div className="col-3">
-                            <img src={imgShop1} alt="" />
-                        </div>
-                        <div className="col-3">
-                            <img src={imgShop2} alt="" />
-                        </div>
-                        <div className="col-3">
-                            <img src={imgShop3} alt="" />
-                        </div>
-                        <div className="col-3">
-                            <img src={imgShop4} alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-            {/* <!-- End Hero Section --> */}
             <section id="latest-collection" >
                 <div className="container-fluid mt-5">
                     <div className="row">
@@ -254,7 +109,7 @@ const Shop = () => {
                                     <div className="collection-item top-item">
                                         <div className="products-thumb">
                                             <Link to={'/boutique/categorie/mikrotik'} >
-                                                <img src={Accesoires} alt="collection item" className="small-image image-rounded" />
+                                                <img src={ImageCatalogMikrotik} alt="collection item" className="small-image image-rounded" />
                                             </Link>
                                         </div>
                                         <div className="col-md-6 product-entry">
@@ -265,7 +120,7 @@ const Shop = () => {
                                         <div className="products-thumb">
                                             <Link to={"/boutique/categorie/accessoires"}>
 
-                                                <img src={Accesoires2} alt="collection item" className="small-image image-rounded" />
+                                                <img src={ImageCatalogAccesoires} alt="collection item" className="small-image image-rounded" />
                                             </Link>
                                         </div>
 

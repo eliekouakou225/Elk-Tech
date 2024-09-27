@@ -29,7 +29,7 @@ import Error404 from './Pages/Error404';
 import SolutionPage from './Pages/SolutionPage';
 import SolutionDetails from './Pages/SolutionDetail';
 import WifiServices from './Pages/WifiServices';
-
+import ContactForm from './Components/Form/ContactForm.jsx';
 import CategoryMikrotik from './Components/Products/Mikrotik/CategoryMikrotik.jsx';
 import MikrotikDetail from './Components/Products/Mikrotik/MikrotikDetail.jsx';
 
@@ -63,6 +63,7 @@ const App = () => {
                 <Route path='/' element={ <Home/> } />
                 <Route path='/apropos' element={ <About/> } />
                 <Route path='/devis' element={ <Estimate/> } />
+                <Route path='/contactform' element={ <ContactForm/> } />
                 <Route path='formation/inscription' element={ <RegistrationTraining/> } />
                 {/* <Route path='/inscription-formation' element={ <Registration/> } />  */}
                 

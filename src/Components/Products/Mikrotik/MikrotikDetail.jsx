@@ -64,7 +64,8 @@ function MikrotikDetail() {
                                     </ol>
                                 </nav>
                                 <h3> Mikrotik {mikrotik.title} </h3>
-                                <h2>{mikrotik.price} FCFA</h2>
+                                <h2>{mikrotik.price_sansconfig} FCFA ( Sans Config ) </h2>
+                                <h4>{mikrotik.price_avecconfig} FCFA ( Avec Config )</h4>
                                 <ul className="list">
                                     <li> <span>Catégorie</span> : {mikrotik.category} </li>
                                     <li>  <span>Disponibilité </span> : En Stock  </li>

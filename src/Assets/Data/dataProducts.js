@@ -97,7 +97,8 @@ export const mikrotiks = [
     {
         id : 1,
         title : "RB951Ui-2HnD",
-        price : "55.000",
+        price_sansconfig : "55.000",
+        price_avecconfig : "65.000",
         category : "Routeurs Mikrotik",
         disponibility : "En Stock",
         details : ["Le RB951Ui-2HnD est un point d’accès SOHO sans fil avec un processeur Atheros de nouvelle génération et plus de puissance de traitement.", "Il dispose de cinq ports Ethernet, d’un port USB 2.0 et d’un point d’accès sans fil haute puissance 2,4 GHz 802.11b / g / n avec antennes intégrées. Il dispose d’un processeur 600 MHz, de 128 Mo de RAM et d’une fonction de sortie PoE pour le port n ° 5 – il peut alimenter d’autres appareils compatibles PoE avec la même tension que celle appliquée à l’unité. La charge maximale sur le port est de 500 mA.", "Le paquet contient RouterBOARD 951Ui-2HnD dans un boîtier en plastique et un adaptateur secteur."], 
@@ -120,8 +121,9 @@ export const mikrotiks = [
     },  
     {
         id : 2,
-        title : "Hap ac lite",
-        price : "55.000",
+        title : "Hap Ac Lite",
+        price_sansconfig : "55.000",
+        price_avecconfig : "65.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["Ce petit point d’accès domestique est l’appareil idéal pour les maisons ou les petits bureaux où tout ce dont vous avez besoin est un point d’accès sans fil et quelques appareils câblés connectés. Basé sur notre populaire RB951-2n, le nouveau hAP est une amélioration dans de nombreux domaines.", " L’appareil peut être alimenté par la prise d’alimentation ou par PoE passif à partir d’un injecteur PoE. L’adaptateur secteur est inclus. hAP fournit une fonction de sortie PoE pour le port n ° 5 – il peut alimenter d’autres appareils compatibles PoE avec la même tension que celle appliquée à l’unité. La charge maximale sur le port est de 500 mA.", " Le hAP est préconfiguré, il vous suffit donc de brancher le câble Internet, l’alimentation et de commencer à utiliser Internet en vous connectant au réseau MikroTik."], 
@@ -144,8 +146,8 @@ export const mikrotiks = [
  
     {
         id : 3,
-        title : "Hap ac²",
-        price : "85.000",
+        title : "Hap Ac²",
+        price_sansconfig : "85.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["Le hAP ac² est un point d’accès double simultané, qui fournit une couverture Wifi pour les fréquences 2,4 GHz et 5 GHz en même temps. Cinq ports Ethernet 10/100/1000 fournissent des connexions Gigabit pour vos appareils filaires, USB peut être utilisé pour le stockage externe ou un modem 4G / LTE, et l’appareil prend en charge l’accélération matérielle IPsec.", "Le nouveau boîtier universel de conception permet à l’unité d’être positionnée horizontalement (bureau) ou verticalement (boîtier tour). Un kit de montage mural est fourni."], 
@@ -167,8 +169,9 @@ export const mikrotiks = [
     },  
     {
         id : 4,
-        title : "Hap ac3",
-        price : "55.000",
+        title : "Hap Ac3",
+        price_sansconfig : "90.000",
+        price_avecconfig : "100.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["Oubliez la recherche sans fin du routeur parfait et faites défiler une éternité de critiques et de spécifications! Nous avons créé un point d’accès résidentiel unique et abordable qui possède toutes les fonctionnalités dont vous pourriez avoir besoin pour les années à venir.", "Votre ancien routeur a-t-il du mal à atteindre tous les coins de votre maison? Eh bien, oubliez ça! Nous avons inclus des antennes sans fil externes à gain élevé avec une couverture exceptionnelle. Seule une connexion sans fil solide et stable dans chaque pièce à partir de maintenant!", "Avec 5 ports Ethernet Gigabit, 256 Mo de RAM et un processeur quad-core, hAP ​​ac³ peut satisfaire même les foyers les plus grands et les plus exigeants. Avec la prise en charge PoE, il peut alimenter ou être alimenté par d’autres appareils. Il existe un NAND de 128 Mo et un port USB pleine taille que vous pouvez utiliser pour ajouter du stockage supplémentaire. Le nouveau boîtier permet de monter l’appareil verticalement ou horizontalement. Un ensemble de montage mural est également inclus."], 
@@ -193,7 +196,7 @@ export const mikrotiks = [
     {
         id : 5,
         title : "hEX",
-        price : "55.000",
+        price_sansconfig : "55.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : [" hEX est un routeur Gigabit Ethernet à cinq ports pour les emplacements où la connectivité sans fil n’est pas requise. L’appareil dispose d’un port USB de taille normale. Cette nouvelle révision mise à jour du hEX apporte plusieurs améliorations de performances.", " Il est abordable, petit et facile à utiliser, mais est en même temps livré avec un processeur double cœur très puissant à 880 MHz et 256 Mo de RAM, capable de toutes les configurations avancées prises en charge par RouterOS.", " Le cryptage matériel IPsec (~ 470 Mbps) et le package de serveur The Dude sont pris en charge, l’emplacement microSD sur celui-ci offre une vitesse de lecture / écriture améliorée pour le stockage de fichiers et Dude."],
@@ -217,12 +220,12 @@ export const mikrotiks = [
     {
         id : 6,
         title : "hEX lite",
-        price : "55.000",
+        price_sansconfig : "55.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : [" hEX lite est un petit routeur Ethernet à cinq ports dans un joli boîtier en plastique. Son prix est inférieur à celui de la licence RouterOS seule", "  il n'y a tout simplement pas le choix lorsqu'il s'agit de gérer votre réseau domestique filaire, le RB750r2 (hEX lite) a tout pour plaire. Non seulement il est abordable, petit, beau et facile à utiliser, mais c'est probablement le routeur compatible MPLS le plus abordable du marché! Plus de compromis entre le prix et les fonctionnalités - RB750r2 a les deux. ", "Avec son design compact et son apparence épurée, il s'intégrera parfaitement dans n'importe quel environnement SOHO. La boîte contient: hEX lite dans un boîtier en plastique, bloc d'alimentation "],
         image : "../../../images/products/lite.webp",
-
+        price_avecconfig : "",
         ProduCode : 'RRB750r2',
         Architecture: "MIPSBE",
         CPU : "QCA9533",
@@ -241,12 +244,12 @@ export const mikrotiks = [
     {
         id : 7,
         title : "hEX PoE lite",
-        price : "55.000",
+        price_sansconfig : "55.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : [" hEX PoE lite est un petit routeur Ethernet à cinq ports dans un boîtier en plastique, il dispose d’un port USB 2.0 et d’une sortie PoE.", " Les ports 2 à 5 peuvent alimenter d’autres appareils compatibles PoE avec la même tension que celle appliquée à l’unité. Moins d’adaptateurs et de câbles à craindre! Le courant maximum est de 1A par port, les ports Ethernet sont blindés.", "Il est abordable, petit et facile à utiliser. Avec sa conception compacte et son apparence épurée, il s’intégrera parfaitement dans n’importe quel environnement SOHO. "],
         image : "../../../images/products/hexpoe.webp",
-
+price_avecconfig : "",
         ProduCode : 'RB750UPr2',
         Architecture: "MIPSBE",
         CPU : "QCA9531",
@@ -264,8 +267,9 @@ export const mikrotiks = [
    
     {
         id : 8,
-        title : "hAP ax lite",
-        price : "55.000",
+        title : "hAP Ax Lite",
+        price_sansconfig : "55.000",
+        price_avecconfig : "65.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : [" Le hAP ax lite est la solution compacte idéale lorsque vous devez réduire vos coûts sans pour autant sacrifier les performances. Notre dernière puce sans fil Gen6 AX vous permet d'exploiter au maximum le spectre sans fil traditionnel de 2,4 GHz ! En fonction de votre configuration globale, vous pouvez vous attendre à une augmentation de la vitesse allant jusqu'à 90 % !", "Très utile dans les configurations évolutives comme les hôtels ou les bureaux en expansion – le prix attractif, la taille compacte et un ensemble de fonctionnalités solides permettent d’ajouter plus d’appareils sans aucun doute ! Et – en parlant d’hôtels – pourquoi ne pas emporter un hAP ax lite pour vos vacances ? Il ne prend presque pas de place dans votre valise et vous permet de vous libérer des réseaux restrictifs des invités. ", " Nos appareils hAP lite ont toujours été synonymes de rapport qualité/prix. Avec 256 Mo de RAM , un processeur ARM moderne cadencé à 800 MHz, 4 ports Gigabit Ethernet , un gain d'antenne à double chaîne beaucoup plus élevé (jusqu'à 4,3 dBi !) et une refonte visuelle complète, le nouveau hAP ax lite est un véritable pionnier en matière de rapport qualité/prix et de mise en réseau abordable."],
@@ -288,8 +292,9 @@ export const mikrotiks = [
    
     {
         id : 9,
-        title : "hAP ax 2",
-        price : "75.000",
+        title : "hAP Ax²",
+        price_sansconfig : "85.000",
+        price_avecconfig : "95.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["Il est temps de booster votre réseau domestique avec le réseau sans fil de 6e génération et notre dernier ajout à la série hAP bien-aimée. hAP ax² a tout ce dont vous pourriez avoir besoin dans un point d'accès domestique principal - et plus encore ! Oubliez les critiques et comparaisons sans fin - c'est l'appareil parfait pour 99 % des foyers. ", " Le signal sans fil est désormais plus fort que jamais. Voici les deux principaux ingrédients du succès du hAP ax : une radio bi-bande à double chaîne 4-4,5 dBi de pointe et la norme 802.11ax avec prise en charge Wave2. Comparons-le à la génération précédente : en fonction de votre configuration globale, cela signifie une vitesse jusqu'à 40 % supérieure dans le spectre 5 GHz et jusqu'à 90 % supérieure dans le spectre 2,4 GHz !", "Certains pourraient se demander pourquoi nous avons besoin de vitesses sans fil plus élevées. Eh bien, de nombreux cas d’utilisation étaient auparavant impossibles ou difficiles à réaliser. Par exemple, travailler avec des fichiers multimédias volumineux sur le réseau sans fil, sans avoir à tout télécharger et à tout charger. Avez-vous vraiment le temps d’attendre ? Procurez-vous un hAP ax² et gagnez plus de temps pour les choses essentielles de la vie ! "],
@@ -312,8 +317,9 @@ export const mikrotiks = [
    
     {
         id : 10,
-        title : "hAP ax 3 ",
-        price : "55.000",
+        title : "hAP Ax3 ",
+        price_sansconfig : "135.000",
+        price_avecconfig : "145.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["hAP ax³ est notre appareil AX le plus puissant avec la meilleure couverture réseau sans fil à ce jour. Il dispose d'un processeur ARM quad-core moderne fonctionnant à 1,8 GHz et de suffisamment de mémoire ( 1 Go de RAM + 128 Mo de NAND ) pour la plupart des tâches. Des règles de pare-feu complexes, un cryptage matériel IPsec, Wireguard, BGP, un routage avancé ou plusieurs tunnels VPN de travail à distance n'empêcheront pas votre famille de naviguer confortablement, de diffuser en continu, de jouer, etc. Il y a suffisamment de puissance de traitement pour tout le monde. Et nous avons ajouté un port USB 3 rapide pour tous vos besoins de stockage ou un modem LTE supplémentaire. ", "En fonction de votre configuration globale, notre gamme de produits AX offre jusqu'à 40 % de vitesse supérieure dans la bande des 5 GHz et jusqu'à 90 % de vitesse supérieure dans la bande des 2,4 GHz ! Des antennes externes puissantes permettent d'atteindre un gain allant jusqu'à 5,5 dBi, vous pouvez donc oublier les amplificateurs Wi-Fi et autres astuces. Une connectivité fluide et rapide pour tout votre appartement - c'est ainsi que fonctionne hAP ax³. Les vitesses du réseau domestique deviennent sérieuses. Il y a 4 ports Gigabit Ethernet et un port 2,5 Gigabit ultra-rapide. "],
@@ -338,7 +344,8 @@ export const mikrotiks = [
     {
         id : 11,
         title : "RB2011UiAS-2HnD-IN",
-        price : "55.000",
+        price_sansconfig : "55.000",
+        price_avecconfig : "65.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["Le RB2011Ui est une série d'appareils multiports à faible coût. Conçu pour une utilisation en intérieur et disponible dans de nombreux cas différents, avec une multitude d'options. ", " Le RB2011 est alimenté par RouterOS, un système d'exploitation de routage complet qui a été continuellement amélioré depuis quinze ans. Routage dynamique, point d'accès, pare-feu, MPLS, VPN, qualité de service avancée, équilibrage et liaison de charge, configuration et surveillance en temps réel - juste quelques-unes des nombreuses fonctionnalités prises en charge par RouterOS.", "Le RouterBOARD 2011UiAS-2HnD possède la plupart des fonctionnalités et interfaces de tous nos routeurs sans fil. Il est alimenté par le nouveau processeur réseau Atheros 600 MHz 74K MIPS, dispose de 128 Mo de RAM, de cinq ports LAN Gigabit, de cinq ports LAN Fast Ethernet et d'une cage SFP (module SFP non inclus !). FrançaisDe plus, il est doté d'un puissant point d'accès sans fil 802.11bgn à double chaîne de 2,4 GHz (2312-2732 MHz selon la réglementation du pays), d'un port série RJ45, d'un port USB et d'une licence RouterOS L5, ainsi que d'un boîtier de bureau avec alimentation, de deux antennes Omni 4 dBi et d'un panneau LCD."],
@@ -361,7 +368,8 @@ export const mikrotiks = [
     {
         id : 12,
         title : "RB3011UiAS-RM",
-        price : "55.000",
+        price_sansconfig : "150.000",
+        price_avecconfig : "165.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["Le RB3011 est un nouveau périphérique multiport, le premier à utiliser un processeur à architecture ARM pour des performances plus élevées que jamais. Le RB3011 dispose de dix ports Gigabit divisés en deux groupes de commutateurs, d'une cage SFP et, pour la première fois, d'un port USB 3.0 SuperSpeed ​​de taille standard, pour ajouter du stockage ou un modem 3G/4G externe.", "L'unité RB3011UiAS-RM est livrée avec un boîtier de montage en rack 1U, un écran LCD tactile, un port de console série et une fonctionnalité de sortie PoE sur le dernier port Ethernet."],
@@ -384,7 +392,8 @@ export const mikrotiks = [
     {
         id : 13,
         title : "RB4011iGS+RM",
-        price : "55.000",
+        price_sansconfig : "205.000",
+        price_avecconfig : "220.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["Série RB4011 - routeurs incroyablement puissants avec dix ports Gigabit, interface SFP+ 10 Gbps et accélération matérielle IPsec à un prix avantageux !", "Le RB4011 utilise un processeur Cortex A15 à quatre cœurs, identique à celui de notre unité RB1100AHx4 de qualité opérateur. L'unité est équipée de 1 Go de RAM, peut fournir une sortie PoE sur le port n° 10 et est livrée avec un boîtier métallique solide, compact et professionnel, de couleur noir mat.", "Le RB4011iGS+RM (modèle Ethernet) comprend deux oreilles de montage en rack qui fixeront solidement l'unité dans un espace rack 1U standard."],
@@ -407,7 +416,8 @@ export const mikrotiks = [
     {
         id : 14,
         title : "CCR1009-7G-1C-1S+",
-        price : "55.000",
+        price_sansconfig : "55.000",
+        price_avecconfig : "65.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["La nouvelle révision mise à jour de CCR1009 est ici. Nous avons tenté de combiner tous les commentaires des clients et les meilleures pratiques en matière de fabrication d’appareils CCR que nous avons apprises au cours des trois dernières années, depuis le lancement des premiers appareils CCR1009.", "Pas de puce de commutation – l’appareil ne dispose désormais que de ports Ethernet entièrement indépendants, chacun avec une connexion directe au processeur, ce qui permet de surmonter la limitation précédente partagée de 1 Gbit des ports de puce de commutation et d’utiliser tout le potentiel de la puissance de traitement du processeur sur ces ports.","Combo-port – une seule interface logicielle 1 Gbit qui a deux interfaces matérielles – une cage SFP et un port Gigabit Ethernet, vous permettant d’utiliser tout type de connexion disponible. Il est également possible de basculer entre les deux interfaces physiques dans RouterOS. En cas de déconnexion, le port combiné offre une fonction de basculement matériel."],
@@ -430,7 +440,8 @@ export const mikrotiks = [
     {
         id : 15,
         title : "CCR1016-12G",
-        price : "55.000",
+        price_sansconfig : "55.000",
+        price_avecconfig : "65.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["Le CCR1016-12G est un routeur de qualité industrielle avec un processeur de pointe à 16 cœurs. Si vous avez besoin de plusieurs millions de paquets par seconde, le routeur Cloud Core est votre meilleur choix. L’unité est équipée de 12 ports Gigabit Ethernet et d’un écran LCD couleur tactile.", "La nouvelle version r2 intègre 2 Go de RAM, un emplacement USB pleine taille et un double bloc d’alimentation pour la redondance!"],
@@ -453,7 +464,8 @@ export const mikrotiks = [
     {
         id : 16,
         title : "RB760iGS",
-        price : "75.000",
+        price_sansconfig : "75.000",
+        price_avecconfig : "65.000",
         category : "Mikrotik",
         disponibility : "En Stock",
         details : ["hEX S est un routeur Gigabit Ethernet à cinq ports pour les emplacements où la connectivité sans fil n’est pas requise. Par rapport au hEX, le hEX S dispose également d’un port SFP et d’une sortie PoE sur le dernier port.", "Il est abordable, petit et facile à utiliser, mais est en même temps livré avec un processeur double cœur très puissant de 880 MHz et 256 Mo de RAM, capable de toutes les configurations avancées prises en charge par RouterOS. L’appareil dispose d’une sortie USB 2.0, PoE pour le port Ethernet n ° 5 et d’une cage SFP à 1,25 Gbit / s.", "Le cryptage matériel IPsec (~ 470 Mbps) et le package de serveur The Dude sont pris en charge, l’emplacement microSD sur celui-ci offre une vitesse de lecture / écriture améliorée pour le stockage de fichiers et Dude."],
@@ -477,7 +489,7 @@ export const mikrotiks = [
     {
         id : 17,
         title : "LHG 5",
-        price : "80.000",
+        price_sansconfig : "80.000",
         category : "Mikrotik antenne",
         disponibility : "En Stock",
         details : ["Le LHG 5 est un appareil sans fil 5 GHz 802.11 a / n compact et léger avec une antenne grille intégrée à double polarisation de 24,5 dBi à un prix révolutionnaire. Il est parfait pour les liaisons point à point ou pour une utilisation comme CPE sur de plus longues distances et prend en charge le protocole Nv2 TDMA.", "La conception de la grille assure une protection contre le vent et le fait que l’élément d’antenne soit intégré à l’unité sans fil signifie aucune perte sur les câbles."],
@@ -497,11 +509,12 @@ export const mikrotiks = [
         MTBF	 : "Approximately 100’000 hours at 25C",
         TestedAmbientTemperature : " -40°C + 70°C"
     },  
-   
+    
     {
         id : 18,
         title : "LHG 2",
-        price : "87.000",
+        price_sansconfig : "87.000",
+        price_avecconfig : "65.000",
         category : "Mikrotik antenne",
         disponibility : "En Stock",
         details : ["Le Light Head Grid (LHG) est un appareil sans fil compact et léger 2,4 GHz 802.11b / g / n avec une antenne grille à double polarisation intégrée de 18 dBi à un prix révolutionnaire. Il est parfait pour les liaisons point à point ou pour une utilisation comme CPE sur de plus longues distances et prend en charge le protocole Nv2 TDMA.", "La conception de la grille assure une protection contre le vent et le fait que l’élément d’antenne soit intégré à l’unité sans fil signifie aucune perte sur les câbles."],
@@ -519,6 +532,78 @@ export const mikrotiks = [
         StorageSize	 : "16 MB",
         StorageType	 : "FLASH",
         MTBF	 : "Approximately 100’000 hours at 25C",
+        TestedAmbientTemperature : " -40°C + 70°C"
+    },  
+    {
+        id : 19,
+        title : "RB5009UPr+S+IN",
+        price_sansconfig : "195.000",
+        price_avecconfig : "210.000",
+        category : "Mikrotik ",
+        disponibility : "En Stock",
+        details : ["Cette version du RB5009 possède toutes les fonctionnalités du modèle précédent : Gigabit Ethernet, 2,5 Gigabit Ethernet et une cage SFP+ 10 Gigabit pour la connectivité fibre optique. Il offre la vitesse, la puissance et la durabilité. Mais cette fois, nous avons ajouté PoE-in et PoE-out sur les huit ports Ethernet. Associés au connecteur à 2 broches et à la prise CC, vous obtenez 10 modes d'alimentation distincts. Les alimentations doubles redondantes permettent généralement d'améliorer la disponibilité ininterrompue. Le RB5009UPr+S+IN va encore plus loin !", "Toutes les options d'alimentation prennent en charge une large plage de tension de 24 à 57 V. Cependant, vous ne pouvez pas mélanger les tensions. Si vous utilisez la sortie PoE pour alimenter d'autres appareils, la carte choisira la source avec la tension la plus élevée (prise CC ou connecteur à 2 broches) pour les alimenter."],
+        image : "../../images/products/RB5009UGSIN.webp",
+
+        ProduCode : 'RB5009UPr+S+IN',
+        Architecture: "ARM 64bit",
+        CPU : "88F7040",
+        CPUCoreCount : "4",
+        CPUNominalFrequency : "350-1400 (auto) MHz",
+        
+        RouterOSLicense :	"5",
+        OperatingSystem : "RouterOS (V7 Only)",
+        SizeofRAM : "1GB",
+        StorageSize	 : "1GB",
+        StorageType	 : "NAND",
+        MTBF	 : "Approximately 200’000 hours at 25C",
+        TestedAmbientTemperature : " -40°C + 60°C"
+    },  
+    {
+        id : 20,
+        title : "RB1100AHx4",
+        price_sansconfig : "300.000",
+        price_avecconfig : "320.000",
+        category : "Mikrotik ",
+        disponibility : "En Stock",
+        details : ["Présentation du routeur RB1100AHx4, 13 ports Gigabit Ethernet, alimenté par un processeur Annapurna Alpine AL21400 avec quatre cœurs Cortex A15, cadencés à 1,4 GHz chacun, pour un débit maximal allant jusqu'à 7,5 Gbit. L'appareil prend en charge l'accélération matérielle IPsec (jusqu'à 2,2 Gbit/s avec AES128).", "L'unité est livrée avec un boîtier de montage en rack 1U, un port série RS232 et deux alimentations redondantes (avec alimentation télécom -48 V CC et prise en charge 802.3at/af)."],
+        image : "../../images/products/RB1100AHx4.webp",
+
+        ProduCode : 'RB1100x4',
+        Architecture: "ARM 32bit",
+        CPU : "AL21400",
+        CPUCoreCount : "4",
+        CPUNominalFrequency : "1.4 GHz",
+        
+        RouterOSLicense :	"6",
+        OperatingSystem : "RouterOS ",
+        SizeofRAM : "1GB",
+        StorageSize	 : "128MB",
+        StorageType	 : "NAND",
+        MTBF	 : "Approximately 200’000 hours at 25C",
+        TestedAmbientTemperature : " -40°C + 60°C"
+    },  
+    {
+        id : 21,
+        title : "RB5009UPr+S+IN",
+        price_sansconfig : "195.000",
+        price_avecconfig : "210.000",
+        category : "Mikrotik ",
+        disponibility : "En Stock",
+        details : ["Le modèle L009 est bien plus qu’un simple routeur. Cette gamme de produits est jusqu’à 4 fois plus rapide que le RB2011. Il est équipé d’un processeur ARM moderne avec prise en charge des conteneurs, d’un boîtier innovant permettant le montage de jusqu’à quatre routeurs dans un espace de 1U, d’une plus grande quantité de RAM, de la fonctionnalité PoE et du support SFP 2.5G.", "Le L009 est doté d'un puissant processeur ARM double cœur . Il offre une amélioration significative en matière de routage et de filtrage, de règles de pare-feu complexes, de cryptage matériel IPsec et de diverses fonctionnalités avancées de RouterOS. L'architecture du processeur ARM offre des avantages significatifs par rapport aux anciens appareils basés sur MIPS. Comme l'utilisation de toutes les dernières fonctionnalités du noyau Linux. Ou la mise en œuvre de vos propres projets de conteneurs. La combinaison d'un processeur ARM moderne et d'un port USB pleine taille est parfaite pour exécuter des projets de conteneurs personnalisés. Vous pouvez exécuter un adblock Pi-hole sur ce routeur, par exemple. Ou vous pouvez utiliser l'USB pour ajouter un modem LTE de votre choix. L'imagination est la vraie limite ici."],
+        image : "../../images/products/l009.webp",
+
+        ProduCode : 'L009UiGS-RM',
+        Architecture: "ARM ",
+        CPU : "IPQ-5018",
+        CPUCoreCount : "2",
+        CPUNominalFrequency : "800 MHz",
+        
+        RouterOSLicense :	"5",
+        OperatingSystem : "RouterOS ",
+        SizeofRAM : "512 MB",
+        StorageSize	 : "128 MB",
+        StorageType	 : "NAND",
+        MTBF	 : "Approximately 200’000 hours at 25C",
         TestedAmbientTemperature : " -40°C + 70°C"
     },  
    
