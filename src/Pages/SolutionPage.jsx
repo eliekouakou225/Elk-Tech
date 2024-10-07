@@ -3,16 +3,16 @@ import { useEffect } from "react";
 import SolutionPageList from '../Components/Solution/SolutionList/SolutionPageList';
 import { solutions } from '../Assets/Data/dataSolutions';
 import SolutionTestimonials from '../Components/Solution/SolutionTestimonials';
-// import { testimonials } from '../Assets/Data/dataSolutions';
 import { Link } from 'react-router-dom'
 import Accordion from 'react-bootstrap/Accordion';
+import imgHeader from '../Assets/img/illustration-solution.png'
 const SolutionPage = () => {
     useEffect(() => {
         document.title = "Solutions | Elk-Tech";
     }, []);
     return (
 
-        <> 
+        <>
             <div className="overflow-x-hidden bg-gray-50 header-solution-page">
                 <section className="relative py-12 sm:py-16 lg:pt-20 xl:pb-0">
                     <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -32,7 +32,7 @@ const SolutionPage = () => {
                     </div>
 
                     <div className="mt-16 md:mt-20">
-                        <img className="object-cover object-top w-full h-auto mx-auto scale-150 2xl:max-w-screen-2xl xl:scale-100" src="https://d33wubrfki0l68.cloudfront.net/54780decfb9574945bc873b582cdc6156144a2ba/d9fa1/images/hero/4/illustration.png" alt="" />
+                        <img className="object-cover object-top w-full h-auto mx-auto scale-150 2xl:max-w-screen-2xl xl:scale-100" src={imgHeader} alt="" />
                     </div>
                 </section>
             </div>

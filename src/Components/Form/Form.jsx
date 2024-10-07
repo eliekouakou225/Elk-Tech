@@ -124,7 +124,7 @@ const Form = () => {
                             <p>
                                 <strong>Votre e-mail a bien été envoyé. Merci de nous avoir contactés !</strong> #It's possible
                             </p>
-                        </div>
+                        </div> 
 
                     ) : (
                         <form className="contact-form row" onSubmit={handleSubmit}>
@@ -211,8 +211,10 @@ const Form = () => {
 
                                 </div>
                             </div>
-                            <div className="form-field col-lg-12">
-                                <input className="submit-btn" type="submit" value="Submit" />
+                            <div className="col-lg-12">
+                                 <div className="btn__main--orange-hover-blue">
+                                        <button className="btn" type="submit" ><span></span><p data-start="good luck!" data-text="Maintenant" data-title="Envoyer"></p></button>
+                                </div>
                             </div>
                         </form>
                     )}

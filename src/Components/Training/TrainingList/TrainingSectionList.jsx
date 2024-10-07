@@ -25,7 +25,6 @@ function TrainingCarousel({ trainings }) {
             className="mySwiper"
             style={{
                 "--swiper-pagination-color": "#F8B234",
-                // "--swiper-pagination-bullet-width": "8px"
                 "--swiper-pagination-bullet-size": "12px",
             }}
         >

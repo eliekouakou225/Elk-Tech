@@ -1,33 +1,27 @@
 .product__page{
     padding-top: 150px;
-
-    // p{
-    //     font-size: clamp(0.5rem, 2.5vw, 1rem); 
-    // }
+    
     .product__head{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        // border: 2px solid red;
-
+        
         @media (max-width : $breakpoint--phone ){
             flex-direction: column-reverse;
-            // border: 2px solid yellow;
+            
         }
-    
-
+        
+        
         h1{
-            // font-size: 36px;
             font-size: $h1--size;
             text-transform: uppercase;
             color: $color-blue--primary; 
             font-weight: 700;
         }
- 
-
+        
+        
         .product__info{
             width: 50%;
-            // border: 2px solid rgb(0, 255, 21);
             @media (max-width : $breakpoint--phone ){
                 width: 100%;
             }
@@ -50,16 +44,13 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        // border: 2px solid royalblue;
-
+        
         @media (max-width : $breakpoint--tablet ){
             flex-direction: column;
             
         }
-
+        
         .product__img-1{
-            // margin: 100px;
-            // border: 2px solid rgba(242, 255, 0, 0.425);
             img{
                 width: 200px;
                 height: 400px;
@@ -71,12 +62,11 @@
             }
         }
         .product__img-2{
-            // border: 2px solid rgba(255, 0, 166, 0.425);
             img{
                 border-radius: 15px;
                 width: 400px;
                 height: 400px;
-
+                
                 @media (max-width : $breakpoint--phone ){
                     width: 70vw;
                     height: 400px;
@@ -86,9 +76,9 @@
         .product__description{
             width: 50%;
             @media (max-width : $breakpoint--tablet ){
-                              width: 100%;
+                width: 100%;
             }
-
+            
             h4{
                 color: $color-blue--primary;
                 font-size: $h1--size;

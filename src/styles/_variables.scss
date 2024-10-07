@@ -11,7 +11,7 @@ $color-gray: #F7F7F7;
 $color-black: #1F1B3C;
 $color-footer: #0E0E0E;
 $color-white: #FFF; 
- 
+
 
 
 $h1--size : clamp(2rem, 2vw, 5rem);
@@ -25,3 +25,14 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 $xxl: 1400px;
+
+
+$rotationDuration: 20s;
+$hoverDuration: 0.3s;
+
+$easeIn: cubic-bezier(0.32, 0, 0.67, 0);
+$easeOut: cubic-bezier(0.33, 1, 0.68, 1);
+
+$textColor: #2B3338;
+$bgColor: #A6B8B1;
+$accentColor: #E8D6C1;

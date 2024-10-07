@@ -8,33 +8,35 @@ const Contact = () => {
         document.title = "Contact | Elk-Tech";
     }, []);
     return (
-        <section className='contact m-5'>
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 col-lg-6 contact__title">
-                        <h1>Contact</h1>
-                        <h2>Développez votre activité grâce à nos solutions !</h2>
-                        <ShareIcon />
-                    </div>
-                    <div className="col-12 col-lg-6">
-                        <Form />
+        <div style={{ backgroundColor : '#F7F7F7' }}>
+            <section className='contact m-5'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-lg-6 contact__title">
+                            <h1>Contact</h1>
+                            <h2>Développez votre activité grâce à nos solutions !</h2>
+                            <ShareIcon />
+                        </div>
+                        <div className="col-12 col-lg-6">
+                            <Form />
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="container-fluid">
-                <iframe title="Location on google maps"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496.5614148409535!2d-4.082146006603138!3d5.341707148043198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc195c2d65f6049%3A0xfa9dc45c09fc48a8!2sCentre%20Auto.ci!5e0!3m2!1sfr!2sci!4v1704554095954!5m2!1sfr!2sci"
-                    width="100%"
-                    height="450"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade">
+                <div className="container-fluid">
+                    <iframe title="Location on google maps"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.4936051943123!2d-4.084385325524923!3d5.341354435771851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1c1001d0df321%3A0x716728031872935f!2sElk%20Tech%20Groupe!5e0!3m2!1sfr!2sci!4v1727469082105!5m2!1sfr!2sci"
+                        width="100%"
+                        height="450"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade">
 
-                </iframe>
-            </div>
+                    </iframe>
+                </div>
 
-        </section>
+            </section>
+        </div>
     )
 }
 

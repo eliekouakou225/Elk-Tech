@@ -1,5 +1,5 @@
 // --------------------------------- 
-// Formation section
+// Training section on the home page
 // ---------------------------------
 import React from 'react';
 
@@ -10,7 +10,7 @@ import { trainings } from '../../Assets/Data/dataTrainings';
 
 import trainingsImage from '../../Assets/img/trainings-image.webp'
 import ourTeacherImage from '../../Assets/img/our-teachers.webp'
-
+ 
 
 const TrainingSection = () => {
     return (
@@ -53,7 +53,7 @@ const TrainingSection = () => {
                         </div>
 
                     </div>
-                    {/* <!-- Features Item --> */}
+                    {/* <!-- List of training courses --> */}
 
                     <div className="row gy-4 justify-content-between trainings-item">
 

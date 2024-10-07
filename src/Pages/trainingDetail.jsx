@@ -9,9 +9,7 @@ import TrainingImgCertified from "../Assets/img/certified.webp"
 import { Accordion } from "react-bootstrap";
 
 function TrainingDetail() {
-    // const { id } = useParams(); 
     const { title } = useParams();
-    // const training = trainings.find(t => t.id === parseInt(id) );
     const training = trainings.find((training) => convertTitleToUrl(training.title) === title);
     const pageTitle = `${training.title} - Formation`;
     const currentUrl = window.location.href;

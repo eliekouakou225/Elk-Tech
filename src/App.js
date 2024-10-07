@@ -12,24 +12,19 @@ import 'react-creative-cursor/dist/styles.css';
 
 //-----import Components
 import Nav from './Components/Header/Nav';
-// import { CustomCursor } from './Components/Cursor/index.jsx';
 import Footer from './Components/Footer/Footer'
-// import ScrollToTopButton from './Components/GoUpButton/GoUpButton'
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop.js';
 
 //-----import pages
 import Home from './Pages/Home';
-import About from './Pages/About.jsx';
 import Estimate from './Pages/Estimate';
 import Shop from './Pages/Shop';
-import RegistrationTraining from './Pages/RegistrationTraining.jsx';
 import Contact from './Pages/Contact';
 import Error404 from './Pages/Error404';
 
 import SolutionPage from './Pages/SolutionPage';
 import SolutionDetails from './Pages/SolutionDetail';
-import WifiServices from './Pages/WifiServices';
-import ContactForm from './Components/Form/ContactForm.jsx';
+
 import CategoryMikrotik from './Components/Products/Mikrotik/CategoryMikrotik.jsx';
 import MikrotikDetail from './Components/Products/Mikrotik/MikrotikDetail.jsx';
 
@@ -58,18 +53,14 @@ const App = () => {
         <header>
             <Nav/>
         </header> 
-            {/* <CustomCursor/> */}  
+          
             <Routes>
                 <Route path='/' element={ <Home/> } />
-                <Route path='/apropos' element={ <About/> } />
                 <Route path='/devis' element={ <Estimate/> } />
-                <Route path='/contactform' element={ <ContactForm/> } />
-                <Route path='formation/inscription' element={ <RegistrationTraining/> } />
-                {/* <Route path='/inscription-formation' element={ <Registration/> } />  */}
+                
                 
                 {/* Road to solutions */} 
                 <Route path='/solutions' element={ <SolutionPage/> }/>
-                <Route path='/solutions/wifi' element={ <WifiServices/> }/>
                 <Route path='/solutions/:title' element={<SolutionDetails/>} /> 
 
                 {/* Road to  trainings */}

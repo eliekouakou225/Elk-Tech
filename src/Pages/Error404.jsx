@@ -5,40 +5,44 @@ const Error404 = () => {
 
     return (
         <div id="notfound">
-            <div className="notfound-bg"></div>
-            <div className="notfound">
-                <div className="notfound-404">
-                    <h1>404</h1>
-                </div>
-                <h2>NOUS SOMMES DÉSOLÉS, MAIS LA PAGE QUE VOUS AVEZ DEMANDÉE N'EST PAS TROUVÉE</h2>
-                <ul>
-                    <li>
-                        <Link to={'/'}>
-                            Acceuil <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={'/'}>
-                            Solutions <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={'/'}>
-                            Formations <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-                        </Link>
 
-
-                    </li>
-                    <li> <Link to={'/'}>
-                        Boutique <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-                    </Link></li>
-                    <li>
-                        <Link to={'/'}>
-                            Contact <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-                        </Link>
-                    </li>
-                </ul>
+            {/* <!--dust particel--> */}
+            <div>
+                <div className="starsec"></div>
+                <div className="starthird"></div>
+                <div className="starfourth"></div>
+                <div className="starfifth"></div>
             </div>
+            {/* <!--Dust particle end---> */}
+
+
+            <div className="lamp__wrap">
+                <div className="lamp">
+                    <div className="cable"></div>
+                    <div className="cover"></div>
+                    <div className="in-cover">
+                        <div className="bulb"></div>
+                    </div>
+                    <div className="light"></div>
+                </div>
+            </div>
+            {/* <!-- END Lamp --> */}
+            <section className="error">
+                {/* <!-- Content --> */}
+                <div className="error__content">
+                    <div className="error__message message">
+                        <h1 className="message__title">Page non trouvée</h1>
+                        <p className="message__text">Nous sommes désolés, la page que vous recherchiez n'est pas trouvée ici. Le lien que vous avez suivi est peut-être erroné ou n'existe plus.</p>
+                    </div>
+                    <div className="error__nav e-nav">
+                        <Link to={'/'} className="e-nav__link"></Link>
+                    </div>
+                </div>
+                {/* <!-- END Content --> */}
+
+            </section>
+
+
         </div>
 
 

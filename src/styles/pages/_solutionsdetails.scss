@@ -1,7 +1,6 @@
 .solutionsdetails{
     h4{
-        // color: $color-blue--primary;
-        // text-transform: uppercase;
+
         font-size: 32px;
         font-weight: 700;
         line-height: 30px;
@@ -11,11 +10,7 @@
         line-height: 30px;
         
       }
-    //   .Service__img{
-    //     width: 450px;
-    //     height: auto;
-    //     border-radius: 10%;
-    //   }
+
 }  
 .header-solution-page{
     padding-top: 5rem;
@@ -27,16 +22,9 @@
 
 
 
-.ex-basic-1 .list-unstyled .fas {
-	font-size: 0.375rem;
-	line-height: 1.625rem;
-}
 
-.ex-basic-1 .list-unstyled .flex-grow-1 {
-	margin-left: 0.5rem;
-}
 
-.ex-basic-1 .text-box {
+.solution_infos .text-box {
 	padding: 1.25rem 1.25rem 0.5rem 1.25rem;
 	background-color: #f9f9f9;
 }

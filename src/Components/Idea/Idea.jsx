@@ -1,8 +1,5 @@
 import React from 'react'
-// import IdeaIcon from './../../Assets/Animation/idea.json'
-// import ShopCardCarroussel from '../Card/ShopCardCarroussel'
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
-// import Lottie from 'react-lottie';
 import { Link } from 'react-router-dom';
 
 
@@ -14,7 +11,6 @@ const Idea = () => {
                 <h2>Un projet, une question ? </h2>
                 <p>Vous avez des questions ou des projets ? Contactez-nous et ensemble, réalisons l'extraordinaire.</p>
             </div>
-            {/* <ShopCardCarroussel/>  */}
             <div className="container idea">
                 <div className="row">
                     <div className="col-12 col-lg-6">

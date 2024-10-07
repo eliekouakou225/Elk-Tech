@@ -6,7 +6,7 @@
         text-transform: capitalize;
         margin-bottom: 40px;
         span{
-            margin: 0 10px;
+            margin: 0 10px; 
         }
         
     }
@@ -21,7 +21,12 @@
         font-size: 24px;
         font-weight: bold;
         color: $color-orange--primary;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
+    }
+    h4{
+        color: $color-blue--primary;
+        font-size: 16px;
+        margin-bottom: 10px;
     }
     
     .list {

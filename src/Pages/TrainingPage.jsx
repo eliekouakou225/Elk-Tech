@@ -105,7 +105,7 @@ const TrainingPage = () => {
                     </div>
                 </div>
             </section>
-            <div className="section fun-facts">
+            <div className="section training-details">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

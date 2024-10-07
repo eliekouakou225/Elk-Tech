@@ -50,75 +50,19 @@
     transform: rotate(-50deg);
     margin-left: 5px;
 }
-/* 
----------------------------------------------
-Services Style
---------------------------------------------- 
-*/
 
-.trainings_infos .trainings_infos_item:hover .icon i {
-    margin-top: -10px;  
-}
-
-.trainings_infos .trainings_infos_item {
-    position: relative;
-    margin-top: 95px;
-}
-
-.trainings_infos .trainings_infos_item .icon {
-    width: 150px;
-    height: 150px;
-    display: inline-block;
-    text-align: center;
-    line-height: 150px;
-    background-color: $color-orange--primary;
-    border-radius: 50%;
-    position: absolute;
-    right: 0;
-    top: -95px;
-    font-size: 80px;
-    color: white;
-}
-
-.trainings_infos .trainings_infos_item .icon i {
-    max-width: 86px;
-    margin-top: 0; 
-    transition: all .2s;
-}
-
-.trainings_infos .trainings_infos_item .main-content {
-    border-radius: 25px;
-    padding: 80px 30px 50px 30px;
-    background-color: rgba($color-blue--primary, 0.1);
-    margin-bottom: 30px;
-    margin-right: 80px;
-    transition: all .4s;
-}
-
-.trainings_infos .trainings_infos_item h4 {
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    line-height: 30px;
-    transition: all .4s;
-}
-
-.trainings_infos .trainings_infos_item p {
-    color: #4a4a4a;
-    margin-bottom: 25px;
-}
 // ---------------------------------------------
-// Facts Style
+// Training details
 // --------------------------------------------- 
-// 
 
-.fun-facts {
+
+.training-details {
     position: relative;
     padding: 120px 0px 80px 0px;
     overflow: hidden;
 }
 
-.fun-facts:before {
+.training-details:before {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -131,7 +75,7 @@ Services Style
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;
 }
-.fun-facts:after {
+.training-details:after {
     background: url(../../Assets/img/contact-dec-01.png);
     position: absolute;
     left: 15%;
@@ -142,23 +86,18 @@ Services Style
     content: '';
     z-index: 2;
 }
-.fun-facts .counter {
+.training-details .counter {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.fun-facts h2 {
+.training-details h2 {
     color: #fff;
     font-size: 48px;
     font-weight: 700;
 }
 
-// .fun-facts h2::after {
-//   content: '+';
-//   margin-left: 5px;
-// }
-
-.fun-facts p {
+.training-details p {
     color: #fff;
     font-size: 15px;
     font-weight: 500;

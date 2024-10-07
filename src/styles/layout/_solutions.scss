@@ -49,7 +49,7 @@
         display: inline-block;
         border-bottom: 4px solid #eeeeee;
         transition: 0.3s;
-        font-size: 28px;
+        font-size: 23px;
         font-weight: 700;
         line-height: 30px;
     }
@@ -63,15 +63,4 @@
     .solutions-item:hover .icon:before {
         background: $color-orange--primary;
     }
-}
-// -----------------------
-.SwiperSlide{
-    height: 300px;
-    width: 300px;
-    border: 2px solid red;
-}
-.img-product{
-    height: 300px;
-    width: 300px;
-    border: 2px solid red;
 }

@@ -51,11 +51,6 @@
 }
 
 
-
-
-
-
-
 /*----------BTN in hero second navabar----------*/
 .shopbtn-nav {
     background: transparent;
@@ -120,24 +115,12 @@
 }
 
 
-$rotationDuration: 20s;
-$hoverDuration: 0.3s;
-
-$easeIn: cubic-bezier(0.32, 0, 0.67, 0);
-$easeOut: cubic-bezier(0.33, 1, 0.68, 1);
-
-$textColor: #2B3338;
-$bgColor: #A6B8B1;
-$accentColor: #E8D6C1;
-
 
 .shopbtn__container{
-    
     position: fixed;
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    
     
     text {
         font-family: "lato", sans-serif;
@@ -151,8 +134,7 @@ $accentColor: #E8D6C1;
         transform-origin: 250px 250px;
         text-shadow: #000 1px 0 5px;    }
         
-        
-        
+
         .link {
             width: 7rem;
             height: 7rem;
@@ -225,92 +207,6 @@ $accentColor: #E8D6C1;
         }
         
     }
-    
-    /*-------------------------------------------*/
-    
-    // .btn-links{
-    //   text-decoration: none;
-    //   margin-top: 20px;
-    //   display: block;
-    
-    //   a{
-    //     text-decoration: none;
-    //   }
-    //   button {
-    //     padding: 0;
-    //     margin: 0;
-    //     border: none;
-    //     background: none;
-    //     cursor: pointer;
-    
-    
-    //   }
-    
-    //   button {
-    //     --primary-color: #111;
-    //     --hovered-color: #c84747;
-    //     position: relative;
-    //     display: flex;
-    //     font-weight: 600;
-    //     font-size: 20px;
-    //     gap: 0.5rem;
-    //     align-items: center;
-    
-    //   }
-    
-    //   button p {
-    //     margin: 0;
-    //     position: relative;
-    //     font-size: 20px;
-    //     font-weight:300 ;
-    //     color: $color-blue--primary;
-    //   }
-    
-    //   button::after {
-    //     position: absolute;
-    //     content: "";
-    //     width: 0;
-    //     left: 0;
-    //     bottom: -7px;
-    //     background: $color-blue--primary;
-    //     height: 2px;
-    //     transition: 0.3s ease-out;
-    //   }
-    
-    //   button p::before {
-    //     position: absolute;
-    
-    //     content: "Détails";
-    //     width: 0%;
-    //     inset: 0;
-    //     color: $color-blue--primary;
-    //     overflow: hidden;
-    //     transition: 0.3s ease-out;
-    //     text-decoration: none;
-    //   }
-    
-    //   button:hover::after {
-    //     width: 100%;
-    //   }
-    
-    //   button:hover p::before {
-    //     width: 100%;
-    //   }
-    
-    //   button:hover svg {
-    //     transform: translateX(4px);
-    //     color: $color-blue--primary;
-    //   }
-    
-    //   button svg {
-    //     color: $color-blue--primary;
-    //     transition: 0.2s;
-    //     position: relative;
-    //     width: 15px;
-    //     transition-delay: 0.2s;
-    //   }
-    
-    // }
     
     .buy_btn{
         background-color: $color-green;
@@ -585,7 +481,7 @@ $accentColor: #E8D6C1;
         text-decoration: none;
         width: 100%;
     }
-    /* From Uiverse.io by mrhyddenn */
+    /* From Uiverse.io by mrhyddenn */ 
     a .registration-button-whatsapp{
         text-decoration: dashed;
         
@@ -645,4 +541,11 @@ $accentColor: #E8D6C1;
     
     .registration-button-whatsapp:hover::before {
         box-shadow: inset 0 0 0 10em #46C755;
+    }
+
+    
+    .container-btns{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
     }

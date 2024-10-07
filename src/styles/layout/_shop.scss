@@ -1,5 +1,4 @@
 .slider-products{
-
     background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
     display: flex;
     align-items: center;
@@ -8,7 +7,7 @@
     padding: 20px;
     @media (max-width : $breakpoint--tablet) {
         height: 700px;
-        overflow: hidden;
+        overflow: hidden; 
     }
     h3{
         font-weight: 700;

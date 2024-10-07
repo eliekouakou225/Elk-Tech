@@ -64,7 +64,7 @@ function SolutionDetail() {
                     </section>
                 </div>
             </div>
-            <div className="ex-basic-1 pt-3 pb-5">
+            <div className="solution_infos pt-3 pb-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-10 offset-xl-1">

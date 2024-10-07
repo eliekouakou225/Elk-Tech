@@ -1,6 +1,9 @@
+/* **********************************
+*******Online shop 
+*************************/
+
 import React from 'react'
 import { useEffect } from "react";
-// import HeroShopImage from '../Assets/img/depannage-informatique-item-6-1024x523.png'
 import ImageCatalogNetwork from '../Assets/img/collection-item1.jpg'
 import ImageCatalogMikrotik from '../Assets/img/collection-item2.jpg'
 import ImageCatalogAccesoires from '../Assets/img/collection-item3.jpg'
@@ -33,7 +36,7 @@ const Shop = () => {
     return (
         <>
 
-            <div>
+            <div >
                 <div className="" style={{ marginTop: 72 }} >
                     <section className="relative py-12 bg-white sm:py-16 lg:py-20">
                         <div className="absolute inset-0">
@@ -132,7 +135,7 @@ const Shop = () => {
                 </div>
             </section >
             <section>
-                <div className="container">
+                <div className="container"> 
                     <div className="row">
                         <div className='container container-title'>
                             <h2>Quelques produits de notre catalogue Mikrotik</h2>
