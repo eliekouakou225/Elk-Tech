@@ -17,7 +17,7 @@ const TrainingSection = () => {
 
 
         <section className='m-5'>
-
+ 
             {/* <!-- Section Title --> */}
             <div className='container container-title container-title-right'>
                 <h2>Nos Formations </h2>
@@ -34,7 +34,7 @@ const TrainingSection = () => {
 
                         <div className="col-lg-6">
                             <figure role="figure" aria-label="Trainings image">
-                                <img src={trainingsImage} className="img-fluid" alt="Trainings" />
+                                <img src={trainingsImage} className="img-fluid" alt="Trainings" width={800} height={600} />
                             </figure>
                         </div>
 
@@ -76,7 +76,7 @@ const TrainingSection = () => {
 
                         <div className="col-lg-6 order-1 order-lg-2">
                             <figure role="figure" aria-label="teachers for Elk Tech groupe">
-                                <img src={ourTeacherImage} className="img-fluid" alt="teachers for Elk Tech groupe" />
+                                <img src={ourTeacherImage} loading="lazy" className="img-fluid" alt="teachers for Elk Tech groupe" width={800} height={600} />
                             </figure>
                         </div>
 

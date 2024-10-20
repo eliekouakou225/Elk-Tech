@@ -5,7 +5,7 @@ import { solutions } from '../Assets/Data/dataSolutions';
 import SolutionTestimonials from '../Components/Solution/SolutionTestimonials';
 import { Link } from 'react-router-dom'
 import Accordion from 'react-bootstrap/Accordion';
-import imgHeader from '../Assets/img/illustration-solution.png'
+import imgHeader from '../Assets/img/illustration-solution.webp'
 const SolutionPage = () => {
     useEffect(() => {
         document.title = "Solutions | Elk-Tech";
@@ -32,7 +32,7 @@ const SolutionPage = () => {
                     </div>
 
                     <div className="mt-16 md:mt-20">
-                        <img className="object-cover object-top w-full h-auto mx-auto scale-150 2xl:max-w-screen-2xl xl:scale-100" src={imgHeader} alt="" />
+                        <img loading="lazy" className="object-cover object-top w-full h-auto mx-auto scale-150 2xl:max-w-screen-2xl xl:scale-100" src={imgHeader} alt="" />
                     </div>
                 </section>
             </div>
@@ -45,7 +45,7 @@ const SolutionPage = () => {
 
                     <div className="relative mt-12 lg:mt-20">
                         <div className="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28">
-                            <img className="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg" alt="" />
+                            <img loading="lazy" className="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg" alt="" />
                         </div>
 
                         <div className="relative grid grid-cols-1 text-center gap-y-12 md:grid-cols-3 gap-x-12">

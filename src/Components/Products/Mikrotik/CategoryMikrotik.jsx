@@ -49,7 +49,7 @@ const CategoryMikrotik = () => {
                 </div>
             </section>
             <div className='container container-title'>
-                <img src={logoMikrotik} alt="Mikrotik Ltd Logo" className='mb-5' />
+                <img src={logoMikrotik} alt="Mikrotik Ltd Logo" className='mb-5' loading="lazy"/>
                 <h2>Apropos de Mikrotik </h2>
                 <p>Mikrotīkls Ltd., connu sous l’appellation internationale MikroTik, est un fabricant de matériel de réseau informatique basé en Lettonie. Il vend des composantes de réseau sans fil et des routeurs.</p>
                 <h2>RouterOS</h2>

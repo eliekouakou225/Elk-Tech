@@ -65,7 +65,7 @@ function TrainingDetail() {
                     <div className="row">
                         <div className="col-lg-6">
                             <figure role="figure" aria-label="Photo of skill of elk tech structure team">
-                                <img src={training.image_training} className="training__img" alt="training `{training.title}`" />
+                                <img loading="lazy" src={training.image_training} className="training__img" alt="training `{training.title}`" />
                             </figure>
                         </div>
                         <div className="col-lg-6">
@@ -142,7 +142,7 @@ function TrainingDetail() {
                     <div className="row">
                         <div className="col-lg-6">
                             <figure role="figure" aria-label="Photo of skill of elk tech structure team">
-                                <img src={TrainingImgCertified} className="training__img" alt="training `{training.title}`" />
+                                <img src={TrainingImgCertified} loading="lazy" className="training__img" alt="training `{training.title}`" />
                             </figure>
                         </div>
                         <div className="col-lg-6">

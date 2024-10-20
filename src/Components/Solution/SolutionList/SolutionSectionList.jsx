@@ -32,7 +32,7 @@ SolutionSectionList.propTypes = {
         PropTypes.shape({
             id: PropTypes.number.isRequired,
             title: PropTypes.string.isRequired,
-            description: PropTypes.string.isRequired,
+            small_description: PropTypes.string.isRequired,
         })
     ).isRequired,
 };

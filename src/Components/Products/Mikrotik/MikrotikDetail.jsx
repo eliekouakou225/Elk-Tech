@@ -1,11 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import Error404 from '../../../Pages/Error404';
 import { mikrotiks } from '../../../Assets/Data/dataProducts';
 import { convertTitleToUrl } from '../../../Components/Utils/utils'
 import { useEffect } from "react";
 import ShareButton from '../../Btn/ShareButton';
+
 function MikrotikDetail() {
     const { title } = useParams();
     const mikrotik = mikrotiks.find((mikrotik) => convertTitleToUrl(mikrotik.title) === title);
@@ -27,8 +28,8 @@ function MikrotikDetail() {
                         <div className="col-lg-7 col-xl-7"> 
                             <div className="product_slider_img">
                                 <div id="vertical">
-                                    <div>
-                                        <img src={mikrotik.image} alt={mikrotik.title} />
+                                    <div> 
+                                        <img src={mikrotik.image} alt={mikrotik.title} loading="lazy"/>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +69,7 @@ function MikrotikDetail() {
                                 <h4>{mikrotik.price_avecconfig} FCFA ( Avec Config )</h4>
                                 <ul className="list">
                                     <li> <span>Catégorie</span> : {mikrotik.category} </li>
-                                    <li>  <span>Disponibilité </span> : En Stock  </li>
+                                    <li>  <span>Disponibilité </span> : {mikrotik.disponibility}  </li>
                                 </ul>
                                 <h3>Description</h3>
                                 <p>{mikrotik.details[0]}</p>

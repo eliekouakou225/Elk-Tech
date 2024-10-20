@@ -22,7 +22,7 @@ function TrainingCarousel({ trainings }) {
                 clickable: true,
             }}
             modules={[Pagination]}
-            className="mySwiper"
+            className="mySwiper" 
             style={{
                 "--swiper-pagination-color": "#F8B234",
                 "--swiper-pagination-bullet-size": "12px",
@@ -52,8 +52,7 @@ function TrainingCarousel({ trainings }) {
 TrainingCarousel.propTypes = {
     trainings: PropTypes.arrayOf(
         PropTypes.shape({
-            key: PropTypes.number.isRequired,
-            image: PropTypes.string.isRequired,
+            id: PropTypes.number.isRequired,
             title: PropTypes.string.isRequired,
             small_description: PropTypes.string.isRequired,
         })

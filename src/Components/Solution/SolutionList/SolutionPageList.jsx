@@ -9,7 +9,7 @@ function SolutionPageList({ solutions }) {
             {solutions.map(solution => (
                 <div className="col-lg-4" key={solution.id} data-cursor-size="20px"  >
                     <div className="case-item position-relative overflow-hidden rounded mb-2">
-                        <img className="img-fluid" src={solution.image_solution} alt=""/>
+                        <img className="img-fluid" src={solution.image_solution} alt="" loading="lazy"/>
                         <Link to={`/solutions/${convertTitleToUrl(solution.title)}`} className="case-overlay text-decoration-none" href="">
                             <small>Solution</small>
                             <h5 className="lh-base text-white mb-3">{solution.title}

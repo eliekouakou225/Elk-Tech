@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import TrainingPageList from '../Components/Training/TrainingList/TrainingPageList';
 import { trainings } from '../Assets/Data/dataTrainings';
 import TrainingTestimonials from '../Components/Training/TrainingTestimonials';
-import headerTrainingImg from '../Assets/img/header-training-img.png'
+import headerTrainingImg from '../Assets/img/header-training-img.webp'
 import { Link } from 'react-router-dom'
 import Lottie from "lottie-react";
 import animationTraining from '../Assets/Animation/Animation-learning.json';
@@ -30,7 +30,7 @@ const TrainingPage = () => {
                         </div>
                         <div className="col-lg-6 col-xl-7">
                             <div className="image-container">
-                                <img className="img-fluid" src={headerTrainingImg} alt="alternative" />
+                                <img className="img-fluid" loading="lazy" src={headerTrainingImg} alt="alternative" />
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ const TrainingPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="section">
+            <div className="section"> 
                 <div className="container our-trainers">
                     <Lottie animationData={animationTraining} loop={true} className='our-trainers-animation' />
                     <h5>En ligne comme en présentiel, nos formateurs experts sont près de vous et prêts pour vous.</h5>

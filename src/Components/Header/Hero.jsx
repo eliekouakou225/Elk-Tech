@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="col-lg-6 order-1 order-lg-2 hero-img">
-          <img src={heroImg} className="img-fluid animated" alt=""/>
+          <img src={heroImg} loading="lazy" className="img-fluid animated" alt=""/>
         
         </div>
       </div>

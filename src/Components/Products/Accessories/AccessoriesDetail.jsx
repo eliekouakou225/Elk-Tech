@@ -29,7 +29,7 @@ function AccessoriesDetail() {
                             <div className="product_slider_img">
                                 <div id="vertical">
                                     <div>
-                                        <img src={accessorie.image} alt={accessorie.title} />
+                                        <img src={accessorie.image} alt={accessorie.title} loading="lazy" />
                                     </div>
                                 </div>
                             </div>

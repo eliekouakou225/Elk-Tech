@@ -12,7 +12,7 @@ function TrainingList({ trainings }) {
             {trainings.map(training => (
                 <div className="col-lg-4" key={training.id} data-cursor-size="20px"  >
                     <div className="case-item position-relative overflow-hidden rounded mb-2">
-                        <img className="img-fluid" src={training.image_training} alt="" />
+                        <img className="img-fluid" loading="lazy" src={training.image_training} alt="" />
                         <Link to={`/formations/${convertTitleToUrl(training.title)}`} className="case-overlay text-decoration-none" href="">
                             <small>Formations</small>
                             <h5 className="lh-base text-white mb-3">{training.title}

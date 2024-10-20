@@ -62,13 +62,13 @@ const Card = ({ card }) => {
             </div>
         </div>
     );
-};
-
+}; 
+ 
 Card.propTypes = {
     card: PropTypes.arrayOf(
         PropTypes.shape({
-            key: PropTypes.number.isRequired,
-            image: PropTypes.string.isRequired,
+            id: PropTypes.number.isRequired,
+            // image: PropTypes.string.isRequired,
             url: PropTypes.string.isRequired,
             title: PropTypes.string.isRequired,
         })

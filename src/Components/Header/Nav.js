@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../Assets/img/mainlogo.png'
+import logo from '../../Assets/img/mainlogo.webp'
 import { Link } from 'react-router-dom';
 import {useState} from "react";
 
@@ -10,20 +10,20 @@ import training from '../../Assets/img/training.webp'
 import shop from '../../Assets/img/shop.webp'
 import contact from '../../Assets/img/contact.webp'
 
-const Nav = () => {
+const Nav = () => { 
 
   const [navOpen, setNavOpen] = useState(false);
-
+  
   return (  
 
-    <nav className="nav-main"> 
+    <nav className="nav-main">  
             <div className="nav-container">
                 <div className="navbar">
                     <div className="container">               
                         <div className="logo"  >
                             <Link to={'/'} data-cursor-size="20px">
                             
-                            <img src={logo} alt="" /> 
+                            <img src={logo} alt="" loading="lazy"/> 
                             </Link>
                         </div> 
                         <div> 
@@ -39,7 +39,7 @@ const Nav = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="nav-overlay" style={{ top: navOpen ? "0" : "-100%", transitionDelay: navOpen ? "0s" : "0s",  }}>
+                    <div className="nav-overlay" style={{ top: navOpen ? "0" : "-100%", transitionDelay: navOpen ? "0s" : "0s", visibility : navOpen ?  "visible" : "hidden" }}>
 
                         <div className="lines">
                             <div className="line"></div>
@@ -50,7 +50,7 @@ const Nav = () => {
                         <div className="menu">
                             <div className="menu__item">
                                 <Link to="/" className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Acceuil</Link>
-                                <img src={home} alt="some img" className="menu__item-img"/>
+                                <img src={home} alt="some img" className="menu__item-img" loading="lazy"/>
                                 <div className="marquee"> 
                                     <div className="marquee__inner"> 
                                         <span>Acceuil</span>
@@ -63,7 +63,7 @@ const Nav = () => {
                             </div>
                             <div className="menu__item">
                                 <Link to="/solutions"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Solutions</Link>
-                                <img src={solutions} alt="some img" className="menu__item-img"/>
+                                <img src={solutions} alt="some img" className="menu__item-img" loading="lazy"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">
                                         <span>Solutions</span>
@@ -76,7 +76,7 @@ const Nav = () => {
                             </div>
                             <div className="menu__item">
                             <Link to="/formations"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Formations</Link>
-                                <img src={training} alt="some img" className="menu__item-img"/>
+                                <img src={training} alt="some img" className="menu__item-img" loading="lazy"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">
                                         <span>Formations</span>
@@ -89,7 +89,7 @@ const Nav = () => {
                             </div>
                             <div className="menu__item">
                             <Link to="/boutique" className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Boutique</Link>
-                                <img src={shop} alt="some img" className="menu__item-img"/>
+                                <img src={shop} alt="some img" className="menu__item-img" loading="lazy"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">
                                         <span>Boutique</span>
@@ -102,7 +102,7 @@ const Nav = () => {
                             </div>
                             <div className="menu__item">
                             <Link to="/contact"  className="menu__item-link" onClick={() => setNavOpen(!navOpen) }>Contact</Link>
-                                <img src={contact} alt="some img" className="menu__item-img"/>
+                                <img src={contact} alt="some img" className="menu__item-img" loading="lazy"/>
                                 <div className="marquee">
                                     <div className="marquee__inner">
                                         <span>Contact</span>

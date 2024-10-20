@@ -13,7 +13,7 @@ function NetworkList({ networks }) {
                     {networks.map(network => (
                         <div className="col-lg-3 col-sm-6" key={network.id}>
                             <div className="single_product_item">
-                                <img src={network.image} alt={network.title} />
+                                <img src={network.image} alt={network.title} loading="lazy"/>
 
                                 <div className="single_product_text">
                                     <h4>{network.title}</h4>

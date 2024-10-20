@@ -9,6 +9,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-weight: 300;
     font-style: normal;
 }
+html {
+    scroll-behavior: smooth;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'redonda_testregular', sans-serif;
     font-weight: 700;

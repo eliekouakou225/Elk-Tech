@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom';
@@ -62,7 +62,7 @@ const Shop = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6">
-                                    <img src={SwitchCatalog} className="img-fluid" alt="" />
+                                    <img src={SwitchCatalog} className="img-fluid" alt="" loading="lazy" />
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ const Shop = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6">
-                                    <img src={MikrotikCatalog} className="img-fluid" alt="" />
+                                    <img src={MikrotikCatalog} className="img-fluid" alt="" loading="lazy" />
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ const Shop = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6 d-flex justify-content-center">
-                                    <img src={CameraIp} className="img-fluid" alt="" />
+                                    <img src={CameraIp} className="img-fluid" alt="" loading="lazy" />
                                 </div>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ const Shop = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6">
-                                    <img src={Deskphones} className="img-fluid" alt="" />
+                                    <img src={Deskphones} className="img-fluid" alt="" loading="lazy" />
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ const Shop = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6">
-                                    <img src={Accessories} className="img-fluid" alt="" />
+                                    <img src={Accessories} className="img-fluid" alt="" loading="lazy" />
                                 </div>
                             </div>
                         </div>

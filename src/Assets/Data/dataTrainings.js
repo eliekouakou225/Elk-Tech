@@ -235,14 +235,14 @@ export const trainings = [
         image_certified : "../images/infographie-img.webp",
         contentModule: [
           {
-            moduleid : 1,
+            moduleid : 1, 
               titlemodule: "Généralité",
               moduleItems: [
                   "....",
                   "....",
                   "....",
                   "....",
-                "....",
+                  "....",
                   "....",
                   
               ]
@@ -336,7 +336,7 @@ export const trainings = [
       ]
     },
 {
-        id: 5,
+        id: 6,
         title: "Videosurveillance",
         introduction : "La vidéosurveillance est un système de sécurité qui utilise des caméras et des équipements associés pour surveiller, enregistrer, et analyser les activités dans un environnement donné. Les systèmes de vidéosurveillance sont couramment utilisés pour assurer la sécurité dans divers contextes, tels que les entreprises, les espaces publics, les propriétés résidentielles, et les établissements gouvernementaux.",
         small_description: "Comprendre les principes fondamentaux de la vidéosurveillance et les différents types de systèmes (analogiques / IP)",

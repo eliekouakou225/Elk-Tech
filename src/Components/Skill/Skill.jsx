@@ -13,7 +13,7 @@ const Skill = () => {
                 <div className="row m-5 ">
                     <div className="col-12 col-lg-6 ">
                         <figure role="figure" aria-label="Photo of skill of elk tech structure team">
-                            <img src={skillQuality} className="skill__img" alt="Our-quality" />
+                            <img src={skillQuality} loading="lazy" className="skill__img" alt="Our-quality" />
                         </figure>
                     </div>
                     <div className="col-12 col-lg-6 align-middle  d-flex align-items-center">
@@ -32,14 +32,14 @@ const Skill = () => {
                     </div>
                     <div className="col-12 col-lg-6 ">
                         <figure role="figure" aria-label="Photo of skill of elk tech structure team">
-                            <img src={skillPrice} className="skill__img" alt="Our-quality" />
+                            <img src={skillPrice}  loading="lazy" className="skill__img" alt="Our-quality" />
                         </figure>
                     </div>
                 </div>
                 <div className="row p-5">
                     <div className="col-12 col-lg-6">
                         <figure role="figure" aria-label="Photo of skill of elk tech structure team">
-                            <img src={skillConfidentiality} className="skill__img" alt="Our-quality" />
+                            <img src={skillConfidentiality} loading="lazy" className="skill__img" alt="Our-quality" />
                         </figure>
                     </div>
                     <div className="col-12 col-lg-6 align-middle  d-flex align-items-center">

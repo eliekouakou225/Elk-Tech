@@ -48,15 +48,15 @@ className="mySwiper"
 
 
       >
-        <SwiperSlide><img src={module1} className="img-fluid img-client" alt=""/></SwiperSlide>
-        <SwiperSlide><img src={module2} className="img-fluid img-client" alt=""/></SwiperSlide>
-        <SwiperSlide><img src={module3} className="img-fluid img-client" alt=""/> </SwiperSlide>
-        <SwiperSlide><img src={module4} className="img-fluid img-client" alt=""/> </SwiperSlide>
-        <SwiperSlide><img src={module5} className="img-fluid img-client" alt=""/> </SwiperSlide>
-        <SwiperSlide><img src={module6} className="img-fluid img-client" alt=""/> </SwiperSlide>
-        <SwiperSlide><img src={module7} className="img-fluid img-client" alt=""/> </SwiperSlide>
-        <SwiperSlide><img src={module8} className="img-fluid img-client" alt=""/> </SwiperSlide>
-        <SwiperSlide><img src={module1} className="img-fluid img-client" alt=""/> </SwiperSlide>
+        <SwiperSlide><img src={module1} loading="lazy" className="img-fluid img-client" alt=""/></SwiperSlide>
+        <SwiperSlide><img src={module2} loading="lazy" className="img-fluid img-client" alt=""/></SwiperSlide>
+        <SwiperSlide><img src={module3} loading="lazy" className="img-fluid img-client" alt=""/> </SwiperSlide>
+        <SwiperSlide><img src={module4} loading="lazy" className="img-fluid img-client" alt=""/> </SwiperSlide>
+        <SwiperSlide><img src={module5} loading="lazy" className="img-fluid img-client" alt=""/> </SwiperSlide>
+        <SwiperSlide><img src={module6} loading="lazy" className="img-fluid img-client" alt=""/> </SwiperSlide>
+        <SwiperSlide><img src={module7} loading="lazy" className="img-fluid img-client" alt=""/> </SwiperSlide>
+        <SwiperSlide><img src={module8} loading="lazy" className="img-fluid img-client" alt=""/> </SwiperSlide>
+        <SwiperSlide><img src={module1} loading="lazy" className="img-fluid img-client" alt=""/> </SwiperSlide>
       </Swiper>
     </div>
   );

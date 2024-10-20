@@ -4,9 +4,9 @@
 
 import React from 'react'
 import { useEffect } from "react";
-import ImageCatalogNetwork from '../Assets/img/collection-item1.jpg'
-import ImageCatalogMikrotik from '../Assets/img/collection-item2.jpg'
-import ImageCatalogAccesoires from '../Assets/img/collection-item3.jpg'
+import ImageCatalogNetwork from '../Assets/img/collection-item1.webp'
+import ImageCatalogMikrotik from '../Assets/img/collection-item2.webp'
+import ImageCatalogAccesoires from '../Assets/img/collection-item3.webp'
 import learning from '../Assets/img/formation.webp'
 import { Link } from 'react-router-dom'
 
@@ -35,19 +35,16 @@ const Shop = () => {
     const filteredAccessories = accessories.slice(0, 10);
     return (
         <>
-
             <div >
-                <div className="" style={{ marginTop: 72 }} >
+                <div className="" style={{ marginTop: 150 }} >
                     <section className="relative py-12 bg-white sm:py-16 lg:py-20">
                         <div className="absolute inset-0">
-                            <img className="object-cover w-full h-full" src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/5/grid-pattern.png" alt="" />
+                            <img className="object-cover w-full h-full" loading="lazy" src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/5/grid-pattern.png" alt="" />
                         </div>
-
                         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                             <div className="max-w-xl mx-auto text-center">
                                 <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl lg:text-5xl">Matériel Informatique Haut de Gamme à Prix Imbattables !</h1>
                                 <p className="max-w-md mx-auto mt-6 text-base font-normal leading-7 text-gray-500">Équipez-vous facilement avec nos solutions informatiques : Livraison Rapide et Sécurisée !</p>
-
                                 <ul className="flex items-center justify-center mt-6 space-x-6 sm:space-x-8">
                                     <li className="flex items-center">
                                         <svg className="w-5 h-5 mr-2 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -55,7 +52,6 @@ const Shop = () => {
                                         </svg>
                                         <span className="text-xs font-medium text-gray-900 sm:text-sm"> Grande marque </span>
                                     </li>
-
                                     <li className="flex items-center">
                                         <svg className="w-5 h-5 mr-2 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -77,8 +73,6 @@ const Shop = () => {
                                 </ul>
                             </div>
                         </div>
-
-
                     </section>
                 </div>
             </div>
@@ -90,8 +84,8 @@ const Shop = () => {
                         <div className="col-lg-2 ">
                             <Link to={`https://wa.me/2250788898998?text=Bonjour Elk-Tech Groupe ! j'ai besoin d'un technicien.  ${currentUrl}`} >
 
-                                <img src={PubTechnicien_portait} alt="" className='portrait-image image-rounded rounded' />
-                                <img src={PubTechnicien_paysage} alt="" className='paysage-image image-rounded rounded' />
+                                <img src={PubTechnicien_portait} alt="" className='portrait-image image-rounded rounded' loading="lazy"/>
+                                <img src={PubTechnicien_paysage} alt="" className='paysage-image image-rounded rounded' loading="lazy"/>
                             </Link>
                         </div>
                         <div className="col-lg-10">
@@ -100,7 +94,7 @@ const Shop = () => {
                                     <div className="collection-item">
                                         <div className="products-thumb">
                                             <Link to={"/boutique/categorie/reseau"}>
-                                                <img src={ImageCatalogNetwork} alt="collection item" className="large-image image-rounded rounded" />
+                                                <img src={ImageCatalogNetwork} loading="lazy" alt="collection item" className="large-image image-rounded rounded" />
                                             </Link>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-6 product-entry">
@@ -112,7 +106,7 @@ const Shop = () => {
                                     <div className="collection-item top-item">
                                         <div className="products-thumb">
                                             <Link to={'/boutique/categorie/mikrotik'} >
-                                                <img src={ImageCatalogMikrotik} alt="collection item" className="small-image image-rounded" />
+                                                <img src={ImageCatalogMikrotik} loading="lazy" alt="collection item" className="small-image image-rounded" />
                                             </Link>
                                         </div>
                                         <div className="col-md-6 product-entry">
@@ -123,7 +117,7 @@ const Shop = () => {
                                         <div className="products-thumb">
                                             <Link to={"/boutique/categorie/accessoires"}>
 
-                                                <img src={ImageCatalogAccesoires} alt="collection item" className="small-image image-rounded" />
+                                                <img src={ImageCatalogAccesoires} loading="lazy" alt="collection item" className="small-image image-rounded" />
                                             </Link>
                                         </div>
 
@@ -135,7 +129,7 @@ const Shop = () => {
                 </div>
             </section >
             <section>
-                <div className="container"> 
+                <div className="container">
                     <div className="row">
                         <div className='container container-title'>
                             <h2>Quelques produits de notre catalogue Mikrotik</h2>

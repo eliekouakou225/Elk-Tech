@@ -25,7 +25,7 @@ const Error404 = () => {
                     </div>
                     <div className="light"></div>
                 </div>
-            </div>
+            </div> 
             {/* <!-- END Lamp --> */}
             <section className="error">
                 {/* <!-- Content --> */}

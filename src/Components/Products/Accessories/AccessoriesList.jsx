@@ -15,7 +15,7 @@ function AccessoriesList({ accessories }) {
                     {accessories.map(accessorie => (
                         <div className="col-lg-3 col-sm-6" key={accessorie.id}>
                             <div className="single_product_item">
-                                <img src={accessorie.image} alt={accessorie.title} />
+                                <img src={accessorie.image} alt={accessorie.title} loading="lazy"/>
 
                                 <div className="single_product_text">
                                     <h4>{accessorie.title}</h4>

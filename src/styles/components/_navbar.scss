@@ -3,7 +3,6 @@
     position: absolute; 
     z-index : 99;
     left: 0;  
-    
     .nav-container{ 
         width: 100vw;
         
@@ -21,8 +20,9 @@
         justify-content: space-around;
         align-items: center;
         color: #fff;
+        
         @media (max-width: $breakpoint--tablet){ 
-            height: 150px;
+            height: 6svh;
         }
         
         

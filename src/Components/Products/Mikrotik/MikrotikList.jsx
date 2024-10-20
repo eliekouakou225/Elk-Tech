@@ -13,7 +13,7 @@ function MikrotikList({ mikrotiks }) {
                     {mikrotiks.map(mikrotik => (
                         <div className="col-lg-3 col-sm-6" key={mikrotik.id}>
                             <div className="single_product_item">
-                                <img src={mikrotik.image} alt={mikrotik.title} />
+                                <img src={mikrotik.image} alt={mikrotik.title} loading="lazy" />
 
                                 <div className="single_product_text">
                                     <h4>{mikrotik.title}</h4>

@@ -20,7 +20,7 @@ const About = () => {
                         <div className="col-lg-5">
                             <div className="about-img">
                                 <figure role="figure" aria-label="Photo of the elk tech structure team">
-                                    <img src={ImageOfOurTeam} className="img-fluid" alt="Our-team" />
+                                    <img src={ImageOfOurTeam} loading="lazy" className="img-fluid" alt="Our-team" />
                                 </figure>
 
                             </div>

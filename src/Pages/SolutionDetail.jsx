@@ -70,7 +70,7 @@ function SolutionDetail() {
                         <div className="col-xl-10 offset-xl-1">
                             <p className="mb-5">{solution.small_description}</p>
                             <h2 className="mb-4">Vous méritez l'excellence.</h2>
-                            <img src={solution.image_solution2} alt="service " className='Service__img mb-3' />
+                            <img src={solution.image_solution2} loading="lazy" alt="service " className='Service__img mb-3' />
                             <p>{solution.long_description}</p>
                             <div className="text-box mb-5">
                                 <h3>Faites la différence grace à nous</h3>

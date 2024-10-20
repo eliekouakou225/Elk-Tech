@@ -16,7 +16,7 @@ const SolutionTestimonials = () => {
                                 {testimonials.map(testimonials => (
                                     <div className="col-lg-4" key={testimonials.id}>
                                         <div className="card-testimonial">
-                                            <img className="quotes" src={Quotes} alt="alternative" />
+                                            <img className="quotes" loading="lazy" src={Quotes} alt="alternative" />
                                             <div className="card-body">
                                                 <p className="testimonial-text">{testimonials.msg}</p>
                                                 <div className="testimonial-author">{testimonials.name}</div>
